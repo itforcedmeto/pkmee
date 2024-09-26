@@ -4798,29 +4798,32 @@ Items: Potion / Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Geodude
+Nacli
+Ability: Sturdy 
 Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+- Smack Down  
+- Rock Throw  
+- Mud Shot  
+- Stealth Rock
 
-Geodude
+Rolycoly
+Ability: Steam Engine
 Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Smokescreen
 - Tackle
-- Defense Curl
-- Rock Throw
-- Rock Tomb
+- Rapid Spin
+- Smack Down
 
-Nosepass @ Oran Berry
+Growlithe-Hisui @ Oran Berry
+Ability: Intimidate
 Level: 15
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Block
-- Harden
-- Tackle
-- Rock Tomb
+- Howl
+- Bite
+- Flame Wheel
+- Helping Hand
 
 === TRAINER_BRAWLY_1 ===
 Name: BRAWLY
@@ -4832,29 +4835,31 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Machop
+Clobbopus  
+Ability: Limber  
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rock Smash  
+- Detect  
+- Bulk Up  
+- Circle Throw
+
+Mankey
+Ability: Vital Spirit
 Level: 16
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Karate Chop
-- Low Kick
-- Seismic Toss
-- Bulk Up
+- Low Kick  
+- Encore  
+- Seismic Toss  
+- Covet
 
-Meditite
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Focus Punch
-- Light Screen
-- Reflect
-- Bulk Up
-
-Makuhita @ Sitrus Berry
+Pawmo @ Sitrus Berry
+Ability: Volt Absorb
 Level: 19
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Arm Thrust
-- Vital Throw
-- Reversal
-- Bulk Up
+- Bulk Up  
+- Arm Thrust  
+- Nuzzle  
+- Spark
 
 === TRAINER_WATTSON_1 ===
 Name: WATTSON
@@ -4866,37 +4871,41 @@ Items: Super Potion / Super Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Voltorb
+Wattrel
+Ability: Wind Power 
 Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rollout
-- Spark
-- Self Destruct
-- Shock Wave
+- Tailwind  
+- Uproar  
+- Charge Beam  
+- Pluck
 
-Electrike
+Pincurchin  
+Ability: Lightning Rod  
 Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Leer
-- Quick Attack
-- Howl
+- Spark  
+- Fury Attack  
+- Charge  
+- Water Gun
 
-Magneton
+Morpeko  
+Ability: Hunger Switch  
 Level: 22
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Supersonic
-- Shock Wave
-- Thunder Wave
-- Sonic Boom
+- Fake Out  
+- Super Fang  
+- Bite  
+- Thunder Fang
 
-Manectric @ Sitrus Berry
+Voltorb-Hisui  
+Ability: Static 
 Level: 24
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Quick Attack
-- Thunder Wave
-- Shock Wave
-- Howl
+- Charge Beam  
+- Energy Ball  
+- Protect  
+- Leech Seed
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -4908,37 +4917,41 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Numel
+Sizzlipede  
+Ability: White Smoke
 Level: 24
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Take Down
-- Magnitude
-- Sunny Day
+- Bite  
+- Bug Bite  
+- Flame Wheel  
+- Wrap
 
-Slugma
+Charcadet
+Ability: Flash Fire  
 Level: 24
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Overheat
-- Smog
-- Light Screen
-- Sunny Day
+- Flame Charge  
+- Night Shade  
+- Will-O-Wisp  
+- Fire Spin
 
-Camerupt
+Carkol  
+Ability: Flame Body
 Level: 26
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Tackle
+- Flame Charge  
+- Will-O-Wisp  
+- Rock Slide  
 - Sunny Day
-- Attract
 
-Torkoal @ White Herb
+Scovillain  
+Ability: Chlorophyll  
 Level: 29
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Overheat
-- Sunny Day
-- Body Slam
-- Attract
+- Flamethrower  
+- Rage Powder  
+- Solar Beam  
+- Protect
 
 === TRAINER_NORMAN_1 ===
 Name: NORMAN
@@ -4950,37 +4963,41 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Spinda
+Dunsparce  
+Ability: Serene Grace 
 Level: 27
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Teeter Dance
-- Psybeam
-- Facade
-- Encore
+- Body Slam  
+- Rock Slide  
+- Roost  
+- Coil
 
-Vigoroth
+Grafaiai  
+Ability: Poison Touch
 Level: 27
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Helping Hand  
+- Acrobatics  
+- Thief  
 - Slash
-- Facade
-- Encore
-- Feint Attack
 
-Linoone
+Greedent @ Ganlon Berry  
+Ability: Cheek Pouch  
 Level: 29
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
+- Stuff Cheeks  
+- Body Slam  
+- Body Press  
+- Crunch
 
-Slaking @ Sitrus Berry
+Maushold @ Leftovers  
+Ability: Friend Guard  
 Level: 31
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Counter
-- Yawn
-- Facade
-- Feint Attack
+- Follow Me  
+- Population Bomb  
+- Helping Hand  
+- Protect
 
 === TRAINER_WINONA_1 ===
 Name: WINONA
@@ -4992,45 +5009,41 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
-Swablu
+Squawkabilly-Blue  
+Ability: Intimidate  
 Level: 29
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Perish Song
-- Mirror Move
-- Safeguard
-- Aerial Ace
+- Parting Shot  
+- Quick Attack  
+- Aerial Ace  
+- Tailwind
 
-Tropius
-Level: 29
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Sunny Day
-- Aerial Ace
-- Solar Beam
-- Synthesis
-
-Pelipper
+Corvisquire  
+Ability: Keen Eye  
 Level: 30
 IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
-- Water Gun
-- Supersonic
+- Drill Peck  
+- Tailwind
+- Power Trip  
 - Protect
-- Aerial Ace
 
-Skarmory
+Bombirdier  
+Ability: Keen Eye  
 Level: 31
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Sand Attack
-- Fury Attack
-- Steel Wing
-- Aerial Ace
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide  
+- Sucker Punch  
+- Hone Claws  
+- Pluck
 
-Altaria @ Oran Berry
-Level: 33
+Flamigo  
+Ability: Scrappy
+Level: 33 
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
+- Wide Guard  
+- Low Kick  
+- Dual Wingbeat  
+- Detect
 
 === TRAINER_TATE_AND_LIZA_1 ===
 Name: TATE&LIZA
@@ -5042,37 +5055,41 @@ Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Claydol
+SPECIES_INDEEDEE_FEMALE 
+Ability: Synchronize 
 Level: 41
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Earthquake
-- Ancient Power
+- Reflect  
+- Fake Out  
+- Follow Me  
 - Psychic
-- Light Screen
 
-Xatu
+Slowbro-Galar @ Quick Claw  
+Ability: Quick Draw  
+Level: 42
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Shell Side Arm  
+- Psychic Terrain  
+- Slack Off  
+- Expanding Force
+
+Rabsca  
+Ability: Synchronize 
 Level: 41
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Psychic
-- Sunny Day
-- Confuse Ray
-- Calm Mind
+- Revival Blessing  
+- Bug Buzz  
+- Expanding Force  
+- Shadow Ball
 
-Lunatone @ Sitrus Berry
+Farigiraf @ Throat Spray  
+Ability: Armor Tail  
 Level: 42
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Psychic
-- Hypnosis
-- Calm Mind
-
-Solrock @ Sitrus Berry
-Level: 42
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Sunny Day
-- Solar Beam
-- Psychic
-- Flamethrower
+- Dazzling Gleam  
+- Expanding Force  
+- Hyper Voice  
+- Protect
 
 === TRAINER_JUAN_1 ===
 Name: JUAN
@@ -5084,45 +5101,41 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Luvdisc
-Level: 41
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Attract
-- Sweet Kiss
-- Flail
-
-Whiscash
-Level: 41
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rain Dance
-- Water Pulse
-- Amnesia
-- Earthquake
-
-Sealeo
-Level: 43
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Encore
-- Body Slam
-- Aurora Beam
-- Water Pulse
-
-Crawdaunt
-Level: 43
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Water Pulse
-- Crabhammer
-- Taunt
-- Leer
-
-Kingdra @ Chesto Berry
+Palafin  
+Ability: Zero to Hero  
 Level: 46
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Liquidation  
+- Ice Punch  
+- Jet Punch  
+- Drain Punch
+
+Tauros-Paldea-Aqua (M)  
+Ability: Intimidate 
+Level: 41
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Close Combat  
+- Raging Bull  
+- Aqua Jet  
+- Protect
+
+Veluza  
+Ability: Mold Breaker  
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Fillet Away  
+- Liquidation  
+- Psychic Fangs  
+- Drill Run
+
+SPECIES_BASCULEGION_FEMALE  
+Ability: Adaptability 
+Level: 43
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Water Pulse
-- Double Team
-- Ice Beam
-- Rest
+- Shadow Ball  
+- Surf  
+- Blizzard  
+- Protect
 
 === TRAINER_JERRY_1 ===
 Name: JERRY
