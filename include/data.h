@@ -78,6 +78,16 @@ struct TrainerMon
 
 #define TRAINER_PARTY(partyArray) partyArray, .partySize = ARRAY_COUNT(partyArray)
 
+// very unsure:
+#define NO_ITEM_DEFAULT_MOVES(party) { .NoItemDefaultMoves = sParty_##party }, .partySize = ARRAY_COUNT(sParty_##party), .partyFlags = 0, .doubleParty = { .NoItemDefaultMoves = sDoubleParty_##party }, .doublePartySize = ARRAY_COUNT(sDoubleParty_##party), .singleParty = { .NoItemDefaultMoves = sSingleParty_##party }
+#define NO_ITEM_CUSTOM_MOVES(party) { .NoItemCustomMoves = sParty_##party }, .partySize = ARRAY_COUNT(sParty_##party), .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET, .doubleParty = { .NoItemCustomMoves = sdoubleParty_##party }, .doublePartySize = ARRAY_COUNT(sdoubleParty_##party), .singleParty = { .NoItemCustomMoves = ssingleParty_##party }
+#define ITEM_DEFAULT_MOVES(party) { .ItemDefaultMoves = sParty_##party }, .partySize = ARRAY_COUNT(sParty_##party), .partyFlags = F_TRAINER_PARTY_HELD_ITEM, .doubleParty = { .ItemDefaultMoves = sdoubleParty_##party }, .doublePartySize = ARRAY_COUNT(sdoubleParty_##party), .singleParty = { .ItemDefaultMoves = ssingleParty_##party }
+#define ITEM_CUSTOM_MOVES(party) { .ItemCustomMoves = sParty_##party }, .partySize = ARRAY_COUNT(sParty_##party), .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_HELD_ITEM, .doubleParty = { .ItemCustomMoves = sdoubleParty_##party }, .doublePartySize = ARRAY_COUNT(sdoubleParty_##party), .singleParty = { .ItemCustomMoves = ssingleParty_##party }
+
+#define NO_ITEM_DEFAULT_MOVES_NO_DOUBLE(party) { .NoItemDefaultMoves = sParty_##party }, .partySize = ARRAY_COUNT(sParty_##party), .partyFlags = 0, .doubleParty = { .NoItemDefaultMoves = sParty_##party }, .doublePartySize = ARRAY_COUNT(sParty_##party), .singleParty = { .NoItemDefaultMoves = sParty_##party }
+#define NO_ITEM_CUSTOM_MOVES_NO_DOUBLE(party) { .NoItemCustomMoves = sParty_##party }, .partySize = ARRAY_COUNT(sParty_##party), .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET, .doubleParty = { .NoItemCustomMoves = sParty_##party }, .doublePartySize = ARRAY_COUNT(sParty_##party), .singleParty = { .NoItemCustomMoves = sParty_##party }
+#define ITEM_DEFAULT_MOVES_NO_DOUBLE(party) { .ItemDefaultMoves = sParty_##party }, .partySize = ARRAY_COUNT(sParty_##party), .partyFlags = F_TRAINER_PARTY_HELD_ITEM, .doubleParty = { .ItemDefaultMoves = sParty_##party }, .doublePartySize = ARRAY_COUNT(sParty_##party), .singleParty = { .ItemDefaultMoves = sParty_##party }
+#define ITEM_CUSTOM_MOVES_NO_DOUBLE(party) { .ItemCustomMoves = sParty_##party }, .partySize = ARRAY_COUNT(sParty_##party), .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET | F_TRAINER_PARTY_HELD_ITEM, .doubleParty = { .ItemCustomMoves = sParty_##party }, .doublePartySize = ARRAY_COUNT(sParty_##party), .singleParty = { .ItemCustomMoves = sParty_##party }
 struct Trainer
 {
     /*0x00*/ u32 aiFlags;
@@ -92,6 +102,10 @@ struct Trainer
              u8 startingStatus:6;    // this trainer starts a battle with a given status. see include/constants/battle.h for values
     /*0x1F*/ u8 mugshotColor;
     /*0x20*/ u8 partySize;
+
+    // custom - per https://github.com/pret/pokeemerald/wiki/Change-Enemy-Trainer-Parties-Depending-on-Difficulty
+    u8 union TrainerMonPtr singleParty;
+    u8 union TrainerMonPtr doubleParty;
 };
 
 struct TrainerClass

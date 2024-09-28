@@ -1492,7 +1492,7 @@ const u8 gText_ABtnTitleScreen[] = _("A Button: Title Screen");
 const u8 gText_Option[] = _("OPTION");
 const u8 gText_TextSpeed[] = _("TEXT SPEED");
 const u8 gText_BattleScene[] = _("BATTLE SCENE");
-const u8 gText_BattleStyle[] = _("BATTLE STYLE");
+const u8 gText_BattleStyle[] = _("BATTLE MODE");
 const u8 gText_Sound[] = _("SOUND");
 const u8 gText_Frame[] = _("FRAME");
 const u8 gText_OptionMenuCancel[] = _("CANCEL");
@@ -1834,3 +1834,9 @@ const u8 gText_Fertilize[] = _("FERTILIZE");
 const u8 gText_PlantBerry[] = _("PLANT BERRY");
 const u8 gText_AM[] = _("AM");
 const u8 gText_PM[] = _("PM");
+
+// CUSTOM
+
+// battle mode (https://github.com/pret/pokeemerald/wiki/Change-Enemy-Trainer-Parties-Depending-on-Difficulty)
+const u8 gText_BattleModeSingle[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}SINGLE   "); 
+const u8 gText_BattleModeDouble[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}DOUBLE   ");

@@ -1,0 +1,2 @@
+progress:
+up to step "Assigning difficulty-dependent parties" of https://github.com/pret/pokeemerald/wiki/Change-Enemy-Trainer-Parties-Depending-on-Difficulty. i don't think it works for the new method of managing battles without some modification.

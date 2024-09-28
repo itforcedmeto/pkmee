@@ -3046,4 +3046,10 @@ extern const u8 gText_PlantBerry[];
 extern const u8 gText_AM[];
 extern const u8 gText_PM[];
 
+// CUSTOM
+
+// battle mode (https://github.com/pret/pokeemerald/wiki/Change-Enemy-Trainer-Parties-Depending-on-Difficulty)
+extern const u8 gText_BattleModeSingle[];
+extern const u8 gText_BattleModeDouble[];
+
 #endif // GUARD_STRINGS_H

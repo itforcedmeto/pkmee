@@ -146,7 +146,11 @@
 #define OPTIONS_SOUND_STEREO 1
 
 #define OPTIONS_BATTLE_STYLE_SHIFT 0
-#define OPTIONS_BATTLE_STYLE_SET 1
+#define OPTIONS_BATTLE_STYLE_
+
+// add mode (difficulty) per https://github.com/pret/pokeemerald/wiki/Change-Enemy-Trainer-Parties-Depending-on-Difficulty. 
+#define BATTLE_MODE_SINGLE 0
+#define BATTLE_MODE_DOUBLE 1
 
 #define DIR_NONE        0
 #define DIR_SOUTH       1
