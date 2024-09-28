@@ -4595,45 +4595,41 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Setup First Turn
 Mugshot: Purple
 
-Mightyena
+Lokix  
+Ability: Swarm  
 Level: 46
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Roar
-- Double Edge
-- Sand Attack
-- Crunch
+- First Impression  
+- Swords Dance  
+- U-turn  
+- Knock Off
 
-Shiftry
+Grimmsnarl (M)  
+Ability: Prankster  
 Level: 48
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Torment
-- Double Team
-- Swagger
-- Extrasensory
+- Light Screen  
+- Play Rough  
+- Foul Play  
+- Reflect
 
-Cacturne
+Mabosstiff  
+Ability: Guard Dog 
 Level: 46
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Leech Seed
-- Feint Attack
-- Needle Arm
-- Cotton Spore
+- Crunch  
+- Fire Fang  
+- Psychic Fangs  
+- Protect
 
-Crawdaunt
+Kingambit  
+Ability: Supreme Overlord  
 Level: 48
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Surf
+- Kowtow Cleave  
+- Sucker Punch  
+- Iron Head  
 - Swords Dance
-- Strength
-- Facade
-
-Absol @ Sitrus Berry
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aerial Ace
-- Rock Slide
-- Swords Dance
-- Slash
 
 === TRAINER_PHOEBE ===
 Name: PHOEBE
@@ -4646,45 +4642,41 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Green
 
-Dusclops
+Zoroark-Hisui  
+Ability: Illusion  
 Level: 48
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Punch
-- Confuse Ray
-- Curse
+- Nasty Plot  
+- Hyper Voice  
+- Shadow Ball  
 - Protect
 
-Banette
+Dragapult  
+Ability: Infiltrator  
 Level: 49
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Grudge
-- Will O Wisp
-- Feint Attack
+- Phantom Force  
+- Dragon Darts  
+- Quick Attack  
+- U-turn
 
-Sableye
+Sinistcha  
+Ability: Hospitality  
 Level: 50
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Double Team
-- Night Shade
-- Feint Attack
+- Matcha Gotcha  
+- Shadow Ball  
+- Life Dew  
+- Rage Powder
 
-Banette
-Level: 49
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Psychic
-- Thunderbolt
-- Facade
-
-Dusclops @ Sitrus Berry
+Houndstone  
+Ability: Sand Rush  
 Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Ice Beam
-- Rock Slide
-- Earthquake
+- Play Rough  
+- Last Respects  
+- Shadow Sneak  
+- Protect
 
 === TRAINER_GLACIA ===
 Name: GLACIA
@@ -4697,45 +4689,40 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Pink
 
-Sealeo
-Level: 50
+Mr. Rime  
+Ability: Tangled Feet  
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Encore
-- Body Slam
-- Hail
-- Ice Ball
-
-Glalie
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Light Screen
-- Crunch
+- Freeze-Dry  
+- Ally Switch  
+- Fake Out  
 - Icy Wind
-- Ice Beam
 
-Sealeo
+Cetitan  
+Ability: Thick Fat  
 Level: 52
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Attract
-- Double Edge
-- Hail
-- Blizzard
+- Ice Shard  
+- Knock Off  
+- Play Rough  
+- Yawn
 
-Glalie
+Darmanitan-Galar  
+Ability: Gorilla Tactics  
 Level: 52
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Shadow Ball
-- Explosion
-- Hail
-- Ice Beam
+- Superpower  
+- Rock Slide  
+- Icicle Crash  
+- Flare Blitz
 
-Walrein @ Sitrus Berry
+Baxcalibur  
+Ability: Thermal Exchange 
 Level: 53
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Body Slam
-- Ice Beam
-- Sheer Cold
+- Glaive Rush  
+- Protect  
+- Ice Shard  
+- Icicle Crash
 
 === TRAINER_DRAKE ===
 Name: DRAKE
@@ -4748,45 +4735,41 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
 
-Shelgon
+Appletun @ Sitrus Berry  
+Ability: Ripen  
 Level: 52
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Rock Tomb
-- Dragon Claw
+- Apple Acid  
+- Leech Seed  
+- Recover  
 - Protect
-- Double Edge
 
-Altaria
+Cyclizar  
+Ability: Shed Skin  
 Level: 54
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Edge
-- Dragon Breath
-- Dragon Dance
-- Aerial Ace
+- Hyper Voice  
+- Shed Tail  
+- Draco Meteor  
+- Dragon Cheer
 
-Kingdra
+Goodra-Hisui  
+Ability: Shell Armor  
 Level: 53
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Smokescreen
-- Dragon Dance
-- Surf
-- Body Slam
+- Body Press  
+- Acid Armor  
+- Knock Off  
+- Heavy Slam
 
-Flygon
-Level: 53
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Flamethrower
-- Crunch
-- Dragon Breath
-- Earthquake
-
-Salamence @ Sitrus Berry
+Archaludon @ Power Herb  
+Ability: Stamina  
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Flamethrower
-- Dragon Claw
-- Rock Slide
-- Crunch
+- Body Press  
+- Flash Cannon  
+- Draco Meteor  
+- Electro Shot
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
@@ -6264,53 +6247,59 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Wailord
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rain Dance
-- Water Spout
-- Double Edge
-- Blizzard
-
-Tentacruel
+Cramorant  
+Ability: Gulp Missile  
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Toxic
-- Hydro Pump
-- Sludge Bomb
-- Ice Beam
+- Dive  
+- Acrobatics  
+- Tailwind  
+- Protect
 
-Ludicolo
+Drednaw  
+Ability: Strong Jaw  
+Level: 57
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake  
+- Jaw Lock  
+- Ice Fang  
+- Rock Slide
+
+Wugtrio  
+Ability: Rattled  
 Level: 56
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Giga Drain
-- Surf
-- Leech Seed
-- Double Team
+- Triple Dive  
+- Aqua Jet  
+- Sucker Punch  
+- Rain Dance
 
-Whiscash
+Barraskewda  
+Ability: Swift Swim 
 Level: 56
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Close Combat  
+- Liquidation  
+- Drill Run  
+- Flip Turn
+
+Dondozo  
+Ability: Oblivious 
+Level: 56
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Protect  
+- Wave Crash  
+- Order Up  
 - Earthquake
-- Surf
-- Amnesia
-- Hyper Beam
 
-Gyarados
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dragon Dance
-- Earthquake
-- Hyper Beam
-- Surf
-
-Milotic @ Sitrus Berry
+Tatsugiri  
+Ability: Commander  
 Level: 58
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Recover
-- Surf
-- Ice Beam
-- Toxic
+- Muddy Water  
+- Draco Meteor  
+- Icy Wind  
+- Dragon Pulse
 
 === TRAINER_ANDREW ===
 Name: ANDREW
