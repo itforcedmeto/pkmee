@@ -1450,6 +1450,13 @@ static void CB2_EndTrainerBattle(void)
         if (InBattlePyramid() || InTrainerHillChallenge() || (!NoAliveMonsForPlayer()))
             SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
         else
+        {
+            if(FlagGet(FLAG_STARTED_BOSS))
+            {
+                FlagClear(FLAG_STARTED_BOSS);
+                LoadPlayerParty();
+            }
+        }
             SetMainCallback2(CB2_WhiteOut);
     }
     else

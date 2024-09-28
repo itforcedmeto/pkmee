@@ -1088,6 +1088,10 @@ struct SaveBlock1
 #endif //FREE_TRAINER_HILL
     /*0x3???*/ struct WaldaPhrase waldaPhrase;
     // sizeof: 0x3???
+
+    
+    struct Pokemon BossTeam[PARTY_SIZE - 1];
+    // sizeof: 0x3???
 };
 
 extern struct SaveBlock1* gSaveBlock1Ptr;

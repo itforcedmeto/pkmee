@@ -2321,3 +2321,17 @@
 	.macro togglefakertc
 	callnative Script_ToggleFakeRtc
 	.endm
+
+	@ per https://www.pokecommunity.com/threads/boss-battle-balancing.435442/
+	.macro deletepokemon num:req
+	setvar VAR_0x8004, \num,
+	callnative ScrCmd_deletepokemon
+	.endm
+
+	.macro savepartofteam
+	callnative ScrCmd_savepartofteam
+	.endm
+
+	.macro loadpartofteam
+	callnative ScrCmd_loadpartofteam
+	.endm

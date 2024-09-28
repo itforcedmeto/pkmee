@@ -30,6 +30,12 @@ RustboroCity_Gym_EventScript_GiveRockTomb::
 	goto_if_eq VAR_RESULT, FALSE, Common_EventScript_ShowBagIsFull
 	setflag FLAG_RECEIVED_TM_ROCK_TOMB
 	msgbox RustboroCity_Gym_Text_ExplainRockTomb, MSGBOX_DEFAULT
+	closemessage
+	savepartofteam
+	special LoadPlayerParty
+	loadpartofteam
+	special GiveBackItemsAndBerries
+	clearflag FLAG_STARTED_BOSS
 	release
 	end
 
@@ -281,3 +287,56 @@ RustboroCity_Gym_Text_RoxanneRematchNeedTwoMons:
 	.string "You only have one POKéMON with you?\p"
 	.string "Please return with at least one more\n"
 	.string "POKéMON.$"
+
+RustboroCity_Gym_EventScript_NotReady::
+	msgbox Text_Prepare, MSGBOX_DEFAULT
+	closemessage
+	end
+	
+RustboroCity_Gym_EventScript_RoxanneNoBadge::
+	call_if_set FLAG_BOSS_TALK, RustboroCity_Gym_EventScript_RoxanneWarning
+	call_if_unset FLAG_BOSS_TALK, RustboroCity_Gym_EventScript_RoxanneWelcome
+	compare VAR_RESULT, NO
+	goto_if_eq RustboroCity_Gym_EventScript_NotReady
+	setflag FLAG_STARTED_BOSS
+	special SavePlayerParty
+	deletepokemon 3
+	return
+	
+RustboroCity_Gym_EventScript_RoxanneWelcome::
+	setflag FLAG_BOSS_TALK
+	msgbox Text_Welcome_Warning, MSGBOX_YESNO
+	return
+	
+RustboroCity_Gym_EventScript_RoxanneWarning::
+	msgbox Text_Warning, MSGBOX_YESNO
+	return
+
+Text_Welcome_Warning: @ 821362A
+	.string "Hello, I am ROXANNE, the RUSTBORO\n"
+	.string "POKéMON GYM LEADER.\p"
+	.string "I became a GYM LEADER so that I might\n"
+	.string "apply what I learned at the POKéMON\l"
+	.string "TRAINER'S SCHOOL in battle.\p"
+	.string "In GYM battles, the number of POKéMON\n"
+	.string "that you may use will be limited.\p"
+	.string "You also only have access to the same\n"
+	.string "items that the GYM LEADER can use.\p"
+	.string "In this battle, you will only have\n"
+	.string "2 Potions and can only use 3 POKéMON.\p"
+	.string "Make sure that the 3 POKéMON you\n"
+	.string "choose are at the front of your team.\p"
+	.string "Are you ready to battle, or do you need\n"
+	.string "time to prepare?$"
+	
+Text_Warning:
+	.string "In this battle, you will only have\n"
+	.string "2 Potions and can only use 3 POKéMON.\p"
+	.string "Make sure that the 3 POKéMON you\n"
+	.string "choose are at the front of your team.\p"
+	.string "Are you ready to battle, or do you need\n"
+	.string "more time to prepare?$"
+	
+Text_Prepare:
+	.string "Then take your time and come back\n"
+	.string "when you are ready for battle.$"

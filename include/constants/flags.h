@@ -52,8 +52,8 @@
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag
 #define FLAG_UNUSED_0x029    0x29 // Unused Flag
-#define FLAG_UNUSED_0x02A    0x2A // Unused Flag
-#define FLAG_UNUSED_0x02B    0x2B // Unused Flag
+#define FLAG_STARTED_BOSS    0x2A // updated per https://www.pokecommunity.com/threads/boss-battle-balancing.435442/
+#define FLAG_BOSS_TALK       0x2B // updated per https://www.pokecommunity.com/threads/boss-battle-balancing.435442/
 #define FLAG_UNUSED_0x02C    0x2C // Unused Flag
 #define FLAG_UNUSED_0x02D    0x2D // Unused Flag
 #define FLAG_UNUSED_0x02E    0x2E // Unused Flag

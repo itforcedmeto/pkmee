@@ -71,6 +71,9 @@ extern const SpecialFunc gSpecials[];
 extern const u8 *gStdScripts[];
 extern const u8 *gStdScripts_End[];
 
+// custom per https://www.pokecommunity.com/threads/boss-battle-balancing.435442/
+extern void ZeroMonData(struct Pokemon *);
+
 static void CloseBrailleWindow(void);
 static void DynamicMultichoiceSortList(struct ListMenuItem *items, u32 count);
 
@@ -2471,4 +2474,30 @@ bool8 ScrCmd_warpwhitefade(struct ScriptContext *ctx)
 void ScriptSetDoubleBattleFlag(struct ScriptContext *ctx)
 {
     sIsScriptedWildDouble = TRUE;
+}
+
+// custom per https://www.pokecommunity.com/threads/boss-battle-balancing.435442/
+void ScrCmd_deletepokemon(void)
+{
+	u8 NumberDelete = gSpecialVar_0x8004;
+	u8 i;
+	for(i = 5; i >= NumberDelete; i--)
+	{
+		if(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL))
+			ZeroMonData(&gPlayerParty[i]);
+	}
+}
+
+void ScrCmd_savepartofteam(void)
+{
+	u8 i;
+	for (i = 0; i < PARTY_SIZE; i++)
+        gSaveBlock1Ptr->BossTeam[i] = gPlayerParty[i];
+}
+
+void ScrCmd_loadpartofteam(void)
+{
+	u8 i;
+	for(i = 0; !GetMonData(gSaveBlock1Ptr->BossTeam[i], MON_DATA_SPECIES, NULL); i++)
+		gPlayerParty[i] = gSaveBlock1Ptr->BossTeam[i];
 }
