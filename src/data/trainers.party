@@ -4788,14 +4788,14 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Smack Down  
 - Rock Throw  
 - Mud Shot  
-- Stealth Rock
+- Rock Slide
 
 Rolycoly
 Ability: Steam Engine
 Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Smokescreen
-- Tackle
+- Rock Slide
 - Rapid Spin
 - Smack Down
 
@@ -4803,7 +4803,7 @@ Growlithe-Hisui @ Oran Berry
 Ability: Intimidate
 Level: 15
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Howl
+- Rock Slide
 - Bite
 - Flame Wheel
 - Helping Hand
