@@ -398,7 +398,11 @@ Music: Aqua
 Double Battle: Yes
 AI: Check Bad Move
 
-Carvanha
+Nickit
+Level: 14
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Zigzagoon-Galar
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -411,12 +415,12 @@ Music: Aqua
 Double Battle: Yes
 AI: Check Bad Move
 
-Zubat
+Impidimp
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carvanha
-Level: 14
+Arrokuda
+Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_1 ===
@@ -1049,11 +1053,11 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Azurill
+Yamper
 Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Azurill
+Smoliv
 Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -1160,13 +1164,13 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Zigzagoon
+Rookidee
 Level: 13
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-- Sand Attack
-- Headbutt
-- Tail Whip
-- Surf
+
+Wooper-Paldea
+Level: 12
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_SIMON ===
 Name: SIMON
@@ -1177,11 +1181,11 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Azurill
+Clobbopus
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Marill
+Wooper-Paldea
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -2131,7 +2135,11 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move
 
-Zigzagoon @ Nugget
+Chewtle
+Level: 7
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Wooloo @ Nugget
 Level: 7
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3183,8 +3191,12 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Machop
+Pawmo
 Level: 13
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Mankey
+Level: 14
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_HITOSHI ===
@@ -6402,15 +6414,15 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Magikarp
-Level: 10
+Arrokuda
+Level: 9
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
-Level: 7
+Chewtle
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
+Wattrel
 Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6423,7 +6435,11 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Tentacool
+Arrokuda
+Level: 10
+IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
+
+Arrokuda
 Level: 11
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -7871,8 +7887,12 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Meditite
-Level: 13
+Mankey
+Level: 11
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Clobbopus
+Level: 12
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_LAURA ===
@@ -7884,9 +7904,13 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Meditite
-Level: 13
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+Clobbopus
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
+
+Pawmo
+Level: 12
+IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
 === TRAINER_CYNDY_1 ===
 Name: CYNDY
@@ -8976,11 +9000,11 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Wingull
+Clobbopus
 Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Machop
+Chewtle
 Level: 12
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -8993,7 +9017,11 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Wingull
+Arrokuda
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Wattrel
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9023,15 +9051,15 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Wingull
+Wattrel
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Machop
+Mankey
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
+Slowpoke-Galar
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10608,8 +10636,12 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Machop
-Level: 13
+Mankey
+Level: 12
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Clobbopus
+Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_LILITH ===
@@ -10621,7 +10653,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Meditite
+Mankey
+Level: 13
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Mankey
 Level: 13
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -10634,8 +10670,12 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Makuhita
+Clobbopus
 Level: 13
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Mankey
+Level: 14
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SYLVIA ===
@@ -11101,11 +11141,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Lotad
+Smoliv
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shroomish
+Gossifleur
 Level: 6
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11898,7 +11938,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Goldeen
+Gossifleur
+Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Yamper
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13019,8 +13063,12 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Magikarp
+Arrokuda
 Level: 9
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Chewtle
+Level: 8
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HAILEY ===
@@ -13032,8 +13080,12 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Marill
+Wooper-Paldea
 Level: 13
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Skwovet
+Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHANDLER ===
@@ -13045,11 +13097,11 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Tentacool
+Rookidee
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
+Chewtle
 Level: 12
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
