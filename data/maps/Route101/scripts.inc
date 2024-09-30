@@ -219,6 +219,81 @@ Route101_EventScript_RouteSign::
 	end
 
 Route101_EventScript_BirchsBag::
+@ i changed the ledge location to ensure player always approaches bag from the same square. this is probably fine but not 100% ideal.
+@ todo: need to set VAR_STARTER_MON correctly.
+	lock
+	faceplayer
+	callnative StartNewPokeballCaseUI
+	waitstate
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
+	waitmovement 0
+	msgbox Route101_Text_DistractIt, MSGBOX_DEFAULT
+	applymovement LOCALID_ZIGZAGOON, Route101_Movement_ZigzagoonApproach
+	waitmovement 0
+	setwildbattle SPECIES_ZIGZAGOON_GALAR, 4
+	playmoncry SPECIES_ZIGZAGOON_GALAR, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	dowildbattle
+	playbgm MUS_ROUTE101, TRUE
+	delay 10
+	applymovement LOCALID_ZIGZAGOON, Route101_Movement_ZigzagoonFlee
+	waitmovement 0
+	removeobject LOCALID_ZIGZAGOON
+	setflag FLAG_SYS_POKEMON_GET
+	setflag FLAG_RESCUED_BIRCH
+	applymovement LOCALID_BIRCH, Route101_Movement_BirchApproach
+	waitmovement 0
+	msgbox Route101_Text_YouSavedMe, MSGBOX_DEFAULT
+	special HealPlayerParty
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE
+	clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	setvar VAR_BIRCH_LAB_STATE, 2
+	setvar VAR_ROUTE101_STATE, 3
+	clearflag FLAG_HIDE_MAP_NAME_POPUP
+	checkplayergender
+	call_if_eq VAR_RESULT, MALE, Route101_EventScript_HideMayInBedroom
+	call_if_eq VAR_RESULT, FEMALE, Route101_EventScript_HideBrendanInBedroom
+	warp MAP_LITTLEROOT_TOWN_PROFESSOR_BIRCHS_LAB, 6, 5
+	waitstate
+	release
+	end
+
+Route101_Movement_ZigzagoonApproach:
+	walk_fast_down
+	walk_fast_down
+	walk_right
+	walk_in_place_fast_right
+	step_end
+	
+Route101_Movement_ZigzagoonFlee:
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_down
+	step_end
+
+Route101_Movement_BirchApproach:
+	walk_right
+	walk_right
+	walk_down
+	walk_down
+	face_right
+	step_end
+
+Route101_ORIGINAL_EventScript_BirchsBag::
 	lock
 	faceplayer
 	setflag FLAG_SYS_POKEMON_GET
@@ -272,6 +347,9 @@ Route101_Text_PleaseHelp:
 Route101_Text_DontLeaveMe:
 	.string "Wh-Where are you going?!\n"
 	.string "Don't leave me like this!$"
+
+Route101_Text_DistractIt:
+	.string "Quick, distract it!$"
 
 Route101_Text_YouSavedMe:
 	.string "PROF. BIRCH: Whew…\p"

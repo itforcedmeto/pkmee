@@ -132,17 +132,17 @@ struct MonChoiceData{ // This is the format used to define a mon, everything lef
 //
 static const struct MonChoiceData sStarterChoices[9] = 
 {
-    [BALL_TOP_FIRST]        = {SPECIES_MUDKIP, 5, ITEM_POTION, BALL_NET, NATURE_JOLLY, 1, MON_MALE, {255, 255, 0, 0, 0, 0}, {31, 31, 31, 31, 31, 31}, {MOVE_FIRE_BLAST, MOVE_SHEER_COLD, MOVE_WATER_GUN, MOVE_THUNDER}, 0, 0, 0},
-    [BALL_TOP_SECOND]       = {SPECIES_TREECKO, 5},
-    [BALL_MIDDLE_FIRST]     = {SPECIES_TORCHIC, 5},
+    [BALL_TOP_FIRST]        = {SPECIES_GROOKEY, 5},
+    [BALL_TOP_SECOND]       = {SPECIES_SCORBUNNY, 5},
+    [BALL_MIDDLE_FIRST]     = {SPECIES_SOBBLE, 5},
 
-    [BALL_TOP_THIRD]        = {SPECIES_CHIKORITA, 5},
-    [BALL_TOP_FOURTH]       = {SPECIES_NONE, 5},
-    [BALL_MIDDLE_THIRD]     = {SPECIES_CYNDAQUIL, 5},
+    [BALL_TOP_THIRD]        = {SPECIES_SPRIGATITO, 5},
+    [BALL_TOP_FOURTH]       = {SPECIES_FUECOCO, 5},
+    [BALL_MIDDLE_THIRD]     = {SPECIES_QUAXLY, 5},
 
-    [BALL_MIDDLE_SECOND]    = {SPECIES_BULBASAUR, 5},
-    [BALL_BOTTOM_FIRST]     = {SPECIES_CHARMANDER, 5},
-    [BALL_BOTTOM_SECOND]    = {SPECIES_NONE, 5},
+    [BALL_MIDDLE_SECOND]    = {SPECIES_ROWLET, 5},
+    [BALL_BOTTOM_FIRST]     = {SPECIES_CYNDAQUIL, 5},
+    [BALL_BOTTOM_SECOND]    = {SPECIES_OSHAWOTT, 5},
 };
 
 //==========EWRAM==========//
@@ -724,9 +724,9 @@ static void BirchCase_InitWindows(void)
 //
 //  Text Printing Function
 //
-static const u8 sText_ChooseMon[] = _("Release a Pokémon!");
+static const u8 sText_ChooseMon[] = _("Choose a Pokémon!");
 static const u8 sText_AreYouSure[] = _("Are you sure?    {A_BUTTON} Yes  {B_BUTTON} No");
-static const u8 sText_RecievedMon[] = _("Give your Pokémon a Nickname?   {A_BUTTON} Yes  {B_BUTTON} No");
+static const u8 sText_RecievedMon[] = _("Give your Pokémon a nickname?   {A_BUTTON} Yes  {B_BUTTON} No");
 static void PrintTextToBottomBar(u8 textId)
 {
     u8 speciesNameArray[16];
@@ -997,7 +997,3 @@ static void Task_BirchCaseMain(u8 taskId)
         }
     }
 }
-
-
-
-
