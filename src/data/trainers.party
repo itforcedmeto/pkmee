@@ -644,11 +644,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Shroomish
+Shroodle
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Roselia
+Smoliv
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -661,15 +661,15 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Roselia
+Gossifleur
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shroomish
+Petilil
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Roselia
+Applin
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -943,11 +943,11 @@ Music: Interviewer
 Double Battle: Yes
 AI: Check Bad Move
 
-Magnemite
+Varoom
 Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Whismur
+Tinkatink
 Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -1437,15 +1437,15 @@ Items: Super Potion
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Electrike
+Yamper
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Wailmer
+Wooper-Paldea
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Makuhita
+Clobbopus
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1772,15 +1772,15 @@ Items: Super Potion
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wingull
+Rookidee
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Numel
+Charcadet
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Roselia
+Bramblin
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -3191,7 +3191,7 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Pawmo
+Clobbopus
 Level: 13
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -3387,20 +3387,13 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Electrike
+Toxel
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Quick Attack
-- Thunder Wave
-- Spark
-- Leer
 
-Voltorb
-Level: 17
+Pawmo
+Level: 18
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Charge
-- Shock Wave
-- Screech
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_7 ===
 Name: GRUNT
@@ -3441,11 +3434,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Voltorb
+Voltorb-Hisui
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Magnemite
+Pawmo
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -3475,11 +3468,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Magnemite
+Wattrel
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Whismur
+Tadbulb
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3853,7 +3846,11 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Sandshrew
+Mankey
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Shroodle
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4131,10 +4128,14 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Abra
+Dottler
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Hidden Power
+
+Slowpoke-Galar
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
 
 === TRAINER_PRESTON ===
 Name: PRESTON
@@ -4844,6 +4845,7 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Clobbopus  
 Ability: Limber  
+Level: 16
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Smash  
 - Detect  
@@ -4891,28 +4893,28 @@ Pincurchin
 Ability: Lightning Rod  
 Level: 20
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Spark  
-- Fury Attack  
+- Protect  
+- Charge Beam  
 - Charge  
-- Water Gun
-
-Morpeko  
-Ability: Hunger Switch  
-Level: 22
-IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
-- Fake Out  
-- Super Fang  
-- Bite  
-- Thunder Fang
+- Chilling Water
 
 Voltorb-Hisui  
 Ability: Static 
-Level: 24
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Level: 22
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Charge Beam  
 - Energy Ball  
 - Protect  
 - Leech Seed
+
+Morpeko  
+Ability: Hunger Switch  
+Level: 24
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Fake Out  
+- Super Fang  
+- Bite  
+- Thunder Fang
 
 === TRAINER_FLANNERY_1 ===
 Name: FLANNERY
@@ -5523,11 +5525,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Taillow @ Oran Berry
+Rookidee @ Oran Berry
 Level: 16
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Zigzagoon @ Oran Berry
+Zigzagoon-Galar @ Oran Berry
 Level: 16
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -5540,7 +5542,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Skitty @ Oran Berry
+Smoliv @ Oran Berry
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Skwovet @ Oran Berry
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5662,7 +5668,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint
 
-Roselia @ Oran Berry
+Cufant @ Oran Berry
+Level: 17
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Impidimp @ Oran Berry
 Level: 17
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -5709,11 +5719,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Plusle @ Oran Berry
+Wooloo @ Oran Berry
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Minun @ Oran Berry
+Shroodle @ Oran Berry
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5726,11 +5736,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Plusle @ Oran Berry
+Wooloo @ Oran Berry
 Level: 26
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Minun @ Oran Berry
+Shroodle @ Oran Berry
 Level: 26
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -5743,11 +5753,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Plusle @ Oran Berry
+Dubwool @ Oran Berry
 Level: 29
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
-Minun @ Oran Berry
+Grafaiai @ Oran Berry
 Level: 29
 IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
 
@@ -5760,11 +5770,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Plusle @ Oran Berry
+Dubwool @ Oran Berry
 Level: 32
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
-Minun @ Oran Berry
+Grafaiai @ Oran Berry
 Level: 32
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -5777,11 +5787,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Plusle @ Sitrus Berry
+Dubwool @ Sitrus Berry
 Level: 35
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
-Minun @ Sitrus Berry
+Grafaiai @ Sitrus Berry
 Level: 35
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
@@ -5875,13 +5885,13 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Meditite
+Milcery
 Level: 18
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- High Jump Kick
-- Meditate
-- Confusion
-- Detect
+
+Wooper-Paldea
+Level: 18
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SHELBY_1 ===
 Name: SHELBY
@@ -6060,21 +6070,13 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Zigzagoon
+Toxel
 Level: 17
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Headbutt
-- Sand Attack
-- Growl
-- Thunderbolt
 
-Gulpin
+Yamper
 Level: 17
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Amnesia
-- Sludge
-- Yawn
-- Pound
 
 === TRAINER_QUINCY ===
 Name: QUINCY
@@ -6235,11 +6237,11 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Zigzagoon
+Zigzagoon-Galar
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Zigzagoon
+Tinkatink
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6269,11 +6271,11 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Aron
+Nacli
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Electrike
+Yamper
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6351,15 +6353,15 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Magikarp
+Arrokuda
 Level: 5
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
+Chewtle
 Level: 10
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
+Arrokuda
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6452,19 +6454,19 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Tentacool
+Chewtle
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wailmer
+Qwilfish-Hisui
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
+Chewtle
 Level: 11
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wailmer
+Qwilfish-Hisui
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6507,7 +6509,11 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Tentacool
+Arrokuda
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Basculin-White
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7908,7 +7914,7 @@ Clobbopus
 Level: 12
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
-Pawmo
+Pawmi
 Level: 12
 IVs: 15 HP / 15 Atk / 15 Def / 15 SpA / 15 SpD / 15 Spe
 
@@ -8827,11 +8833,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Plusle
+Tadbulb
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Minun
+Tadbulb
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8844,11 +8850,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Plusle
+Bellibolt
 Level: 27
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Minun
+Bellibolt
 Level: 27
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
@@ -9396,11 +9402,11 @@ Music: Suspicious
 Double Battle: Yes
 AI: Check Bad Move
 
-Lombre
+Capsakid
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nuzleaf
+Petilil
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9582,15 +9588,15 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Slugma
+Voltorb-Hisui
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Wingull
+Arrokuda
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Grovyle
+Thwackey
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9637,15 +9643,15 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wingull
+Voltorb-Hisui
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Lombre
+Arrokuda
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Combusken
+Crocalor
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9692,15 +9698,15 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Lombre
+Voltorb-Hisui
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Slugma
+Charcadet
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Marshtomp
+Oshawott
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9747,15 +9753,15 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wingull
+Voltorb-Hisui
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Slugma
+Arrokuda
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Grovyle
+Thwackey
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9802,15 +9808,15 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wingull
+Voltorb-Hisui
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Lombre
+Arrokuda
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Combusken
+Crocalor
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9857,15 +9863,15 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Lombre
+Voltorb-Hisui
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Slugma
+Charcadet
 Level: 18
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Marshtomp
+Oshawott
 Level: 20
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -11175,15 +11181,15 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Marill
+Chewtle
 Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Shroomish
+Petilil
 Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Numel
+Growlithe-Hisui
 Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -11268,7 +11274,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Oddish
+Wooper-Paldea
+Level: 16
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Smoliv
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11281,15 +11291,15 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Skitty
+Lechonk
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Shroomish
+Skwovet
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Marill
+Wooloo
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11535,11 +11545,11 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Numel
+Growlithe-Hisui
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Machop
+Mankey
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11552,15 +11562,15 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Geodude
+Nacli
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Geodude
+Silicobra
 Level: 17
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Geodude
+Rolycoly
 Level: 16
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11942,7 +11952,7 @@ Gossifleur
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Yamper
+Wooloo
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11973,21 +11983,13 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Meditite
+Voltorb-Hisui
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bide
-- Detect
-- Confusion
-- Thunder Punch
 
-Meditite
+Wattrel
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Detect
-- Confusion
-- Meditate
 
 === TRAINER_DANIELLE ===
 Name: DANIELLE
@@ -12128,7 +12130,7 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Ralts
+Smoliv
 Level: 16
 IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
 
@@ -13114,11 +13116,11 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Minun @ Oran Berry
+Pawmi @ Oran Berry
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Plusle @ Oran Berry
+Voltorb-Hisui @ Oran Berry
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13131,11 +13133,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Electrike
+Tadbulb
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Voltorb
+Voltorb-Hisui
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13148,7 +13150,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Magnemite
+Girafarig
+Level: 15
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Ponyta-Galar
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13161,7 +13167,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Voltorb
+Voltorb-Hisui
+Level: 15
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Wattrel
 Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -13174,7 +13184,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Makuhita
+Mankey
+Level: 15
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Clobbopus
 Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -13187,8 +13201,12 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Sandshrew
+Silicobra
 Level: 19
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Chewtle
+Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CELINA ===
@@ -13200,8 +13218,12 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Roselia
+Smoliv
 Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Lechonk
+Level: 19
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BIANCA ===
@@ -13213,7 +13235,11 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Shroomish
+Bramblin
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Wattrel
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13226,7 +13252,11 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Numel
+Growlithe-Hisui
+Level: 18
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Meowth-Galar
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13350,15 +13380,15 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Zigzagoon
+Wooloo
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Aron
+Nacli
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Electrike
+Yamper
 Level: 14
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13835,11 +13865,11 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Numel
+Sizzlipede
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Slugma
+Rolycoly
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13852,11 +13882,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Shroomish
+Gossifleur
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Roselia
+Capsakid
 Level: 18
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -15914,26 +15944,20 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_ANGELO ===
 Name: ANGELO
-Class: Bug Maniac
-Pic: Bug Maniac
+Class: Guitarist
+Pic: Guitarist
 Gender: Male
 Music: Suspicious
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Illumise
+Wattrel
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Shock Wave
-- Quick Attack
-- Charm
 
-Volbeat
+Yamper
 Level: 17
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Shock Wave
-- Quick Attack
-- Confuse Ray
 
 === TRAINER_DARIUS ===
 Name: DARIUS
