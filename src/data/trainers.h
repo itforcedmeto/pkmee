@@ -26958,7 +26958,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 10708
-            .species = SPECIES_MANKEY,
+            .species = SPECIES_FARFETCHD_GALAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10710
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
@@ -27001,7 +27001,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 10725
-            .species = SPECIES_MANKEY,
+            .species = SPECIES_FARFETCHD_GALAR,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 10727
             .iv = TRAINER_PARTY_IVS(24, 24, 24, 24, 24, 24),
