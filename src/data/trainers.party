@@ -253,7 +253,7 @@ Items: Hyper Potion
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Liligant-Hisui
+Lilligant-Hisui
 Level: 29
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -578,7 +578,7 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Tauros-Combat
+Tauros-Paldea-Combat
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -6325,11 +6325,11 @@ Music: Male
 Double Battle: Yes
 AI: Check Bad Move
 
-Nacli
+Pawmi
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Yamper
+Shroodle
 Level: 13
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -8182,7 +8182,7 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Liligant-Hisui
+Lilligant-Hisui
 Level: 29
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -8994,7 +8994,7 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Liligant-Hisui
+Lilligant-Hisui
 Level: 26
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -10563,7 +10563,7 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
-Liligant-Hisui
+Lilligant-Hisui
 Level: 28
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -13665,7 +13665,7 @@ Linoone-Galar
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carkoal
+Carkol
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13750,7 +13750,7 @@ Grafaiai
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Carkoal
+Carkol
 Level: 29
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
