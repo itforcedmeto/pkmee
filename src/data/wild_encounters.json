@@ -3725,17 +3725,17 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_MORGREM"
+                "species": "SPECIES_IMPIDIMP"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_SQUAWKABILLY"
+                "species": "SPECIES_SQUAWKABILLY_YELLOW_PLUMAGE"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_MORGREM"
+                "species": "SPECIES_IMPIDIMP"
               },
               {
                 "min_level": 26,
