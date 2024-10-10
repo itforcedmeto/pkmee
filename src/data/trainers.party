@@ -751,16 +751,13 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Medicham
+Armarouge
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Psychic
 
-Claydol
+Weezing-Galar
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Skill Swap
-- Earthquake
 
 === TRAINER_VIOLET ===
 Name: VIOLET
@@ -1504,11 +1501,11 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Cacturne
+Toxtricity
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Pelipper
+Sandaconda
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1522,11 +1519,11 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Magneton
+Farigiraf
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Muk
+Stunfisk-Galar
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1540,15 +1537,15 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Swellow
+Corviknight
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Mawile
+Revavroom
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Kadabra
+Houndstone
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1562,19 +1559,19 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Dodrio
+Duraludon
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Kadabra
+Pawmot
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Electrode
+Sinistcha
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Shiftry
+Avalugg-Hisui
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1588,15 +1585,15 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Kecleon
+Mabosstiff
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Graveler
+Toedscruel
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Wailord
+Wyrdeer
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1850,8 +1847,12 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Roselia
+Orbeetle
 Level: 45
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Alcremie
+Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_SHANNON ===
@@ -1864,8 +1865,12 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Claydol
+Bisharp
 Level: 45
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Polteageist
+Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MICHELLE ===
@@ -1878,15 +1883,15 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Torkoal
+Runerigus
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Medicham
+Zoroark-Hisui
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Ludicolo
+Annihilape
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1900,11 +1905,11 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Skarmory
+Copperajah
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Sableye
+Electrode-Hisui
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -1918,15 +1923,15 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Sandslash
+Garganacl
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Ninetales
+Cyclizar
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Tropius
+Scizor
 Level: 42
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -2203,21 +2208,13 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move
 
-Luvdisc @ Nugget
+Veluza @ Nugget
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Attract
-- Sweet Kiss
-- Flail
-- Water Pulse
 
-Luvdisc @ Nugget
+Wugtrio
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Attract
-- Safeguard
-- Take Down
-- Water Pulse
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
 Name: GRUNT
@@ -2266,7 +2263,11 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move
 
-Seaking @ Nugget
+Barraskewda @ Nugget
+Level: 40
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Wugtrio
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -2421,7 +2422,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Goldeen
+Tatsugiri
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Wugtrio
 Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -2434,7 +2439,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Azumarill
+Tauros-Paldea-Combat
+Level: 40
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Drednaw
 Level: 40
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
@@ -2447,22 +2456,15 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Clamperl
+Tatsugiri
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Iron Defense
-- Whirlpool
-- Rain Dance
-- Water Pulse
 
-Corphish
+Palafin
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Taunt
-- Crabhammer
-- Water Pulse
 
-Lombre
+SPECIES_BASCULEGION_MALE
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Uproar
@@ -2479,11 +2481,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Carvanha
+Basculin-White-Striped
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Sharpedo
+Wugtrio
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -2632,7 +2634,11 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move
 
-Azumarill @ Nugget
+Dachsbun @ Nugget
+Level: 45
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Wyrdeer
 Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5860,15 +5866,15 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Azurill @ Oran Berry
+Basculin-White-Striped @ Oran Berry
 Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Marill @ Oran Berry
+Cramorant @ Oran Berry
 Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Azumarill @ Oran Berry
+Drednaw @ Oran Berry
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -6250,21 +6256,13 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Slaking
+Centiskorch
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Attract
-- Ice Beam
-- Thunderbolt
-- Flamethrower
 
-Dusclops
+Dudunsparce
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Skill Swap
-- Protect
-- Will O Wisp
-- Toxic
 
 === TRAINER_KATELYNN ===
 Name: KATELYNN
@@ -6276,21 +6274,13 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Gardevoir
+Brambleghast
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Skill Swap
-- Psychic
-- Thunderbolt
-- Calm Mind
 
-Slaking
+Sneasler
 Level: 43
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Earthquake
-- Shadow Ball
-- Aerial Ace
-- Brick Break
 
 === TRAINER_JAYLEN ===
 Name: JAYLEN
@@ -7205,11 +7195,11 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Staryu
+Eiscue
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Staryu
+Grapploct
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7393,7 +7383,11 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Staryu
+Kilowattrel
+Level: 35
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Drednaw
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -7912,17 +7906,13 @@ Music: Cool
 Items: Full Restore
 Double Battle: Yes
 
-Claydol
+Cursola
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Skill Swap
-- Earthquake
 
-Lanturn
+Arcanine-Hisui
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Thunderbolt
-- Earthquake
 
 === TRAINER_JANI ===
 Name: JANI
@@ -8806,7 +8796,11 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Seaking
+Clodsire
+Level: 35
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Veluza
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9508,21 +9502,13 @@ Music: Twins
 Double Battle: Yes
 AI: Check Bad Move
 
-Feebas @ Oran Berry
+Barraskewda @ Oran Berry
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flail
-- Water Pulse
-- Return
-- Attract
 
-Feebas @ Oran Berry
+Cramorant @ Oran Berry
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flail
-- Water Pulse
-- Return
-- Attract
 
 === TRAINER_JAZMYN ===
 Name: JAZMYN
@@ -9812,45 +9798,25 @@ Items: Full Restore / Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Altaria
+Lilligant-Hisui
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Aerial Ace
-- Safeguard
-- Dragon Breath
-- Dragon Dance
 
-Delcatty
+Dachsbun
 Level: 43
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Sing
-- Assist
-- Charm
-- Feint Attack
 
-Roselia
+Morpeko
 Level: 44
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Magical Leaf
-- Leech Seed
-- Giga Drain
-- Toxic
 
-Magneton
+Mr. Rime
 Level: 41
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
-- Supersonic
-- Thunderbolt
-- Tri Attack
-- Screech
 
-Gardevoir
+Arboliva
 Level: 45
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Double Team
-- Calm Mind
-- Psychic
-- Future Sight
 
 === TRAINER_BRENDAN_ROUTE_103_MUDKIP ===
 Name: BRENDAN
@@ -10241,21 +10207,13 @@ Music: Cool
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Lunatone
+Hatterene
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Explosion
-- Reflect
-- Light Screen
-- Psychic
 
-Solrock
+Braviary-Hisui
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Explosion
-- Reflect
-- Light Screen
-- Shadow Ball
 
 === TRAINER_ISAAC_2 ===
 Name: ISAAC
@@ -10432,11 +10390,11 @@ Items: Full Restore
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Sableye
+Grimmsnarl
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Absol
+Obstagoon
 Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11047,7 +11005,11 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Tentacruel
+Basculin-White-Striped
+Level: 35
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Slowking-Galar
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11679,7 +11641,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Luvdisc
+Basculegion
+Level: 40
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+
+Veluza
 Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -11692,11 +11658,11 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move
 
-Goldeen
+Veluza
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Wailmer
+Drednaw
 Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -12217,11 +12183,11 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Luvdisc
+Cetitan
 Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Luvdisc
+Orbeetle
 Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12836,15 +12802,15 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Wailmer
+Pincurchin
 Level: 30
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
+Cramorant
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Sharpedo
+Qwilfish-Hisui
 Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12857,11 +12823,11 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Carvanha
+Barraskewda
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacruel
+Slowbro-Galar
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12874,15 +12840,15 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Magikarp
+Qwilfish-Hisui
 Level: 15
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Magikarp
+Tatsugiri
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Gyarados
+Overqwil
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12914,11 +12880,11 @@ Items: Hyper Potion
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Shiftry
+Frosmoth
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Nosepass
+Darmanitan-Galar
 Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -12931,7 +12897,11 @@ Music: Intense
 Double Battle: Yes
 AI: Check Bad Move
 
-Machoke
+Falinks
+Level: 34
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Flamigo
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12944,15 +12914,15 @@ Music: Hiker
 Double Battle: Yes
 AI: Check Bad Move
 
-Tentacool
+Barraskewda
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tentacool
+Qwilfish-Hisui
 Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wailmer
+Bellibolt
 Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13209,11 +13179,11 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Glimmora
+Barraskewda
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Glimmet
+Cramorant
 Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
