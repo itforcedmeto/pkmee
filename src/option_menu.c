@@ -34,7 +34,8 @@ enum
     MENUITEM_FRAMETYPE,
     MENUITEM_CANCEL,
     MENUITEM_COUNT,
-};
+    MENUITEM_CUSTOM_BATTLETYPE,
+}; // MENUITEM_CUSTOM_BATTLETYPE: jd: double battle logic per https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3
 
 enum
 {
@@ -69,6 +70,7 @@ static void ButtonMode_DrawChoices(u8 selection);
 static void DrawHeaderText(void);
 static void DrawOptionMenuTexts(void);
 static void DrawBgWindowFrames(void);
+static void DrawChoices_BattleType(int selection, int y); //jd: double battle logic per https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3
 
 EWRAM_DATA static bool8 sArrowPressed = FALSE;
 
@@ -85,6 +87,7 @@ static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
     [MENUITEM_BUTTONMODE]  = gText_ButtonMode,
     [MENUITEM_FRAMETYPE]   = gText_Frame,
     [MENUITEM_CANCEL]      = gText_OptionMenuCancel,
+    [MENUITEM_CUSTOM_BATTLETYPE]    = {DrawChoices_BattleType,  ProcessInput_Options_Two}, // jd this feels wrong
 };
 
 static const struct WindowTemplate sOptionMenuWinTemplates[] =
@@ -439,6 +442,16 @@ static void TextSpeed_DrawChoices(u8 selection)
     DrawOptionMenuChoice(gText_TextSpeedMid, xMid, YPOS_TEXTSPEED, styles[1]);
 
     DrawOptionMenuChoice(gText_TextSpeedFast, GetStringRightAlignXOffset(FONT_NORMAL, gText_TextSpeedFast, 198), YPOS_TEXTSPEED, styles[2]);
+}
+
+static void DrawChoices_BattleType(int selection, int y)
+{
+    bool8 active = CheckConditions(MENUITEM_CUSTOM_BATTLETYPE);
+    u8 styles[2] = {0};
+    styles[selection] = 1;
+
+    DrawOptionMenuChoice(gText_Double2, 104, y, styles[0], active);
+    DrawOptionMenuChoice(gText_Single2, GetStringRightAlignXOffset(1, gText_Single2, 198), y, styles[1], active);
 }
 
 static u8 BattleScene_ProcessInput(u8 selection)

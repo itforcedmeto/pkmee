@@ -96,6 +96,7 @@ static void SetDefaultOptions(void)
     gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SHIFT;
     gSaveBlock2Ptr->optionsBattleSceneOff = FALSE;
     gSaveBlock2Ptr->regionMapZoom = FALSE;
+    gSaveBlock2Ptr->optionsBattleType = 0; // jd: double battle logic per https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3
 }
 
 static void ClearPokedexFlags(void)

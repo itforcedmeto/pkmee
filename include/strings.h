@@ -314,6 +314,7 @@ extern const u8 gText_BattleScene[];
 extern const u8 gText_BattleStyle[];
 extern const u8 gText_Sound[];
 extern const u8 gText_Frame[];
+extern const u8 gText_BattleType[]; // jd: double battle logic per https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3
 extern const u8 gText_OptionMenuCancel[];
 extern const u8 gText_ButtonMode[];
 
