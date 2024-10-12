@@ -9474,7 +9474,7 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_BISHARP"
+                "species": "SPECIES_PAWNIARD"
               },
               {
                 "min_level": 37,
@@ -9489,12 +9489,12 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_BISHARP"
+                "species": "SPECIES_PAWNIARD"
               },
               {
                 "min_level": 37,
                 "max_level": 37,
-                "species": "SPECIES_BISHARP"
+                "species": "SPECIES_PAWNIARD"
               },
               {
                 "min_level": 38,
@@ -9509,7 +9509,7 @@
               {
                 "min_level": 39,
                 "max_level": 39,
-                "species": "SPECIES_BISHARP"
+                "species": "SPECIES_PAWNIARD"
               }
             ]
           }

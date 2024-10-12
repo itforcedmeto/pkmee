@@ -4824,7 +4824,7 @@ Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability / Setup First Turn / AI_FLAG_SMART_SWITCHING
+AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
 Mugshot: Purple
 
 Lokix  
@@ -4898,7 +4898,7 @@ Level: 50
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Matcha Gotcha  
 - Shadow Ball  
-- Life Dew  
+- Protect  
 - Rage Powder
 
 Houndstone  
@@ -4923,6 +4923,7 @@ Mugshot: Pink
 
 Mr. Rime  
 Ability: Tangled Feet  
+Level: 51
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Freeze-Dry  
 - Ally Switch  
