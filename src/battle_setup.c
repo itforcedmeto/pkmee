@@ -1247,6 +1247,31 @@ const u8 *BattleSetup_ConfigureTrainerBattle(const u8 *data)
             gTrainerBattleOpponent_B = LocalIdToHillTrainerId(gSpecialVar_LastTalked);
         }
         return EventScript_TryDoNormalTrainerBattle;
+    // jd: ref https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3#diff-778d5e3e3c2ed7c815b1551f8bdf90eab4f2c8eecc314222005cadb097e908a5
+    case TRAINER_BATTLE_DETECT:
+        if (gApproachingTrainerId == 0)
+        {
+            TrainerBattleLoadArgs(sOrdinaryBattleParams, data);
+            SetMapVarsToTrainer();
+        }
+        else
+        {
+            TrainerBattleLoadArgs(sTrainerBOrdinaryBattleParams, data);
+        }
+        return EventScript_TryDoNormalTrainerBattle;
+    // jd: ref https://github.com/gelatino95/regius/commit/8361046d26ad2f96e80127285893134e45dbeec8#diff-fb05038ec86ed44ce6eeb48b5cc318788f51a20786d3075479f5d933539cdf0e
+    case TRAINER_BATTLE_CONTINUE_SCRIPT_DETECT:
+	case TRAINER_BATTLE_CONTINUE_SCRIPT_DETECT_NO_MUSIC:
+        if (gApproachingTrainerId == 0)
+        {
+            TrainerBattleLoadArgs(sContinueScriptBattleParams, data);
+            SetMapVarsToTrainer();
+        }
+        else
+        {
+            TrainerBattleLoadArgs(sTrainerBContinueScriptBattleParams, data);
+        }
+        return EventScript_TryDoNormalTrainerBattle;
     case TRAINER_BATTLE_TWO_TRAINERS_NO_INTRO:
         gNoOfApproachingTrainers = 2; // set TWO_OPPONENTS gBattleTypeFlags
         gApproachingTrainerId = 1; // prevent trainer approach
@@ -1352,6 +1377,15 @@ void BattleSetup_StartTrainerBattle(void)
     else
         gBattleTypeFlags = (BATTLE_TYPE_TRAINER);
 
+    // jd ref: https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3#diff-fb05038ec86ed44ce6eeb48b5cc318788f51a20786d3075479f5d933539cdf0eR1250
+	//If using detect mode, the player has at least two mons, and double battle mode is on, add the double battle flag
+	if (sTrainerBattleMode == TRAINER_BATTLE_DETECT
+		|| sTrainerBattleMode == TRAINER_BATTLE_CONTINUE_SCRIPT_DETECT
+		|| sTrainerBattleMode == TRAINER_BATTLE_CONTINUE_SCRIPT_DETECT_NO_MUSIC)
+        {
+            if (GetMonsStateToDoubles_2() == PLAYER_HAS_TWO_USABLE_MONS && gSaveBlock2Ptr->optionsBattleType == 0)
+            gBattleTypeFlags |= BATTLE_TYPE_DOUBLE;
+	    }
     if (InBattlePyramid())
     {
         VarSet(VAR_TEMP_PLAYING_PYRAMID_MUSIC, 0);

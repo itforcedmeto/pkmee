@@ -96,6 +96,9 @@ static void SetDefaultOptions(void)
     gSaveBlock2Ptr->optionsBattleStyle = OPTIONS_BATTLE_STYLE_SHIFT;
     gSaveBlock2Ptr->optionsBattleSceneOff = FALSE;
     gSaveBlock2Ptr->regionMapZoom = FALSE;
+    // jd ref: https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3#diff-e9e2d889ca778920f788202e43a9af75ddd1419d69f89795ebe3ad541ab56166R101
+    // unsure if saveblock is the right method here
+    gSaveBlock2Ptr->optionsBattleType = 0;
 }
 
 static void ClearPokedexFlags(void)

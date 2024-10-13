@@ -511,6 +511,7 @@ struct SaveBlock2
              u16 optionsBattleStyle:1; // OPTIONS_BATTLE_STYLE_[SHIFT/SET]
              u16 optionsBattleSceneOff:1; // whether battle animations are disabled
              u16 regionMapZoom:1; // whether the map is zoomed in
+             u16 optionsBattleType:1; // jd unsure if needed - per https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3#diff-778d5e3e3c2ed7c815b1551f8bdf90eab4f2c8eecc314222005cadb097e908a5R219
              //u16 padding1:4;
              //u16 padding2;
     /*0x18*/ struct Pokedex pokedex;
