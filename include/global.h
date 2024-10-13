@@ -511,8 +511,11 @@ struct SaveBlock2
              u16 optionsBattleStyle:1; // OPTIONS_BATTLE_STYLE_[SHIFT/SET]
              u16 optionsBattleSceneOff:1; // whether battle animations are disabled
              u16 regionMapZoom:1; // whether the map is zoomed in
-             u16 OptionsBattleType:1 // jd: double battle logic per https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3 - this might break. if it does, search for "
+             u16 OptionsBattleType:1; // jd: double battle logic per https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3 - this might break. if it does, search for "
                                      // optionsExpBarSpeed:4;" in linked repo and find what was inserted as i assume it's an options-expanding feature branch
+             u16 optionsHpBarSpeed:4;   //tx_optionsPlus
+             u16 optionsExpBarSpeed:4;  //tx_optionsPlus
+             u16 optionsCurrentFont:1;  //tx_optionsPlus
              //u16 padding1:4;
              //u16 padding2;
     /*0x18*/ struct Pokedex pokedex;

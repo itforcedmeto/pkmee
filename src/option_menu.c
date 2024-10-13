@@ -1,5 +1,6 @@
 #include "global.h"
 #include "option_menu.h"
+#include "option_plus_menu.h"
 #include "bg.h"
 #include "gpu_regs.h"
 #include "international_string_util.h"
@@ -15,6 +16,8 @@
 #include "window.h"
 #include "gba/m4a_internal.h"
 #include "constants/rgb.h"
+
+#define useOptionPlusMenu TRUE
 
 #define tMenuSelection data[0]
 #define tTextSpeed data[1]
@@ -32,9 +35,9 @@ enum
     MENUITEM_SOUND,
     MENUITEM_BUTTONMODE,
     MENUITEM_FRAMETYPE,
+    MENUITEM_CUSTOM_BATTLETYPE,
     MENUITEM_CANCEL,
     MENUITEM_COUNT,
-    MENUITEM_CUSTOM_BATTLETYPE,
 }; // MENUITEM_CUSTOM_BATTLETYPE: jd: double battle logic per https://github.com/gelatino95/regius/commit/d76df2c919cdf46cd608e635280fcff75c01a5e3
 
 enum
@@ -154,6 +157,12 @@ static void VBlankCB(void)
 
 void CB2_InitOptionMenu(void)
 {
+    if (useOptionPlusMenu)
+    {
+        CB2_InitOptionPlusMenu();
+        return;
+    }
+
     switch (gMain.state)
     {
     default:

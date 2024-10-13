@@ -1255,7 +1255,7 @@ const u8 *BattleSetup_ConfigureTrainerBattle(const u8 *data)
         return EventScript_DoNoIntroTrainerBattle;
     case TRAINER_BATTLE_DETECT: // jd: double battle logic per https://github.com/gelatino95/regius/commit/0d68aa679d4a021b5152701a579cd59cca1de4e3
         TrainerBattleLoadArgs(sOrdinaryBattleParams, data);
-        SetMaVarsToTrainer();
+        SetMapVarsToTrainer();
         return EventScript_TryDoNormalTrainerBattle;
     default:
         if (gApproachingTrainerId == 0)
@@ -1359,7 +1359,7 @@ void BattleSetup_StartTrainerBattle(void)
 
     if (sTrainerBattleMode == TRAINER_BATTLE_DETECT && GetMonsStateToDoubles_2() == PLAYER_HAS_TWO_USABLE_MONS)
         gBattleTypeFlags |= BATTLE_TYPE_DOUBLE;
-    if (sTrainerBattleMode == TRAINER_BATTLE_DETECT && GetMonsStateToDoubles_2() == PLAYER_HAS_TWO_USABLE_MONS && gSaveBlock2Ptr->optionsBattleType == 0)
+    if (sTrainerBattleMode == TRAINER_BATTLE_DETECT && GetMonsStateToDoubles_2() == PLAYER_HAS_TWO_USABLE_MONS && gSaveBlock2Ptr->OptionsBattleType == 0)
         gBattleTypeFlags |= BATTLE_TYPE_DOUBLE;
         
     if (InBattlePyramid())
