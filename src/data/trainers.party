@@ -79,7 +79,7 @@ Class: Pkmn Trainer 1
 Pic: Hiker
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 
 === TRAINER_SAWYER_1 ===
 Name: SAWYER
@@ -87,7 +87,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Naclstack
@@ -104,7 +104,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -121,7 +121,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -138,7 +138,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Toxel
@@ -155,7 +155,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -172,7 +172,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Morgrem
@@ -189,7 +189,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -206,7 +206,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Perrserker
@@ -223,7 +223,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nymble
@@ -256,7 +256,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon-Galar
@@ -274,7 +274,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Lilligant-Hisui
@@ -291,7 +291,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Flapple
@@ -308,7 +308,7 @@ Class: Collector
 Pic: Collector
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Morpeko
@@ -325,7 +325,7 @@ Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Grafaiai
@@ -342,7 +342,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowking-Galar
@@ -359,7 +359,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -376,7 +376,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Thievul
@@ -393,7 +393,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Impidimp
@@ -410,7 +410,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone-Galar
@@ -431,7 +431,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nickit
@@ -448,7 +448,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Impidimp
@@ -465,7 +465,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Centiskorch
@@ -482,7 +482,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -499,7 +499,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bombirdier
@@ -516,7 +516,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Perrserker
@@ -533,7 +533,7 @@ Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -550,7 +550,7 @@ Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Thievul
@@ -567,7 +567,7 @@ Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -584,7 +584,7 @@ Class: Expert
 Pic: Expert M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dipplin
@@ -602,7 +602,7 @@ Pic: Aqua Admin M
 Gender: Male
 Music: Aqua
 Items: Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Morgrem
@@ -619,7 +619,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tauros-Paldea-Combat
@@ -636,7 +636,7 @@ Class: Aqua Admin
 Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drednaw
@@ -653,7 +653,7 @@ Class: Aqua Admin
 Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drednaw
@@ -671,7 +671,7 @@ Pic: Aqua Leader Archie
 Gender: Male
 Music: Aqua
 Items: Super Potion / Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Perrserker
@@ -692,7 +692,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rabsca
@@ -709,7 +709,7 @@ Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Shroodle
@@ -726,7 +726,7 @@ Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Gossifleur
@@ -748,7 +748,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Armarouge
@@ -765,7 +765,7 @@ Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Eldegoss
@@ -782,7 +782,7 @@ Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Shroomish
@@ -799,7 +799,7 @@ Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Shroomish
@@ -820,7 +820,7 @@ Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Shroomish
@@ -841,7 +841,7 @@ Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Breloom
@@ -862,7 +862,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Naclstack
@@ -879,7 +879,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clodsire
@@ -900,7 +900,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Silicobra
@@ -917,7 +917,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sandslash
@@ -934,7 +934,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sandslash
@@ -951,7 +951,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sandslash
@@ -968,7 +968,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sandslash
@@ -985,7 +985,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -1002,7 +1002,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magnemite
@@ -1019,7 +1019,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -1036,7 +1036,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -1053,7 +1053,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -1070,7 +1070,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -1095,7 +1095,7 @@ Class: Tuber F
 Pic: Tuber F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Yamper
@@ -1112,7 +1112,7 @@ Class: Tuber F
 Pic: Tuber F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wugtrio
@@ -1129,7 +1129,7 @@ Class: Tuber F
 Pic: Tuber F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clodsire
@@ -1146,7 +1146,7 @@ Class: Tuber F
 Pic: Tuber F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Marill
@@ -1163,7 +1163,7 @@ Class: Tuber F
 Pic: Tuber F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Marill
@@ -1180,7 +1180,7 @@ Class: Tuber F
 Pic: Tuber F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Marill
@@ -1197,7 +1197,7 @@ Class: Tuber F
 Pic: Tuber F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Azumarill
@@ -1214,7 +1214,7 @@ Class: Tuber M
 Pic: Tuber M
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rookidee
@@ -1231,7 +1231,7 @@ Class: Tuber M
 Pic: Tuber M
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clobbopus
@@ -1248,7 +1248,7 @@ Class: Tuber M
 Pic: Tuber M
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clodsire
@@ -1265,7 +1265,7 @@ Class: Tuber M
 Pic: Tuber M
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone
@@ -1282,7 +1282,7 @@ Class: Tuber M
 Pic: Tuber M
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone
@@ -1299,7 +1299,7 @@ Class: Tuber M
 Pic: Tuber M
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone
@@ -1316,7 +1316,7 @@ Class: Tuber M
 Pic: Tuber M
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone
@@ -1334,7 +1334,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Squawkabilly
@@ -1352,7 +1352,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dunsparce
@@ -1370,7 +1370,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Wooloo
@@ -1388,7 +1388,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Greedent
@@ -1406,7 +1406,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Corvisquire
@@ -1436,7 +1436,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sableye
@@ -1458,7 +1458,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mawile
@@ -1476,7 +1476,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Yamper
@@ -1498,7 +1498,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Toxtricity
@@ -1516,7 +1516,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Farigiraf
@@ -1534,7 +1534,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Corviknight
@@ -1556,7 +1556,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Duraludon
@@ -1582,7 +1582,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mabosstiff
@@ -1604,7 +1604,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrike
@@ -1626,7 +1626,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Manectric
@@ -1648,7 +1648,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Manectric
@@ -1670,7 +1670,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Manectric
@@ -1692,7 +1692,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pawniard
@@ -1710,7 +1710,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dolliv
@@ -1728,7 +1728,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Maushold
@@ -1746,7 +1746,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Shroodle
@@ -1764,7 +1764,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Eldegoss
@@ -1786,7 +1786,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Lairon
@@ -1804,7 +1804,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Rookidee
@@ -1826,7 +1826,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Brambleghast
@@ -1844,7 +1844,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Orbeetle
@@ -1862,7 +1862,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bisharp
@@ -1880,7 +1880,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Runerigus
@@ -1902,7 +1902,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Copperajah
@@ -1920,7 +1920,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Garganacl
@@ -1942,7 +1942,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Wingull
@@ -1964,7 +1964,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pelipper
@@ -1986,7 +1986,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pelipper
@@ -2008,7 +2008,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pelipper
@@ -2029,7 +2029,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Banette
@@ -2046,7 +2046,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Brambleghast
@@ -2063,7 +2063,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Corsola-Galar
@@ -2080,7 +2080,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Houndstone
@@ -2097,7 +2097,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Greavard
@@ -2114,7 +2114,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sableye
@@ -2131,7 +2131,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Spoink
@@ -2148,7 +2148,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Spoink
@@ -2165,7 +2165,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Duskull
@@ -2187,7 +2187,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Chewtle
@@ -2205,7 +2205,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Veluza @ Nugget
@@ -2222,7 +2222,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Carkol
@@ -2244,7 +2244,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon @ Nugget
@@ -2260,7 +2260,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda @ Nugget
@@ -2278,7 +2278,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Roselia @ Nugget
@@ -2292,7 +2292,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
@@ -2306,7 +2306,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
@@ -2320,7 +2320,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
@@ -2334,7 +2334,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
@@ -2351,7 +2351,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Chewtle
@@ -2368,7 +2368,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Petilil
@@ -2385,7 +2385,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
@@ -2402,7 +2402,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dubwool
@@ -2419,7 +2419,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tatsugiri
@@ -2436,7 +2436,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tauros-Paldea-Combat
@@ -2453,7 +2453,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tatsugiri
@@ -2478,7 +2478,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -2495,7 +2495,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kecleon
@@ -2520,7 +2520,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kecleon
@@ -2545,7 +2545,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kecleon
@@ -2570,7 +2570,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kecleon
@@ -2596,7 +2596,7 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pawmi @ Nugget
@@ -2613,7 +2613,7 @@ Class: Expert
 Pic: Expert F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tinkatuff
@@ -2631,7 +2631,7 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dachsbun @ Nugget
@@ -2649,7 +2649,7 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
@@ -2663,7 +2663,7 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
@@ -2677,7 +2677,7 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
@@ -2691,7 +2691,7 @@ Pic: Rich Boy
 Gender: Male
 Music: Rich
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone @ Nugget
@@ -2708,7 +2708,7 @@ Class: Pokemaniac
 Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Yamask-Galar
@@ -2725,7 +2725,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pincurchin
@@ -2742,7 +2742,7 @@ Class: Pokemaniac
 Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Silicobra
@@ -2759,7 +2759,7 @@ Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Charcadet
@@ -2776,7 +2776,7 @@ Class: Pokemaniac
 Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lairon
@@ -2789,7 +2789,7 @@ Class: Pokemaniac
 Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lairon
@@ -2806,7 +2806,7 @@ Class: Pokemaniac
 Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lairon
@@ -2823,7 +2823,7 @@ Class: Pokemaniac
 Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Aggron
@@ -2840,7 +2840,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Finizen
@@ -2857,7 +2857,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -2874,7 +2874,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wiglett
@@ -2891,7 +2891,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -2912,7 +2912,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clobbopus
@@ -2929,7 +2929,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -2946,7 +2946,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -2963,7 +2963,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clobbopus
@@ -2980,7 +2980,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clobbopus
@@ -2997,7 +2997,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -3014,7 +3014,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -3031,7 +3031,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -3048,7 +3048,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowking-Galar
@@ -3065,7 +3065,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
@@ -3086,7 +3086,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
@@ -3103,7 +3103,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
@@ -3120,7 +3120,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -3137,7 +3137,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -3154,7 +3154,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Veluza
@@ -3171,7 +3171,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wugtrio
@@ -3188,7 +3188,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bergmite
@@ -3205,7 +3205,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Overqwil
@@ -3222,7 +3222,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tentacool
@@ -3243,7 +3243,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -3260,7 +3260,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sharpedo
@@ -3273,7 +3273,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sharpedo
@@ -3286,7 +3286,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Staryu
@@ -3303,7 +3303,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Starmie
@@ -3320,7 +3320,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clobbopus
@@ -3337,7 +3337,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sneasel-Hisui
@@ -3354,7 +3354,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Primeape
@@ -3371,7 +3371,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Machop
@@ -3388,7 +3388,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Farfetch'd-Galar
@@ -3405,7 +3405,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Farfetch'd-Galar
@@ -3422,7 +3422,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sirfetch'd
@@ -3439,7 +3439,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sirfetch'd
@@ -3460,7 +3460,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sirfetch'd
@@ -3485,7 +3485,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Makuhita
@@ -3502,7 +3502,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Mankey
@@ -3519,7 +3519,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Primeape
@@ -3536,7 +3536,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Toxel
@@ -3553,7 +3553,7 @@ Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -3570,7 +3570,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -3587,7 +3587,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Voltorb-Hisui
@@ -3604,7 +3604,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Toxtricity
@@ -3621,7 +3621,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -3638,7 +3638,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magnemite
@@ -3659,7 +3659,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magnemite
@@ -3680,7 +3680,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -3701,7 +3701,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -3722,7 +3722,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Charcadet
@@ -3739,7 +3739,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sizzlipede
@@ -3756,7 +3756,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sizzlipede
@@ -3773,7 +3773,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
@@ -3790,7 +3790,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Charcadet
@@ -3807,7 +3807,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
@@ -3824,7 +3824,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
@@ -3841,7 +3841,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arcanine-Hisui
@@ -3858,7 +3858,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arcanine-Hisui
@@ -3875,7 +3875,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arcanine-Hisui
@@ -3892,7 +3892,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Chewtle
@@ -3909,7 +3909,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Yamask-Galar
@@ -3930,7 +3930,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon-Galar
@@ -3947,7 +3947,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Silicobra
@@ -3964,7 +3964,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kecleon
@@ -3977,7 +3977,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Silicobra
@@ -3994,7 +3994,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Gossifleur
@@ -4011,7 +4011,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Mankey
@@ -4028,7 +4028,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon
@@ -4045,7 +4045,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone
@@ -4062,7 +4062,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sandshrew
@@ -4083,7 +4083,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Swellow
@@ -4104,7 +4104,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tarountula
@@ -4121,7 +4121,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nymble
@@ -4142,7 +4142,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nymble
@@ -4163,7 +4163,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lokix
@@ -4184,7 +4184,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Spidops
@@ -4201,7 +4201,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Surskit
@@ -4222,7 +4222,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Surskit
@@ -4243,7 +4243,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Surskit
@@ -4268,7 +4268,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Surskit
@@ -4297,7 +4297,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dottler
@@ -4315,7 +4315,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Ponyta-Galar
@@ -4332,7 +4332,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Veluza
@@ -4349,7 +4349,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowking-Galar
@@ -4366,7 +4366,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Hatenna
@@ -4387,7 +4387,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kadabra
@@ -4404,7 +4404,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Ponyta-Galar
@@ -4421,7 +4421,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kadabra
@@ -4438,7 +4438,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kadabra
@@ -4455,7 +4455,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kadabra
@@ -4472,7 +4472,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Solrock
@@ -4489,7 +4489,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Hatenna
@@ -4506,7 +4506,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Espathra
@@ -4523,7 +4523,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Espathra
@@ -4540,7 +4540,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Veluza
@@ -4557,7 +4557,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Flittle
@@ -4578,7 +4578,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kirlia
@@ -4595,7 +4595,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Flittle
@@ -4612,7 +4612,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kadabra
@@ -4629,7 +4629,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kadabra
@@ -4646,7 +4646,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kadabra
@@ -4663,7 +4663,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lunatone
@@ -4680,7 +4680,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Maschiff
@@ -4697,7 +4697,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Manectric
@@ -4714,7 +4714,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Zangoose
@@ -4727,7 +4727,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Manectric
@@ -4740,7 +4740,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone
@@ -4765,7 +4765,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone
@@ -4789,7 +4789,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone
@@ -4823,7 +4823,7 @@ Pic: Elite Four Sidney
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
 Mugshot: Purple
 
@@ -4870,7 +4870,7 @@ Pic: Elite Four Phoebe
 Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
 Mugshot: Green
 
@@ -4917,7 +4917,7 @@ Pic: Elite Four Glacia
 Gender: Female
 Music: Elite Four
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
 Mugshot: Pink
 
@@ -4964,7 +4964,7 @@ Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
 Mugshot: Blue
 
@@ -5011,7 +5011,7 @@ Pic: Leader Roxanne
 Gender: Female
 Music: Female
 Items: Potion / Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Nacli
@@ -5048,7 +5048,7 @@ Pic: Leader Brawly
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Clobbopus  
@@ -5085,7 +5085,7 @@ Pic: Leader Wattson
 Gender: Male
 Music: Male
 Items: Super Potion / Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Wattrel
@@ -5131,7 +5131,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Sizzlipede  
@@ -5177,7 +5177,7 @@ Pic: Leader Norman
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dunsparce  
@@ -5223,7 +5223,7 @@ Pic: Leader Winona
 Gender: Female
 Music: Female
 Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
 Squawkabilly-Blue  
@@ -5269,7 +5269,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 SPECIES_INDEEDEE_FEMALE 
@@ -5315,7 +5315,7 @@ Pic: Leader Juan
 Gender: Male
 Music: Male
 Items: Hyper Potion / Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Palafin  
@@ -5360,7 +5360,7 @@ Class: School Kid
 Pic: School Kid M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Hatenna
@@ -5377,7 +5377,7 @@ Class: School Kid
 Pic: School Kid M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Ralts
@@ -5390,7 +5390,7 @@ Class: School Kid
 Pic: School Kid M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Numel
@@ -5411,7 +5411,7 @@ Class: School Kid
 Pic: School Kid M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Ralts
@@ -5428,7 +5428,7 @@ Class: School Kid
 Pic: School Kid M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kirlia
@@ -5445,7 +5445,7 @@ Class: School Kid
 Pic: School Kid M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kirlia
@@ -5462,7 +5462,7 @@ Class: School Kid
 Pic: School Kid M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kirlia
@@ -5483,7 +5483,7 @@ Class: School Kid
 Pic: School Kid F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rookidee
@@ -5500,7 +5500,7 @@ Class: School Kid
 Pic: School Kid F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Shroomish
@@ -5517,7 +5517,7 @@ Class: School Kid
 Pic: School Kid F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Shroomish
@@ -5534,7 +5534,7 @@ Class: School Kid
 Pic: School Kid F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Shroomish
@@ -5551,7 +5551,7 @@ Class: School Kid
 Pic: School Kid F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Breloom
@@ -5568,7 +5568,7 @@ Class: School Kid
 Pic: School Kid F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Breloom
@@ -5585,7 +5585,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pawmo
@@ -5602,7 +5602,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wooloo
@@ -5619,7 +5619,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dubwool
@@ -5636,7 +5636,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dubwool
@@ -5653,7 +5653,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dubwool
@@ -5670,7 +5670,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dubwool
@@ -5687,7 +5687,7 @@ Class: Winstrate
 Pic: Pokefan M
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rookidee @ Oran Berry
@@ -5704,7 +5704,7 @@ Class: Pokefan
 Pic: Pokefan M
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Smoliv @ Oran Berry
@@ -5721,7 +5721,7 @@ Class: Pokefan
 Pic: Pokefan M
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Skitty @ Oran Berry
@@ -5778,7 +5778,7 @@ Class: Pokefan
 Pic: Pokefan M
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Skitty @ Oran Berry
@@ -5791,7 +5791,7 @@ Class: Pokefan
 Pic: Pokefan M
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Skitty @ Oran Berry
@@ -5804,7 +5804,7 @@ Class: Pokefan
 Pic: Pokefan M
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Delcatty @ Oran Berry
@@ -5817,7 +5817,7 @@ Class: Pokefan
 Pic: Pokefan M
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Delcatty @ Sitrus Berry
@@ -5830,7 +5830,7 @@ Class: Winstrate
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Cufant @ Oran Berry
@@ -5847,7 +5847,7 @@ Class: Pokefan
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Teddiursa @ Oran Berry
@@ -5864,7 +5864,7 @@ Class: Pokefan
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped @ Oran Berry
@@ -5885,7 +5885,7 @@ Class: Pokefan
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wooloo @ Oran Berry
@@ -5902,7 +5902,7 @@ Class: Pokefan
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wooloo @ Oran Berry
@@ -5919,7 +5919,7 @@ Class: Pokefan
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dubwool @ Oran Berry
@@ -5936,7 +5936,7 @@ Class: Pokefan
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dubwool @ Oran Berry
@@ -5953,7 +5953,7 @@ Class: Pokefan
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dubwool @ Sitrus Berry
@@ -5970,7 +5970,7 @@ Class: Expert
 Pic: Expert M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hariyama
@@ -5983,7 +5983,7 @@ Class: Expert
 Pic: Expert M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hariyama
@@ -6000,7 +6000,7 @@ Class: Expert
 Pic: Expert M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hariyama
@@ -6017,7 +6017,7 @@ Class: Expert
 Pic: Expert M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hariyama
@@ -6034,7 +6034,7 @@ Class: Expert
 Pic: Expert M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hariyama
@@ -6051,7 +6051,7 @@ Class: Winstrate
 Pic: Expert F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Milcery
@@ -6068,7 +6068,7 @@ Class: Expert
 Pic: Expert F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mankey
@@ -6085,7 +6085,7 @@ Class: Expert
 Pic: Expert F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Meditite
@@ -6102,7 +6102,7 @@ Class: Expert
 Pic: Expert F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -6119,7 +6119,7 @@ Class: Expert
 Pic: Expert F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -6136,7 +6136,7 @@ Class: Expert
 Pic: Expert F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -6166,7 +6166,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon-Galar  
@@ -6183,7 +6183,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nacli
@@ -6202,7 +6202,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rolycoly
@@ -6219,7 +6219,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Chewtle
@@ -6236,7 +6236,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Toxel
@@ -6254,7 +6254,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Centiskorch
@@ -6272,7 +6272,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Brambleghast
@@ -6289,7 +6289,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nickit
@@ -6306,7 +6306,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Toxel
@@ -6323,7 +6323,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Mightyena
@@ -6336,7 +6336,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Swellow
@@ -6353,7 +6353,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Swellow
@@ -6374,7 +6374,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Swellow
@@ -6395,7 +6395,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon-Galar
@@ -6412,7 +6412,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Skwovet
@@ -6429,7 +6429,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pawmi
@@ -6447,7 +6447,7 @@ Pic: Champion Wallace
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
 Mugshot: Yellow
 
@@ -6511,7 +6511,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -6532,7 +6532,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Chewtle
@@ -6553,7 +6553,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Chewtle
@@ -6574,7 +6574,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -6595,7 +6595,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -6612,7 +6612,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Chewtle
@@ -6637,7 +6637,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -6654,7 +6654,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
@@ -6671,7 +6671,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -6688,7 +6688,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
@@ -6705,7 +6705,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tentacool
@@ -6726,7 +6726,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Gyarados
@@ -6751,7 +6751,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Gyarados
@@ -6776,7 +6776,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Gyarados
@@ -6801,7 +6801,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -6834,7 +6834,7 @@ Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -6851,7 +6851,7 @@ Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -6868,7 +6868,7 @@ Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pawmi
@@ -6885,7 +6885,7 @@ Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magnemite
@@ -6898,7 +6898,7 @@ Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magnemite
@@ -6911,7 +6911,7 @@ Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -6924,7 +6924,7 @@ Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -6937,7 +6937,7 @@ Class: Triathlete
 Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -6954,7 +6954,7 @@ Class: Triathlete
 Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Voltorb-Hisui
@@ -6971,7 +6971,7 @@ Class: Triathlete
 Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magnemite
@@ -6984,7 +6984,7 @@ Class: Triathlete
 Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magnemite
@@ -6997,7 +6997,7 @@ Class: Triathlete
 Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -7010,7 +7010,7 @@ Class: Triathlete
 Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Magneton
@@ -7023,7 +7023,7 @@ Class: Triathlete
 Pic: Running Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -7040,7 +7040,7 @@ Class: Triathlete
 Pic: Running Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -7057,7 +7057,7 @@ Class: Triathlete
 Pic: Running Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -7074,7 +7074,7 @@ Class: Triathlete
 Pic: Running Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -7091,7 +7091,7 @@ Class: Triathlete
 Pic: Running Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -7108,7 +7108,7 @@ Class: Triathlete
 Pic: Running Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -7125,7 +7125,7 @@ Class: Triathlete
 Pic: Running Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -7142,7 +7142,7 @@ Class: Triathlete
 Pic: Running Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -7159,7 +7159,7 @@ Class: Triathlete
 Pic: Running Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -7176,7 +7176,7 @@ Class: Triathlete
 Pic: Running Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -7193,7 +7193,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Eiscue
@@ -7210,7 +7210,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Impidimp
@@ -7227,7 +7227,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bellibolt
@@ -7244,7 +7244,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Grapploct
@@ -7261,7 +7261,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -7278,7 +7278,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Staryu
@@ -7291,7 +7291,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Staryu
@@ -7304,7 +7304,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Starmie
@@ -7317,7 +7317,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Starmie
@@ -7330,7 +7330,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Eiscue
@@ -7347,7 +7347,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
@@ -7364,7 +7364,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Cramorant
@@ -7381,7 +7381,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
@@ -7398,7 +7398,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -7415,7 +7415,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Staryu
@@ -7428,7 +7428,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Staryu
@@ -7441,7 +7441,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Starmie
@@ -7454,7 +7454,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Starmie
@@ -7467,7 +7467,7 @@ Class: Dragon Tamer
 Pic: Dragon Tamer
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Altaria
@@ -7484,7 +7484,7 @@ Class: Dragon Tamer
 Pic: Dragon Tamer
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Altaria
@@ -7501,7 +7501,7 @@ Class: Dragon Tamer
 Pic: Dragon Tamer
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Altaria
@@ -7518,7 +7518,7 @@ Class: Dragon Tamer
 Pic: Dragon Tamer
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bagon
@@ -7539,7 +7539,7 @@ Class: Dragon Tamer
 Pic: Dragon Tamer
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Altaria
@@ -7560,7 +7560,7 @@ Class: Dragon Tamer
 Pic: Dragon Tamer
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dipplin
@@ -7577,7 +7577,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -7594,7 +7594,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -7611,7 +7611,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Corvisquire
@@ -7628,7 +7628,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Squawkabilly-Yellow
@@ -7645,7 +7645,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Corvisquire
@@ -7662,7 +7662,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
@@ -7679,7 +7679,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bombirdier
@@ -7696,7 +7696,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
@@ -7713,7 +7713,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Cramorant
@@ -7730,7 +7730,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Swellow
@@ -7751,7 +7751,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
@@ -7768,7 +7768,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Natu
@@ -7785,7 +7785,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Natu
@@ -7802,7 +7802,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Natu
@@ -7819,7 +7819,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Altaria
@@ -7836,7 +7836,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bombirdier
@@ -7853,7 +7853,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Flamigo
@@ -7870,7 +7870,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Koffing
@@ -7887,7 +7887,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Spidops
@@ -7905,7 +7905,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 
 Cursola
 Level: 43
@@ -7921,7 +7921,7 @@ Class: Tuber F
 Pic: Tuber F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 
 Finizen
 Level: 26
@@ -7937,7 +7937,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 
 Koffing
 Level: 17
@@ -7957,7 +7957,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 
 Koffing
 Level: 18
@@ -7973,7 +7973,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 
 Koffing
 Level: 24
@@ -8010,7 +8010,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 
 Koffing
 Level: 27
@@ -8047,7 +8047,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 
 Koffing
 Level: 30
@@ -8082,7 +8082,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 
 Koffing
 Level: 33
@@ -8119,7 +8119,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Mankey
@@ -8136,7 +8136,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clobbopus
@@ -8153,7 +8153,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Mankey
@@ -8170,7 +8170,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Meditite
@@ -8183,7 +8183,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Breloom
@@ -8196,7 +8196,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Meditite
@@ -8213,7 +8213,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Meditite
@@ -8230,7 +8230,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Medicham
@@ -8247,7 +8247,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Medicham
@@ -8264,7 +8264,7 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Capsakid
@@ -8281,7 +8281,7 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dolliv
@@ -8298,7 +8298,7 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lilligant-Hisui
@@ -8315,7 +8315,7 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Numel
@@ -8332,7 +8332,7 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Numel
@@ -8349,7 +8349,7 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Roselia
@@ -8374,7 +8374,7 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Roselia
@@ -8399,7 +8399,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -8416,7 +8416,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -8433,7 +8433,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -8450,7 +8450,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Drednaw
@@ -8467,7 +8467,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wugtrio
@@ -8484,7 +8484,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wugtrio
@@ -8501,7 +8501,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bergmite
@@ -8518,7 +8518,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -8539,7 +8539,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Drednaw
@@ -8556,7 +8556,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -8573,7 +8573,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -8590,7 +8590,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Drednaw
@@ -8607,7 +8607,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tatsugiri
@@ -8624,7 +8624,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
@@ -8641,7 +8641,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tatsugiri
@@ -8658,7 +8658,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Drednaw
@@ -8675,7 +8675,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tatsugiri
@@ -8692,7 +8692,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Drednaw
@@ -8709,7 +8709,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
@@ -8726,7 +8726,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pincurchin
@@ -8743,7 +8743,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wugtrio
@@ -8760,7 +8760,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lanturn
@@ -8777,7 +8777,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -8794,7 +8794,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clodsire
@@ -8811,7 +8811,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wailmer
@@ -8824,7 +8824,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wailmer
@@ -8837,7 +8837,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Staryu
@@ -8854,7 +8854,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Luvdisc
@@ -8875,7 +8875,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Silicobra
@@ -8892,7 +8892,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rellor
@@ -8909,7 +8909,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rookidee
@@ -8926,7 +8926,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tadbulb
@@ -8943,7 +8943,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Skitty
@@ -8960,7 +8960,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Smoliv
@@ -8981,7 +8981,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Armarouge
@@ -8998,7 +8998,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Smoliv
@@ -9015,7 +9015,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Shroomish
@@ -9036,7 +9036,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Breloom
@@ -9057,7 +9057,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Breloom
@@ -9078,7 +9078,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Breloom
@@ -9099,7 +9099,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tadbulb
@@ -9116,7 +9116,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bellibolt
@@ -9133,7 +9133,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Skwovet
@@ -9150,7 +9150,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lilligant-Hisui
@@ -9167,7 +9167,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Plusle
@@ -9184,7 +9184,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Duskull
@@ -9205,7 +9205,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Plusle
@@ -9222,7 +9222,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Plusle
@@ -9247,7 +9247,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Plusle
@@ -9272,7 +9272,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clobbopus
@@ -9289,7 +9289,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -9306,7 +9306,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Drednaw
@@ -9323,7 +9323,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -9344,7 +9344,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tentacruel
@@ -9361,7 +9361,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Machop
@@ -9382,7 +9382,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Eiscue
@@ -9399,7 +9399,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wingull
@@ -9420,7 +9420,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -9441,7 +9441,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -9462,7 +9462,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -9483,7 +9483,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Carkol
@@ -9500,7 +9500,7 @@ Class: Pokefan
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda @ Oran Berry
@@ -9518,7 +9518,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Linoone-Galar
@@ -9535,7 +9535,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Koffing
@@ -9552,7 +9552,7 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Castform
@@ -9569,7 +9569,7 @@ Class: Expert
 Pic: Expert M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pincurchin
@@ -9586,7 +9586,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Grapploct
@@ -9604,7 +9604,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Boltund
@@ -9621,7 +9621,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tauros-Paldea-Combat
@@ -9638,7 +9638,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowbro-Galar
@@ -9655,7 +9655,7 @@ Class: Expert
 Pic: Expert M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Copperajah
@@ -9672,7 +9672,7 @@ Class: Collector
 Pic: Collector
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Capsakid
@@ -9689,7 +9689,7 @@ Class: Collector
 Pic: Collector
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Zigzagoon-Galar
@@ -9706,7 +9706,7 @@ Class: Magma Admin
 Pic: Magma Admin
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Weezing-Galar
@@ -9727,7 +9727,7 @@ Class: Collector
 Pic: Collector
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lombre
@@ -9744,7 +9744,7 @@ Class: Collector
 Pic: Collector
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lombre
@@ -9761,7 +9761,7 @@ Class: Collector
 Pic: Collector
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lombre
@@ -9778,7 +9778,7 @@ Class: Collector
 Pic: Collector
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Ludicolo
@@ -9796,7 +9796,7 @@ Pic: Wally
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Lilligant-Hisui
@@ -9838,7 +9838,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb-Hisui
@@ -9859,7 +9859,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Barraskewda
@@ -9893,7 +9893,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb-Hisui
@@ -9914,7 +9914,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode-Hisui
@@ -9948,7 +9948,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb-Hisui
@@ -9969,7 +9969,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode-Hisui
@@ -10003,7 +10003,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb-Hisui
@@ -10024,7 +10024,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Barraskewda
@@ -10058,7 +10058,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb-Hisui
@@ -10079,7 +10079,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode-Hisui
@@ -10113,7 +10113,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb-Hisui
@@ -10134,7 +10134,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode-Hisui
@@ -10155,7 +10155,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lechonk
@@ -10188,7 +10188,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Centiskorch
@@ -10205,7 +10205,7 @@ Class: Cooltrainer
 Pic: Cooltrainer M
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hatterene
@@ -10222,7 +10222,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Loudred
@@ -10255,7 +10255,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Loudred
@@ -10288,7 +10288,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Loudred
@@ -10321,7 +10321,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Loudred
@@ -10354,7 +10354,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wooloo
@@ -10388,7 +10388,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimmsnarl
@@ -10405,7 +10405,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Yamask-Galar
@@ -10422,7 +10422,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wingull
@@ -10455,7 +10455,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -10488,7 +10488,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -10521,7 +10521,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -10555,7 +10555,7 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Oinkologne
@@ -10573,7 +10573,7 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drednaw
@@ -10595,7 +10595,7 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Cacturne
@@ -10609,7 +10609,7 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Breloom
@@ -10623,7 +10623,7 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Breloom
@@ -10637,7 +10637,7 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Breloom
@@ -10651,7 +10651,7 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Kecleon
@@ -10669,7 +10669,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Dolliv
@@ -10687,7 +10687,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Lilligant-Hisui
@@ -10709,7 +10709,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Swablu
@@ -10727,7 +10727,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Gloom
@@ -10745,7 +10745,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Gloom
@@ -10763,7 +10763,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Gloom
@@ -10781,7 +10781,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bellossom
@@ -10798,7 +10798,7 @@ Class: Triathlete
 Pic: Cycling Triathlete M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wattrel
@@ -10815,7 +10815,7 @@ Class: Team Aqua
 Pic: Aqua Grunt M
 Gender: Male
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Toxtricity
@@ -10832,7 +10832,7 @@ Class: Team Magma
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wailmer
@@ -10849,7 +10849,7 @@ Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -10866,7 +10866,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nickit
@@ -10883,7 +10883,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nacli
@@ -10900,7 +10900,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Mankey
@@ -10917,7 +10917,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Mankey
@@ -10934,7 +10934,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clobbopus
@@ -10951,7 +10951,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowbro-Galar
@@ -10968,7 +10968,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
@@ -10986,7 +10986,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bergmite
@@ -11003,7 +11003,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -11020,7 +11020,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sizzlipede
@@ -11037,7 +11037,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
@@ -11054,7 +11054,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Girafarig
@@ -11067,7 +11067,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Ponyta-Galar
@@ -11084,7 +11084,7 @@ Class: Hex Maniac
 Pic: Hex Maniac
 Gender: Female
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Ponyta-Galar
@@ -11101,7 +11101,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Girafarig
@@ -11118,7 +11118,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Espathra
@@ -11135,7 +11135,7 @@ Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Thievul
@@ -11152,7 +11152,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Scovillain
@@ -11169,7 +11169,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Grafaiai
@@ -11186,7 +11186,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Thievul
@@ -11203,7 +11203,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone-Galar
@@ -11220,7 +11220,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Hattrem
@@ -11237,7 +11237,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Voltorb-Hisui
@@ -11254,7 +11254,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -11271,7 +11271,7 @@ Class: Expert
 Pic: Expert M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Darmanitan-Galar
@@ -11288,7 +11288,7 @@ Class: Triathlete
 Pic: Swimming Triathlete F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
@@ -11305,7 +11305,7 @@ Class: Team Aqua
 Pic: Aqua Grunt F
 Gender: Female
 Music: Aqua
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -11322,7 +11322,7 @@ Class: Magma Admin
 Pic: Magma Admin
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe-Hisui
@@ -11348,7 +11348,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Electrode-Hisui
@@ -11365,7 +11365,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Charcadet
@@ -11382,7 +11382,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Arrokuda
@@ -11400,7 +11400,7 @@ Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
 Items: Super Potion / Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Obstagoon
@@ -11422,7 +11422,7 @@ Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
 Items: Super Potion / Super Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Linoone-Galar @ Sitrus Berry  
@@ -11457,7 +11457,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lechonk
@@ -11474,7 +11474,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Smoliv
@@ -11491,7 +11491,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wooper-Paldea
@@ -11508,7 +11508,7 @@ Class: Winstrate
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Chewtle
@@ -11529,7 +11529,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lombre
@@ -11546,7 +11546,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lombre
@@ -11563,7 +11563,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lombre
@@ -11580,7 +11580,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Swellow
@@ -11601,7 +11601,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wooper-Paldea
@@ -11618,7 +11618,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lechonk
@@ -11639,7 +11639,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculegion
@@ -11656,7 +11656,7 @@ Class: Lass
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Veluza
@@ -11673,7 +11673,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Blipbug
@@ -11690,7 +11690,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Blipbug
@@ -11715,7 +11715,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Blipbug
@@ -11732,7 +11732,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lokix
@@ -11749,7 +11749,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Spidops
@@ -11766,7 +11766,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dottler
@@ -11783,7 +11783,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tarountula
@@ -11800,7 +11800,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Spidops
@@ -11817,7 +11817,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Spidops
@@ -11834,7 +11834,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dottler
@@ -11855,7 +11855,7 @@ Class: Bug Catcher
 Pic: Bug Catcher
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Orbeetle
@@ -11880,7 +11880,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
@@ -11897,7 +11897,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nacli
@@ -11918,7 +11918,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rolycoly
@@ -11935,7 +11935,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nacli
@@ -11952,7 +11952,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Geodude
@@ -11973,7 +11973,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nacli
@@ -11990,7 +11990,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nacli
@@ -12007,7 +12007,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wailmer
@@ -12022,7 +12022,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -12043,7 +12043,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Cufant
@@ -12064,7 +12064,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Geodude
@@ -12089,7 +12089,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Geodude
@@ -12114,7 +12114,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Geodude
@@ -12139,7 +12139,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Graveler
@@ -12164,7 +12164,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Oinkologne
@@ -12181,7 +12181,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Cetitan
@@ -12198,7 +12198,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pincurchin
@@ -12215,7 +12215,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pincurchin
@@ -12232,7 +12232,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pincurchin
@@ -12249,7 +12249,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pincurchin
@@ -12266,7 +12266,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pincurchin
@@ -12283,7 +12283,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Gossifleur
@@ -12301,7 +12301,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe-Hisui
@@ -12318,7 +12318,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Voltorb-Hisui
@@ -12335,7 +12335,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
@@ -12352,7 +12352,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Koffing
@@ -12369,7 +12369,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Koffing
@@ -12386,7 +12386,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Thievul
@@ -12403,7 +12403,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Flamigo
@@ -12420,7 +12420,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Squawkabilly
@@ -12437,7 +12437,7 @@ Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Smoliv
@@ -12451,7 +12451,7 @@ Pic: Wally
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Altaria
@@ -12501,7 +12501,7 @@ Pic: Wally
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Altaria
@@ -12551,7 +12551,7 @@ Pic: Wally
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Altaria
@@ -12601,7 +12601,7 @@ Pic: Wally
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Altaria
@@ -12650,7 +12650,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Barraskewda
@@ -12675,7 +12675,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode-Hisui
@@ -12700,7 +12700,7 @@ Class: Rival
 Pic: Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode-Hisui
@@ -12725,7 +12725,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Barraskewda
@@ -12750,7 +12750,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode-Hisui
@@ -12775,7 +12775,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode-Hisui
@@ -12800,7 +12800,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pincurchin
@@ -12821,7 +12821,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -12838,7 +12838,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
@@ -12860,7 +12860,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Tauros-Paldea-Aqua
@@ -12878,7 +12878,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Frosmoth
@@ -12895,7 +12895,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Falinks
@@ -12912,7 +12912,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -12933,7 +12933,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Cramorant
@@ -12950,7 +12950,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bergmite
@@ -12967,7 +12967,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Drednaw
@@ -12984,7 +12984,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nymble
@@ -13001,7 +13001,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Clodsire
@@ -13018,7 +13018,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Fidough
@@ -13035,7 +13035,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Corvisquire
@@ -13052,7 +13052,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -13077,7 +13077,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -13102,7 +13102,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -13127,7 +13127,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Medicham
@@ -13152,7 +13152,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -13177,7 +13177,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Barraskewda
@@ -13194,7 +13194,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -13211,7 +13211,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_MALE
@@ -13228,7 +13228,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_MALE
@@ -13245,7 +13245,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_MALE
@@ -13262,7 +13262,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_MALE
@@ -13279,7 +13279,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bergmite
@@ -13296,7 +13296,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -13321,7 +13321,7 @@ Class: Rich Boy
 Pic: Rich Boy
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Lechonk @ Nugget
@@ -13339,7 +13339,7 @@ Pic: Lady
 Gender: Female
 Music: Female
 Items: Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Skwovet
@@ -13356,7 +13356,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -13373,7 +13373,7 @@ Class: Tuber F
 Pic: Tuber F
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wooper-Paldea
@@ -13390,7 +13390,7 @@ Class: Tuber M
 Pic: Tuber M
 Gender: Male
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rookidee
@@ -13407,7 +13407,7 @@ Class: Pokefan
 Pic: Pokefan M
 Gender: Male
 Music: Twins
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pawmi @ Oran Berry
@@ -13424,7 +13424,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tadbulb
@@ -13441,7 +13441,7 @@ Class: Triathlete
 Pic: Cycling Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Girafarig
@@ -13458,7 +13458,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Voltorb-Hisui
@@ -13475,7 +13475,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Mankey
@@ -13492,7 +13492,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Silicobra
@@ -13509,7 +13509,7 @@ Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Smoliv
@@ -13526,7 +13526,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Bramblin
@@ -13543,7 +13543,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
@@ -13560,7 +13560,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tandemaus
@@ -13577,7 +13577,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Corvisquire
@@ -13594,7 +13594,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Yamask-Galar
@@ -13611,7 +13611,7 @@ Class: Pokemaniac
 Pic: Pokemaniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -13628,7 +13628,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Petilil
@@ -13645,7 +13645,7 @@ Class: Fisherman
 Pic: Fisherman
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wooper-Paldea
@@ -13662,7 +13662,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Capsakid
@@ -13679,7 +13679,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wooloo
@@ -13700,7 +13700,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone-Galar
@@ -13717,7 +13717,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -13734,7 +13734,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone-Galar
@@ -13751,7 +13751,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Impidimp
@@ -13768,7 +13768,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Koffing
@@ -13785,7 +13785,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Grafaiai
@@ -13802,7 +13802,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone-Galar
@@ -13819,7 +13819,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Koffing
@@ -13836,7 +13836,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone-Galar
@@ -13853,7 +13853,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Koffing
@@ -13870,7 +13870,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Impidimp
@@ -13887,7 +13887,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Linoone-Galar
@@ -13904,7 +13904,7 @@ Class: Team Magma
 Pic: Magma Grunt M
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sizzlipede
@@ -13921,7 +13921,7 @@ Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Grafaiai
@@ -13938,7 +13938,7 @@ Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Koffing
@@ -13955,7 +13955,7 @@ Class: Team Magma
 Pic: Magma Grunt F
 Gender: Female
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Grafaiai
@@ -13972,7 +13972,7 @@ Class: Magma Admin
 Pic: Magma Admin
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Varoom
@@ -13998,7 +13998,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Weezing-Galar
@@ -14015,7 +14015,7 @@ Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Obstagoon
@@ -14036,7 +14036,7 @@ Class: Swimmer M
 Pic: Swimmer M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
@@ -14053,7 +14053,7 @@ Class: Swimmer F
 Pic: Swimmer F
 Gender: Female
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Arrokuda
@@ -14070,7 +14070,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Yamask-Galar
@@ -14087,7 +14087,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Cramorant
@@ -14104,7 +14104,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Tadbulb
@@ -14121,7 +14121,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Drednaw
@@ -14143,7 +14143,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pincurchin
@@ -14164,7 +14164,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
@@ -14181,7 +14181,7 @@ Class: Picnicker
 Pic: Picnicker
 Gender: Female
 Music: Girl
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Voltorb-Hisui
@@ -14198,7 +14198,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Yamask-Galar
@@ -14215,7 +14215,7 @@ Class: Camper
 Pic: Camper
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Squawkabilly
@@ -14232,7 +14232,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sizzlipede
@@ -14249,7 +14249,7 @@ Class: Aroma Lady
 Pic: Aroma Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Gossifleur
@@ -14266,7 +14266,7 @@ Class: Triathlete
 Pic: Running Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Doduo
@@ -14283,7 +14283,7 @@ Class: Ninja Boy
 Pic: Ninja Boy
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Ninjask
@@ -14300,7 +14300,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Kadabra
@@ -14317,7 +14317,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Meditite
@@ -14334,7 +14334,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dottler
@@ -14351,7 +14351,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rolycoly
@@ -14368,7 +14368,7 @@ Class: Youngster
 Pic: Youngster
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nickit
@@ -14385,7 +14385,7 @@ Class: Triathlete
 Pic: Running Triathlete F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Yamper
@@ -14402,7 +14402,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Hatenna
@@ -14419,7 +14419,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pawmo
@@ -14437,7 +14437,7 @@ Pic: Expert F
 Gender: Female
 Music: Intense
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Scizor
@@ -14454,7 +14454,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Toxel
@@ -14471,7 +14471,7 @@ Class: Kindler
 Pic: Kindler
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
@@ -14488,7 +14488,7 @@ Class: Parasol Lady
 Pic: Parasol Lady
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Dolliv
@@ -14506,7 +14506,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dachsbun
@@ -14523,7 +14523,7 @@ Class: Battle Girl
 Pic: Battle Girl
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Farfetch'd-Galar
@@ -14540,7 +14540,7 @@ Class: Bug Maniac
 Pic: Bug Maniac
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Rabsca
@@ -14557,7 +14557,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder M
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Fidough
@@ -14590,7 +14590,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Voltorb-Hisui
@@ -14624,7 +14624,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mr. Mime-Galar
@@ -14641,7 +14641,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Voltorb-Hisui
@@ -14658,7 +14658,7 @@ Class: Rival
 Pic: May
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Charcadet
@@ -14676,7 +14676,7 @@ Pic: Leader Roxanne
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Golem
@@ -14718,7 +14718,7 @@ Pic: Leader Roxanne
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Omanyte
@@ -14768,7 +14768,7 @@ Pic: Leader Roxanne
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Omastar
@@ -14818,7 +14818,7 @@ Pic: Leader Roxanne
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Aerodactyl
@@ -14876,7 +14876,7 @@ Pic: Leader Brawly
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machamp @ Sitrus Berry
@@ -14918,7 +14918,7 @@ Pic: Leader Brawly
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machamp @ Sitrus Berry
@@ -14960,7 +14960,7 @@ Pic: Leader Brawly
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hitmonchan
@@ -15010,7 +15010,7 @@ Pic: Leader Brawly
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hitmonlee
@@ -15068,7 +15068,7 @@ Pic: Leader Wattson
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mareep
@@ -15110,7 +15110,7 @@ Pic: Leader Wattson
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pikachu
@@ -15160,7 +15160,7 @@ Pic: Leader Wattson
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Raichu
@@ -15210,7 +15210,7 @@ Pic: Leader Wattson
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Electabuzz
@@ -15268,7 +15268,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Magcargo @ White Herb
@@ -15310,7 +15310,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe
@@ -15360,7 +15360,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Houndour
@@ -15418,7 +15418,7 @@ Pic: Leader Flannery
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Arcanine
@@ -15476,7 +15476,7 @@ Pic: Leader Norman
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Chansey
@@ -15518,7 +15518,7 @@ Pic: Leader Norman
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slaking @ Sitrus Berry
@@ -15568,7 +15568,7 @@ Pic: Leader Norman
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slaking @ Sitrus Berry
@@ -15618,7 +15618,7 @@ Pic: Leader Norman
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slaking @ Sitrus Berry
@@ -15676,7 +15676,7 @@ Pic: Leader Winona
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
 Dratini @ Sitrus Berry
@@ -15726,7 +15726,7 @@ Pic: Leader Winona
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
 Hoothoot
@@ -15784,7 +15784,7 @@ Pic: Leader Winona
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
 Noctowl
@@ -15842,7 +15842,7 @@ Pic: Leader Winona
 Gender: Female
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Risky
 
 Noctowl
@@ -15900,7 +15900,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slowpoke
@@ -15950,7 +15950,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drowzee
@@ -16008,7 +16008,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hypno
@@ -16066,7 +16066,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hypno
@@ -16124,7 +16124,7 @@ Pic: Leader Juan
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwag
@@ -16174,7 +16174,7 @@ Pic: Leader Juan
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Poliwhirl
@@ -16224,7 +16224,7 @@ Pic: Leader Juan
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Lapras
@@ -16282,7 +16282,7 @@ Pic: Leader Juan
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Lapras
@@ -16339,7 +16339,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Suspicious
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Wattrel
@@ -16356,7 +16356,7 @@ Class: Bird Keeper
 Pic: Bird Keeper
 Gender: Male
 Music: Cool
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Cramorant
@@ -16374,7 +16374,7 @@ Pic: Steven
 Gender: Male
 Music: Male
 Items: Full Restore / Full Restore / Full Restore / Full Restore
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Skarmory
@@ -16431,7 +16431,7 @@ Class: Salon Maiden
 Pic: Salon Maiden Anabel
 Gender: Female
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Beldum
@@ -16444,7 +16444,7 @@ Class: Dome Ace
 Pic: Dome Ace Tucker
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Beldum
@@ -16457,7 +16457,7 @@ Class: Palace Maven
 Pic: Palace Maven Spenser
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Beldum
@@ -16470,7 +16470,7 @@ Class: Arena Tycoon
 Pic: Arena Tycoon Greta
 Gender: Female
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Beldum
@@ -16483,7 +16483,7 @@ Class: Factory Head
 Pic: Factory Head Noland
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Beldum
@@ -16496,7 +16496,7 @@ Class: Pike Queen
 Pic: Pike Queen Lucy
 Gender: Female
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Beldum
@@ -16509,7 +16509,7 @@ Class: Pyramid King
 Pic: Pyramid King Brandon
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Beldum
@@ -16522,7 +16522,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Sandshrew
@@ -16539,7 +16539,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nosepass
@@ -16560,7 +16560,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nosepass
@@ -16581,7 +16581,7 @@ Class: Ruin Maniac
 Pic: Ruin Maniac
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Nosepass
@@ -16602,7 +16602,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wingull
@@ -16623,7 +16623,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -16644,7 +16644,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -16665,7 +16665,7 @@ Class: Sailor
 Pic: Sailor
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -16686,7 +16686,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Staryu
@@ -16703,7 +16703,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wingull
@@ -16724,7 +16724,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -16745,7 +16745,7 @@ Class: Triathlete
 Pic: Swimming Triathlete M
 Gender: Male
 Music: Swimmer
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Pelipper
@@ -16766,7 +16766,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Machoke
@@ -16783,7 +16783,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Makuhita
@@ -16804,7 +16804,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Hariyama
@@ -16825,7 +16825,7 @@ Class: Black Belt
 Pic: Black Belt
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Hariyama
@@ -16847,7 +16847,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Loudred
@@ -16865,7 +16865,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spinda
@@ -16887,7 +16887,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spinda
@@ -16909,7 +16909,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Items: Hyper Potion
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Spinda
@@ -16930,7 +16930,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Electrike
@@ -16951,7 +16951,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Electrike
@@ -16972,7 +16972,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Manectric
@@ -16993,7 +16993,7 @@ Class: Guitarist
 Pic: Guitarist
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Manectric
@@ -17014,7 +17014,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Naclstack
@@ -17031,7 +17031,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
@@ -17052,7 +17052,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machop
@@ -17073,7 +17073,7 @@ Class: Hiker
 Pic: Hiker
 Gender: Male
 Music: Hiker
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Machoke
@@ -17094,7 +17094,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Skitty
@@ -17127,7 +17127,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Skitty
@@ -17160,7 +17160,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Delcatty
@@ -17193,7 +17193,7 @@ Class: Pkmn Breeder
 Pic: Pokemon Breeder F
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Delcatty
@@ -17226,7 +17226,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Wailmer
@@ -17243,7 +17243,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Luvdisc
@@ -17264,7 +17264,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Luvdisc
@@ -17285,7 +17285,7 @@ Class: Beauty
 Pic: Beauty
 Gender: Female
 Music: Female
-Double Battle: Yes
+Double Battle: No
 AI: Check Bad Move
 
 Luvdisc
@@ -17306,7 +17306,7 @@ Class: Psychic
 Pic: Psychic F
 Gender: Female
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 
 Chimecho
 Level: 41
@@ -17318,7 +17318,7 @@ Class: Psychic
 Pic: Psychic M
 Gender: Male
 Music: Intense
-Double Battle: Yes
+Double Battle: No
 
 Banette
 Level: 41
@@ -17334,7 +17334,7 @@ Class: Gentleman
 Pic: Gentleman
 Gender: Male
 Music: Rich
-Double Battle: Yes
+Double Battle: No
 
 Wobbuffet
 Level: 41
@@ -17346,7 +17346,7 @@ Class: Rival
 Pic: Red
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 
 Charmander
 Level: 5
@@ -17358,7 +17358,7 @@ Class: Rival
 Pic: Leaf
 Gender: Female
 Music: Male
-Double Battle: Yes
+Double Battle: No
 
 Bulbasaur
 Level: 5
@@ -17370,7 +17370,7 @@ Class: RS Protag
 Pic: RS Brendan
 Gender: Male
 Music: Male
-Double Battle: Yes
+Double Battle: No
 
 Groudon
 Level: 5
@@ -17382,7 +17382,7 @@ Class: RS Protag
 Pic: RS May
 Gender: Female
 Music: Male
-Double Battle: Yes
+Double Battle: No
 
 Kyogre
 Level: 5

@@ -25,27 +25,27 @@ Route129_OnFrame:
 	.2byte 0
 
 Route129_EventScript_Chase::
-	trainerbattle_single TRAINER_CHASE, Route129_Text_ChaseIntro, Route129_Text_ChaseDefeat
+	trainerbattle TRAINER_BATTLE_DETECT, TRAINER_CHASE, 0, Route129_Text_ChaseIntro, Route129_Text_ChaseDefeat
 	msgbox Route129_Text_ChasePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route129_EventScript_Allison::
-	trainerbattle_single TRAINER_ALLISON, Route129_Text_AllisonIntro, Route129_Text_AllisonDefeat
+	trainerbattle TRAINER_BATTLE_DETECT, TRAINER_ALLISON, 0, Route129_Text_AllisonIntro, Route129_Text_AllisonDefeat
 	msgbox Route129_Text_AllisonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route129_EventScript_Reed::
-	trainerbattle_single TRAINER_REED, Route129_Text_ReedIntro, Route129_Text_ReedDefeat
+	trainerbattle TRAINER_BATTLE_DETECT, TRAINER_REED, 0, Route129_Text_ReedIntro, Route129_Text_ReedDefeat
 	msgbox Route129_Text_ReedPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route129_EventScript_Tisha::
-	trainerbattle_single TRAINER_TISHA, Route129_Text_TishaIntro, Route129_Text_TishaDefeat
+	trainerbattle TRAINER_BATTLE_DETECT, TRAINER_TISHA, 0, Route129_Text_TishaIntro, Route129_Text_TishaDefeat
 	msgbox Route129_Text_TishaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route129_EventScript_Clarence::
-	trainerbattle_single TRAINER_CLARENCE, Route129_Text_ClarenceIntro, Route129_Text_ClarenceDefeat
+	trainerbattle TRAINER_BATTLE_DETECT, TRAINER_CLARENCE, 0, Route129_Text_ClarenceIntro, Route129_Text_ClarenceDefeat
 	msgbox Route129_Text_ClarencePostBattle, MSGBOX_AUTOCLOSE
 	end
 
