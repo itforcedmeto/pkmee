@@ -220,11 +220,12 @@ Route101_EventScript_RouteSign::
 
 Route101_EventScript_BirchsBag::
 @ jd: i changed the ledge location to ensure player always approaches bag from the same square. this is probably fine but not 100% ideal.
-@ todo: need to set VAR_STARTER_MON correctly.
 	lock
 	faceplayer
 	callnative StartNewPokeballCaseUI
 	waitstate
+	setflag FLAG_SYS_NATIONAL_DEX
+	special EnableNationalPokedex
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFasterLeft
 	waitmovement 0
 	msgbox Route101_Text_DistractIt, MSGBOX_DEFAULT
