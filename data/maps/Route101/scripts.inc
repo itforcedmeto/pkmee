@@ -219,7 +219,7 @@ Route101_EventScript_RouteSign::
 	end
 
 Route101_EventScript_BirchsBag::
-@ i changed the ledge location to ensure player always approaches bag from the same square. this is probably fine but not 100% ideal.
+@ jd: i changed the ledge location to ensure player always approaches bag from the same square. this is probably fine but not 100% ideal.
 @ todo: need to set VAR_STARTER_MON correctly.
 	lock
 	faceplayer
@@ -230,7 +230,7 @@ Route101_EventScript_BirchsBag::
 	msgbox Route101_Text_DistractIt, MSGBOX_DEFAULT
 	applymovement LOCALID_ZIGZAGOON, Route101_Movement_ZigzagoonApproach
 	waitmovement 0
-	setwildbattle SPECIES_ZIGZAGOON_GALAR, 4
+	setwildbattle SPECIES_ZIGZAGOON_GALAR, 3
 	playmoncry SPECIES_ZIGZAGOON_GALAR, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
