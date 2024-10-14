@@ -985,7 +985,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Varoom
@@ -1002,7 +1002,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Magnemite
@@ -1019,7 +1019,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Magneton
@@ -1036,7 +1036,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Magneton
@@ -1053,7 +1053,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Magneton
@@ -1070,7 +1070,7 @@ Class: Interviewer
 Pic: Interviewer
 Gender: Male
 Music: Interviewer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Magneton
@@ -5269,7 +5269,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Hyper Potion / Hyper Potion / Hyper Potion / Hyper Potion
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 SPECIES_INDEEDEE_FEMALE 
@@ -5585,7 +5585,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Pawmo
@@ -5602,7 +5602,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Wooloo
@@ -5619,7 +5619,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Dubwool
@@ -5636,7 +5636,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Dubwool
@@ -5653,7 +5653,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Dubwool
@@ -5670,7 +5670,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Dubwool
@@ -9099,7 +9099,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Tadbulb
@@ -9116,7 +9116,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Bellibolt
@@ -9133,7 +9133,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Skwovet
@@ -9150,7 +9150,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Lilligant-Hisui
@@ -9167,7 +9167,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Plusle
@@ -9184,7 +9184,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Duskull
@@ -9205,7 +9205,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Plusle
@@ -9222,7 +9222,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Plusle
@@ -9247,7 +9247,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Plusle
@@ -12164,7 +12164,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Oinkologne
@@ -12181,7 +12181,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Cetitan
@@ -12198,7 +12198,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Pincurchin
@@ -12215,7 +12215,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Pincurchin
@@ -12232,7 +12232,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Pincurchin
@@ -12249,7 +12249,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Pincurchin
@@ -12266,7 +12266,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Pincurchin
@@ -12984,7 +12984,7 @@ Class: Twins
 Pic: Twins
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Nymble
@@ -13001,7 +13001,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Clodsire
@@ -13018,7 +13018,7 @@ Class: Sr And Jr
 Pic: Sr And Jr
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Fidough
@@ -13035,7 +13035,7 @@ Class: Young Couple
 Pic: Young Couple
 Gender: Male
 Music: Girl
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Corvisquire
@@ -13052,7 +13052,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -13077,7 +13077,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -13102,7 +13102,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -13127,7 +13127,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
 Medicham
@@ -13152,7 +13152,7 @@ Class: Old Couple
 Pic: Old Couple
 Gender: Male
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Medicham
@@ -13177,7 +13177,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Barraskewda
@@ -13194,7 +13194,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Basculin-White-Striped
@@ -13211,7 +13211,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_MALE
@@ -13228,7 +13228,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_MALE
@@ -13245,7 +13245,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_MALE
@@ -13262,7 +13262,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_MALE
@@ -13279,7 +13279,7 @@ Class: Sis And Bro
 Pic: Sis And Bro
 Gender: Male
 Music: Swimmer
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move
 
 Bergmite
@@ -15900,7 +15900,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Slowpoke
@@ -15950,7 +15950,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Drowzee
@@ -16008,7 +16008,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hypno
@@ -16066,7 +16066,7 @@ Pic: Leader Tate And Liza
 Gender: Male
 Music: Female
 Items: Full Restore / Full Restore / Full Restore
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hypno
