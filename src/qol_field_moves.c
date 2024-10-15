@@ -693,18 +693,11 @@ bool32 PartyHasMonLearnsKnowsFieldMove(u16 itemId)
         if (species == SPECIES_NONE)
             break;
 
-        monCanLearnTM = CanMonLearnTMTutor(mon,itemId,0);
+        monCanLearnTM = CanTeachMove(mon,moveId); // jd: todo replace this with CanTeachMove
         if ((PartyCanLearnMoveLevelUp(species, moveId)
                 || (monCanLearnTM) == ALREADY_KNOWS_MOVE)
                 || (monCanLearnTM) == CAN_LEARN_MOVE)
             return SetMonResultVariables(i,species);
-
-        for (i = 0; i < TUTOR_MOVE_COUNT; i++)
-        {
-            monCanLearnTutor = CanMonLearnTMTutor(mon, 0, i);
-            if (monCanLearnTutor == ALREADY_KNOWS_MOVE || monCanLearnTutor == CAN_LEARN_MOVE)
-                return SetMonResultVariables(i,species);
-        }
     }
     return FALSE;
 }

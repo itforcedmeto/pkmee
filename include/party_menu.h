@@ -104,7 +104,8 @@ void GetNumMovesSelectedMonHas(void);
 void MoveDeleterChooseMoveToForget(void);
 // Start qol_field_moves
 // These are all moved from src/party_menu.c
-u8 CanMonLearnTMTutor(struct Pokemon *, u16, u8);
+//u8 CanMonLearnTMTutor(struct Pokemon *, u16, u8); // jd: todo replace this with CanTeachMove
+u8 CanTeachMove(struct Pokemon *, u16);
 
 enum {
     CAN_LEARN_MOVE,
@@ -113,5 +114,17 @@ enum {
     CANNOT_LEARN_MOVE_IS_EGG
 };
 // End qol_field_moves
+
+u8 CanTeachMove(struct Pokemon *mon, u16 move)
+{
+    if (GetMonData(mon, MON_DATA_IS_EGG))
+        return CANNOT_LEARN_MOVE_IS_EGG;
+    else if (!CanLearnTeachableMove(GetMonData(mon, MON_DATA_SPECIES_OR_EGG), move))
+        return CANNOT_LEARN_MOVE;
+    else if (MonKnowsMove(mon, move) == TRUE)
+        return ALREADY_KNOWS_MOVE;
+    else
+        return CAN_LEARN_MOVE;
+}
 
 #endif // GUARD_PARTY_MENU_H

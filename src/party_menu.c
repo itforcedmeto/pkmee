@@ -292,7 +292,6 @@ static bool8 IsMonAllowedInMinigame(u8);
 static void DisplayPartyPokemonDataToTeachMove(u8, u16);
 // u8 CanMonLearnTMTutor(struct Pokemon *, u16, u8); // qol_field_moves - jd: will probably delete/not need
 // static u8 CanMonLearnTMTutor(struct Pokemon *, u16, u8);
-static u8 CanTeachMove(struct Pokemon *, u16);
 static void DisplayPartyPokemonBarDetail(u8, const u8 *, u8, const u8 *);
 static void DisplayPartyPokemonLevel(u8, struct PartyMenuBox *);
 static void DisplayPartyPokemonGender(u8, u16, u8 *, struct PartyMenuBox *);
@@ -2204,18 +2203,6 @@ static void Task_HandleCancelParticipationYesNoInput(u8 taskId)
         gTasks[taskId].func = Task_ReturnToChooseMonAfterText;
         break;
     }
-}
-
-static u8 CanTeachMove(struct Pokemon *mon, u16 move)
-{
-    if (GetMonData(mon, MON_DATA_IS_EGG))
-        return CANNOT_LEARN_MOVE_IS_EGG;
-    else if (!CanLearnTeachableMove(GetMonData(mon, MON_DATA_SPECIES_OR_EGG), move))
-        return CANNOT_LEARN_MOVE;
-    else if (MonKnowsMove(mon, move) == TRUE)
-        return ALREADY_KNOWS_MOVE;
-    else
-        return CAN_LEARN_MOVE;
 }
 
 static void InitPartyMenuWindows(u8 layout)
