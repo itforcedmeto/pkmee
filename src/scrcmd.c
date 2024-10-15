@@ -52,6 +52,8 @@
 #include "list_menu.h"
 #include "malloc.h"
 #include "constants/event_objects.h"
+#include "constants/items.h"
+#include "constants/moves.h"
 
 typedef u16 (*SpecialFunc)(void);
 typedef void (*NativeFunc)(struct ScriptContext *ctx);
@@ -1864,6 +1866,21 @@ bool8 ScrCmd_checkpartymove(struct ScriptContext *ctx)
             gSpecialVar_Result = i;
             gSpecialVar_0x8004 = species;
             break;
+        }
+    }
+    // jd: use HMs without knowing per https://github.com/pret/pokeemerald/wiki/Use-HMs-Without-Any-Pokemon-in-your-Party-Knowing-Them#only-pokemon-that-can-learn-hm-can-use-field-move-so-long-as-hm-is-in-bag
+    if (gSpecialVar_Result == PARTY_SIZE && (CheckBagHasItem(MoveToHM(moveId), 1))){
+        for (i = 0; i < PARTY_SIZE; i++)
+        {
+            u16 species = GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL);
+            if (!species)
+                break;
+            if (!GetMonData(&gPlayerParty[i], MON_DATA_IS_EGG) && CanTeachMove(&gPlayerParty[i], MoveToHM(moveId) - ITEM_TM01)) // fix here
+            {
+                gSpecialVar_Result = i;
+                gSpecialVar_0x8004 = species;
+                break;
+            }
         }
     }
     return FALSE;
