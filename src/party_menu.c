@@ -2205,6 +2205,18 @@ static void Task_HandleCancelParticipationYesNoInput(u8 taskId)
     }
 }
 
+u8 CanTeachMove(struct Pokemon *mon, u16 move)
+{
+    if (GetMonData(mon, MON_DATA_IS_EGG))
+        return CANNOT_LEARN_MOVE_IS_EGG;
+    else if (!CanLearnTeachableMove(GetMonData(mon, MON_DATA_SPECIES_OR_EGG), move))
+        return CANNOT_LEARN_MOVE;
+    else if (MonKnowsMove(mon, move) == TRUE)
+        return ALREADY_KNOWS_MOVE;
+    else
+        return CAN_LEARN_MOVE;
+}
+
 static void InitPartyMenuWindows(u8 layout)
 {
     switch (layout)

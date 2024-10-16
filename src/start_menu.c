@@ -106,7 +106,7 @@ static bool8 StartMenuLinkModePlayerNameCallback(void);
 static bool8 StartMenuBattlePyramidRetireCallback(void);
 static bool8 StartMenuBattlePyramidBagCallback(void);
 static bool8 StartMenuDebugCallback(void);
-static bool8 StartMenuUiMenuCallback(void);
+// static bool8 StartMenuUiMenuCallback(void); jd: commenting this out because it doesn't seem to be used/referenced anywhere
 
 // Menu callbacks
 static bool8 SaveStartCallback(void);

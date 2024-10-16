@@ -669,9 +669,11 @@ void ClearFieldMoveFlags(void)
 static bool32 PartyCanLearnMoveLevelUp(u16 species, u16 moveId)
 {
     u32 i = 0;
-    for (i = 0; gLevelUpLearnsets[species][i] != LEVEL_UP_END; i++)
+    const struct LevelUpMove *learnset = GetSpeciesLevelUpLearnset(species);
+
+    for (i = 0; learnset[i].move != LEVEL_UP_MOVE_END; i++)
     {
-        if ((gLevelUpLearnsets[species][i] & LEVEL_UP_MOVE_ID) == moveId)
+        if ((learnset[i].move & LEVEL_UP_MOVE_ID) == moveId)
             return TRUE;
     }
     return FALSE;
@@ -693,7 +695,7 @@ bool32 PartyHasMonLearnsKnowsFieldMove(u16 itemId)
         if (species == SPECIES_NONE)
             break;
 
-        monCanLearnTM = CanTeachMove(mon,moveId); // jd: todo replace this with CanTeachMove
+        monCanLearnTM = CanTeachMove(mon,moveId);
         if ((PartyCanLearnMoveLevelUp(species, moveId)
                 || (monCanLearnTM) == ALREADY_KNOWS_MOVE)
                 || (monCanLearnTM) == CAN_LEARN_MOVE)

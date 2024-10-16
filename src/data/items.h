@@ -5983,157 +5983,184 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Abomasite,
     },
 
-    [ITEM_CUT_TOOL] =
+    [ITEM_GALLADITE] =
     {
-        .name = _("Cut Tool"),
-        .itemId = ITEM_CUT_TOOL,
+        .name = _("Galladite"),
         .price = 0,
-        .importance = 1,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_CutTool,
+            "This stone enables\n"
+            "Gallade to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Galladite,
+        .iconPalette = gItemIconPalette_Galladite,
     },
 
-    [ITEM_FLY_TOOL] =
+    [ITEM_AUDINITE] =
     {
-        .name = _("Fly Tool"),
-        .itemId = ITEM_FLY_TOOL,
+        .name = _("Audinite"),
         .price = 0,
-        .importance = 1,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_FlyTool,
+            "This stone enables\n"
+            "Audino to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Audinite,
+        .iconPalette = gItemIconPalette_Audinite,
     },
 
-    [ITEM_SURF_TOOL] =
+    [ITEM_DIANCITE] =
     {
-        .name = _("Surf Tool"),
-        .itemId = ITEM_SURF_TOOL,
+        .name = _("Diancite"),
         .price = 0,
-        .importance = 1,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_SurfTool,
+            "This stone enables\n"
+            "Diancie to Mega\n"
+            "Evolve in battle."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .flingPower = 80,
+        .iconPic = gItemIcon_Diancite,
+        .iconPalette = gItemIconPalette_Diancite,
     },
 
-    [ITEM_STRENGTH_TOOL] =
+// Gems
+
+    [ITEM_NORMAL_GEM] =
     {
-        .name = _("Strength Tool"),
-        .itemId = ITEM_STRENGTH_TOOL,
-        .price = 0,
-        .importance = 1,
+        .name = _("Normal Gem"),
+        .price = (I_PRICE >= GEN_9) ? 15000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
+        .holdEffect = HOLD_EFFECT_GEMS,
+        .holdEffectParam = GEM_BOOST_PARAM,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_StrengthTool,
+            "Increases the\n"
+            "power of Normal\n"
+            "Type moves."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = TYPE_NORMAL,
+        .iconPic = gItemIcon_NormalGem,
+        .iconPalette = gItemIconPalette_NormalGem,
     },
 
-    [ITEM_FLASH_TOOL] =
+    [ITEM_FIRE_GEM] =
     {
-        .name = _("Flash Tool"),
-        .itemId = ITEM_FLASH_TOOL,
-        .price = 0,
-        .importance = 1,
+        .name = _("Fire Gem"),
+        .price = (I_PRICE >= GEN_9) ? 15000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
+        .holdEffect = HOLD_EFFECT_GEMS,
+        .holdEffectParam = GEM_BOOST_PARAM,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_FlashTool,
+            "Increases the\n"
+            "power of Fire\n"
+            "Type moves."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = TYPE_FIRE,
+        .iconPic = gItemIcon_FireGem,
+        .iconPalette = gItemIconPalette_FireGem,
     },
 
-    [ITEM_ROCKSMASH_TOOL] =
+    [ITEM_WATER_GEM] =
     {
-        .name = _("RockSmashTool"),
-        .itemId = ITEM_ROCKSMASH_TOOL,
-        .price = 0,
-        .importance = 1,
+        .name = _("Water Gem"),
+        .price = (I_PRICE >= GEN_9) ? 15000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
+        .holdEffect = HOLD_EFFECT_GEMS,
+        .holdEffectParam = GEM_BOOST_PARAM,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_RockSmashTool,
+            "Increases the\n"
+            "power of Water\n"
+            "Type moves."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = TYPE_WATER,
+        .iconPic = gItemIcon_WaterGem,
+        .iconPalette = gItemIconPalette_WaterGem,
     },
 
-    [ITEM_WATERFALL_TOOL] =
+    [ITEM_ELECTRIC_GEM] =
     {
-        .name = _("WaterfallTool"),
-        .itemId = ITEM_WATERFALL_TOOL,
-        .price = 0,
-        .importance = 1,
+        .name = _("Electric Gem"),
+        .price = (I_PRICE >= GEN_9) ? 15000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
+        .holdEffect = HOLD_EFFECT_GEMS,
+        .holdEffectParam = GEM_BOOST_PARAM,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_WaterfallTool,
+            "Increases the\n"
+            "power of Electric\n"
+            "Type moves."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = TYPE_ELECTRIC,
+        .iconPic = gItemIcon_ElectricGem,
+        .iconPalette = gItemIconPalette_ElectricGem,
     },
 
-    [ITEM_DIVE_TOOL] =
+    [ITEM_GRASS_GEM] =
     {
-        .name = _("Dive Tool"),
-        .itemId = ITEM_DIVE_TOOL,
-        .price = 0,
-        .importance = 1,
+        .name = _("Grass Gem"),
+        .price = (I_PRICE >= GEN_9) ? 15000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
+        .holdEffect = HOLD_EFFECT_GEMS,
+        .holdEffectParam = GEM_BOOST_PARAM,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_DiveTool,
+            "Increases the\n"
+            "power of Grass\n"
+            "Type moves."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = TYPE_GRASS,
+        .iconPic = gItemIcon_GrassGem,
+        .iconPalette = gItemIconPalette_GrassGem,
     },
 
-    [ITEM_TELEPORT_TOOL] =
+    [ITEM_ICE_GEM] =
     {
-        .name = _("Teleport Tool"),
-        .itemId = ITEM_TELEPORT_TOOL,
-        .price = 0,
-        .importance = 1,
+        .name = _("Ice Gem"),
+        .price = (I_PRICE >= GEN_9) ? 15000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
+        .holdEffect = HOLD_EFFECT_GEMS,
+        .holdEffectParam = GEM_BOOST_PARAM,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_TeleportTool,
+            "Increases the\n"
+            "power of Ice\n"
+            "Type moves."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = TYPE_ICE,
+        .iconPic = gItemIcon_IceGem,
+        .iconPalette = gItemIconPalette_IceGem,
     },
 
-    [ITEM_SWEETSCENT_TOOL] =
+    [ITEM_FIGHTING_GEM] =
     {
-        .name = _("SweetScntTool"),
-        .itemId = ITEM_SWEETSCENT_TOOL,
-        .price = 0,
-        .importance = 1,
+        .name = _("Fighting Gem"),
+        .price = (I_PRICE >= GEN_9) ? 15000 : ((I_PRICE >= GEN_7) ? 4000 : 200),
+        .holdEffect = HOLD_EFFECT_GEMS,
+        .holdEffectParam = GEM_BOOST_PARAM,
         .description = COMPOUND_STRING(
-            "this is a test edit\n"
-            "hopefully it will\n"
-            "work ok. perhaps!!!!"),
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_FIELD,
-        .fieldUseFunc = ItemUseOutOfBattle_SweetScentTool,
+            "Increases the\n"
+            "power of Fighting\n"
+            "Type moves."),
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = TYPE_FIGHTING,
+        .iconPic = gItemIcon_FightingGem,
+        .iconPalette = gItemIconPalette_FightingGem,
     },
-
-    //End qol_field_moves
 
     [ITEM_POISON_GEM] =
     {
@@ -14013,4 +14040,147 @@ const struct Item gItemsInfo[] =
         .iconPic = gItemIcon_PokeshiDoll,
         .iconPalette = gItemIconPalette_PokeshiDoll,
     },
+
+        //Start qol_field_moves
+    [ITEM_CUT_TOOL] =
+    {
+        .name = _("Cut Tool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_CutTool,
+    },
+
+    [ITEM_FLY_TOOL] =
+    {
+        .name = _("Fly Tool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_FlyTool,
+    },
+
+    [ITEM_SURF_TOOL] =
+    {
+        .name = _("Surf Tool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_SurfTool,
+    },
+
+    [ITEM_STRENGTH_TOOL] =
+    {
+        .name = _("Strength Tool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_StrengthTool,
+    },
+
+    [ITEM_FLASH_TOOL] =
+    {
+        .name = _("Flash Tool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_FlashTool,
+    },
+
+    [ITEM_ROCKSMASH_TOOL] =
+    {
+        .name = _("RockSmashTool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_RockSmashTool,
+    },
+
+    [ITEM_WATERFALL_TOOL] =
+    {
+        .name = _("WaterfallTool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_WaterfallTool,
+    },
+
+    [ITEM_DIVE_TOOL] =
+    {
+        .name = _("Dive Tool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_DiveTool,
+    },
+
+    [ITEM_TELEPORT_TOOL] =
+    {
+        .name = _("Teleport Tool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_TeleportTool,
+    },
+
+    [ITEM_SWEETSCENT_TOOL] =
+    {
+        .name = _("SweetScntTool"),
+        .price = 0,
+        .importance = 1,
+        .description = COMPOUND_STRING(
+            "this is a test edit\n"
+            "hopefully it will\n"
+            "work ok. perhaps!!!!"),
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_FIELD,
+        .fieldUseFunc = ItemUseOutOfBattle_SweetScentTool,
+    },
+
+    //End qol_field_moves
 };
