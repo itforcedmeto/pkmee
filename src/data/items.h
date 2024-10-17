@@ -5983,118 +5983,6 @@ const struct Item gItemsInfo[] =
         .iconPalette = gItemIconPalette_Abomasite,
     },
 
-    [ITEM_0F4] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    [ITEM_0F5] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    [ITEM_0F6] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    [ITEM_0F7] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    [ITEM_0F8] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    [ITEM_0F9] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    [ITEM_0FA] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    [ITEM_0FB] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    [ITEM_0FC] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    [ITEM_0FD] =
-    {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
-        .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
-    },
-
-    //End qol_field_moves
-
     [ITEM_POISON_GEM] =
     {
         .name = _("Poison Gem"),
@@ -13984,7 +13872,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "cutting trees.");
+    "cutting trees."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_CutTool,
@@ -13998,7 +13886,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "going places.");
+    "going places."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_FlyTool,
@@ -14012,7 +13900,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "riding waves.");
+    "riding waves."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_SurfTool,
@@ -14026,7 +13914,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "moving boulders.");
+    "moving boulders."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_StrengthTool,
@@ -14040,7 +13928,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "lighting caves.");
+    "lighting caves."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_FlashTool,
@@ -14054,7 +13942,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "smashing rocks.");
+    "smashing rocks."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_RockSmashTool,
@@ -14063,13 +13951,12 @@ const struct Item gItemsInfo[] =
     [ITEM_WATERFALL_TOOL] =
     {
         .name = _("WaterfallTool"),
-        .itemId = ITEM_WATERFALL_TOOL,
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "climbing waterfalls.");
+    "climbing waterfalls."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_WaterfallTool,
@@ -14078,13 +13965,12 @@ const struct Item gItemsInfo[] =
     [ITEM_DIVE_TOOL] =
     {
         .name = _("Dive Tool"),
-        .itemId = ITEM_DIVE_TOOL,
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "diving underwater.");
+    "diving underwater."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_DiveTool,
@@ -14093,13 +13979,12 @@ const struct Item gItemsInfo[] =
     [ITEM_TELEPORT_TOOL] =
     {
         .name = _("Teleport Tool"),
-        .itemId = ITEM_TELEPORT_TOOL,
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "getting to safety.");
+    "getting to safety."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_TeleportTool,
@@ -14108,13 +13993,12 @@ const struct Item gItemsInfo[] =
     [ITEM_SWEETSCENT_TOOL] =
     {
         .name = _("SweetScntTool"),
-        .itemId = ITEM_SWEETSCENT_TOOL,
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
             "This tool\n"
     "is used for\n"
-    "luring pokemon.");
+    "luring pokemon."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_SweetScentTool,

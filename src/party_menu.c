@@ -289,7 +289,7 @@ static void DisplayPartyPokemonMaxHPCheck(struct Pokemon *, struct PartyMenuBox 
 static void DisplayPartyPokemonHPBarCheck(struct Pokemon *, struct PartyMenuBox *);
 static void DisplayPartyPokemonDescriptionText(u8, struct PartyMenuBox *, u8);
 static bool8 IsMonAllowedInMinigame(u8);
-static void DisplayPartyPokemonDataToTeachMove(u8, u16, u8);
+static void DisplayPartyPokemonDataToTeachMove(u8, u16);
 u8 CanMonLearnTMTutor(struct Pokemon *, u16, u8); // qol_field_moves
 //static u8 CanMonLearnTMTutor(struct Pokemon *, u16, u8);
 static void DisplayPartyPokemonBarDetail(u8, const u8 *, u8, const u8 *);
@@ -2205,8 +2205,7 @@ static void Task_HandleCancelParticipationYesNoInput(u8 taskId)
     }
 }
 
-//static u8 CanMonLearnTMTutor(struct Pokemon *mon, u16 item, u8 tutor)
-u8 CanMonLearnTMTutor(struct Pokemon *mon, u16 item, u8 tutor) // qol_field_moves
+u8 CanTeachMove(struct Pokemon *mon, u16 move)
 {
     if (GetMonData(mon, MON_DATA_IS_EGG))
         return CANNOT_LEARN_MOVE_IS_EGG;
