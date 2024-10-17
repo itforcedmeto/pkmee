@@ -3014,6 +3014,7 @@ static void SpriteCB_FieldMoveMonSlideOffscreen(struct Sprite *sprite)
 
 u8 FldEff_UseSurf(void)
 {
+    DebugPrintf("FldEff_UseSurf 1");
     u8 taskId = CreateTask(Task_SurfFieldEffect, 0xff);
     gTasks[taskId].tMonId = gFieldEffectArguments[0];
     Overworld_ClearSavedMusic();
@@ -3032,25 +3033,33 @@ static void (*const sSurfFieldEffectFuncs[])(struct Task *) = {
 //static void Task_SurfFieldEffect(u8 taskId) // qol_field_moves
 void Task_SurfFieldEffect(u8 taskId)
 {
+    DebugPrintf("Task_SurfFieldEffect 1");
     sSurfFieldEffectFuncs[gTasks[taskId].tState](&gTasks[taskId]);
 }
 
 //static void SurfFieldEffect_Init(struct Task *task) // qol_field_moves
 void SurfFieldEffect_Init(struct Task *task)
 {
+    DebugPrintf("SurfFieldEffect_Init 1");
     LockPlayerFieldControls();
+    DebugPrintf("SurfFieldEffect_Init 2");
     FreezeObjectEvents();
     // Put follower into pokeball before using Surf
+    DebugPrintf("SurfFieldEffect_Init 3");
     HideFollowerForFieldEffect();
     gPlayerAvatar.preventStep = TRUE;
+    DebugPrintf("SurfFieldEffect_Init 4");
     SetPlayerAvatarStateMask(PLAYER_AVATAR_FLAG_SURFING);
+    DebugPrintf("SurfFieldEffect_Init 5");
     PlayerGetDestCoords(&task->tDestX, &task->tDestY);
+    DebugPrintf("SurfFieldEffect_Init 6");
     MoveCoords(gObjectEvents[gPlayerAvatar.objectEventId].movementDirection, &task->tDestX, &task->tDestY);
     task->tState++;
 }
 
 static void SurfFieldEffect_FieldMovePose(struct Task *task)
 {
+    DebugPrintf("SurfFieldEffect_FieldMovePose 1");
     struct ObjectEvent *objectEvent;
     objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
     if (!ObjectEventIsMovementOverridden(objectEvent) || ObjectEventClearHeldMovementIfFinished(objectEvent))
@@ -3059,10 +3068,12 @@ static void SurfFieldEffect_FieldMovePose(struct Task *task)
         ObjectEventSetHeldMovement(objectEvent, MOVEMENT_ACTION_START_ANIM_IN_DIRECTION);
         task->tState++;
     }
+    DebugPrintf("SurfFieldEffect_FieldMovePose 2");
 }
 
 static void SurfFieldEffect_ShowMon(struct Task *task)
 {
+    DebugPrintf("SurfFieldEffect_ShowMon 1");
     struct ObjectEvent *objectEvent;
     objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
     if (ObjectEventCheckHeldMovementStatus(objectEvent))
@@ -3079,6 +3090,7 @@ void SurfFieldEffect_JumpOnSurfBlob(struct Task *task)
     struct ObjectEvent *objectEvent;
     if (!FieldEffectActiveListContains(FLDEFF_FIELD_MOVE_SHOW_MON))
     {
+        DebugPrintf("SurfFieldEffect_JumpOnSurfBlob 1");
         objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
         ObjectEventSetGraphicsId(objectEvent, GetPlayerAvatarGraphicsIdByStateId(PLAYER_AVATAR_STATE_SURFING));
         ObjectEventClearHeldMovementIfFinished(objectEvent);
@@ -3094,6 +3106,7 @@ void SurfFieldEffect_JumpOnSurfBlob(struct Task *task)
 //static void SurfFieldEffect_End(struct Task *task) //qol_field_moves
 void SurfFieldEffect_End(struct Task *task)
 {
+    DebugPrintf("SurfFieldEffect_End 1");
     struct ObjectEvent *objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
     struct ObjectEvent *followerObject = GetFollowerObject();
     if (ObjectEventClearHeldMovementIfFinished(objectEvent))

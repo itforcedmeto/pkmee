@@ -1574,7 +1574,7 @@ void ItemUseOutOfBattle_SurfTool(u8 taskId)
     else
         DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
 }
-void ItemUseOnFieldCB_SurfTool(u8 taskId)
+void ItemUseOnFieldCB_SurfTool(u8 taskId) // jd: trying to avoid the auto-use tools as i think this might be breaking?
 {
     ScriptContext_SetupScript(EventScript_UseSurfTool);
     DestroyTask(taskId);

@@ -178,6 +178,7 @@ void ResetFlyTool(void)
 // Surf
 u32 CanUseSurf(s16 x, s16 y, u8 collision)
 {
+    DebugPrintf("start of CanUseSurf");
     bool32 monHasMove = PartyHasMonLearnsKnowsFieldMove(ITEM_HM03);
     bool32 bagHasItem = CheckBagHasItem(ITEM_SURF_TOOL,1);
     bool32 playerHasBadge = FlagGet(FLAG_BADGE05_GET);
@@ -200,6 +201,7 @@ u32 CanUseSurf(s16 x, s16 y, u8 collision)
 
 u32 CanUseSurfFromInteractedWater()
 {
+    DebugPrintf("start of CanUseSurfFromInteractedWater");
     struct ObjectEvent *playerObjEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
     s16 x = playerObjEvent->currentCoords.x;
     s16 y = playerObjEvent->currentCoords.y;
@@ -209,14 +211,19 @@ u32 CanUseSurfFromInteractedWater()
 
 u8 FldEff_UseSurfTool(void)
 {
+    DebugPrintf("start of FldEff_UseSurfTool");
     CreateTask(Task_SurfToolFieldEffect, 0);
+    DebugPrintf("FldEff_UseSurfTool 1");
     Overworld_ClearSavedMusic();
+    DebugPrintf("FldEff_UseSurfTool 2");
     Overworld_ChangeMusicTo(MUS_SURF);
+    DebugPrintf("FldEff_UseSurfTool 3");
     return FALSE;
 }
 
 static void SurfToolFieldEffect_CheckHeldMovementStatus(struct Task *task)
 {
+    DebugPrintf("start of SurfToolFieldEffect_CheckHeldMovementStatus");
     struct ObjectEvent *objectEvent;
     objectEvent = &gObjectEvents[gPlayerAvatar.objectEventId];
     if (ObjectEventCheckHeldMovementStatus(objectEvent))
@@ -232,40 +239,55 @@ static void (*const sSurfToolFieldEffectFuncs[])(struct Task *) = {
 
 void Task_SurfToolFieldEffect(u8 taskId)
 {
+    DebugPrintf("start of Task_SurfToolFieldEffect");
     sSurfToolFieldEffectFuncs[gTasks[taskId].tState](&gTasks[taskId]);
 }
 
 u32 UseSurf(u32 fieldMoveStatus)
 {
+    DebugPrintf("start of UseSurf");
 	HideMapNamePopUpWindow();
 	ForcePlayerToPerformMovementAction();
 	LockPlayerAndLoadMon();
 #ifdef QOL_NO_MESSAGING
 	FlagSet(FLAG_SYS_USE_SURF);
 #endif //QOL_NO_MESSAGING
-
+    DebugPrintf("UseSurf 1");
 	if (FlagGet(FLAG_SYS_USE_SURF))
-		ScriptContext_SetupScript(EventScript_UseSurfFieldEffect);
+		{
+            DebugPrintf("UseSurf 2");
+            ScriptContext_SetupScript(EventScript_UseSurfFieldEffect);
+        }
 	else if(fieldMoveStatus == FIELD_MOVE_POKEMON)
-		ScriptContext_SetupScript(EventScript_UseSurfMove);
+		{
+            DebugPrintf("UseSurf 3");
+            ScriptContext_SetupScript(EventScript_UseSurfMove);
+        }
 	else if(fieldMoveStatus == FIELD_MOVE_TOOL)
-		ScriptContext_SetupScript(EventScript_UseSurfTool);
+		{
+            DebugPrintf("UseSurf 4");
+            ScriptContext_SetupScript(EventScript_UseSurfTool);
+        }
 
 	FlagSet(FLAG_SYS_USE_SURF);
+    DebugPrintf("UseSurf 5 - end");
 	return COLLISION_START_SURFING;
 }
 
 void RemoveRelevantSurfFieldEffect(void)
 {
+    DebugPrintf("RemoveRelevantSurfFieldEffect 1");
     if (FieldEffectActiveListContains(FLDEFF_USE_SURF))
     {
         FieldEffectActiveListRemove(FLDEFF_USE_SURF);
         DestroyTask(FindTaskIdByFunc(Task_SurfFieldEffect));
+        DebugPrintf("RemoveRelevantSurfFieldEffect 2 (end surf mon)");
     }
     else if(FieldEffectActiveListContains(FLDEFF_USE_SURF_TOOL))
     {
         FieldEffectActiveListRemove(FLDEFF_USE_SURF_TOOL);
         DestroyTask(FindTaskIdByFunc(Task_SurfToolFieldEffect));
+        DebugPrintf("RemoveRelevantSurfFieldEffect 2 (end surf tool)");
     }
 }
 

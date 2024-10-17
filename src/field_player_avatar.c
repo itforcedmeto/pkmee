@@ -696,6 +696,7 @@ static u8 CheckForPlayerAvatarStaticCollision(u8 direction)
 
 u8 CheckForObjectEventCollision(struct ObjectEvent *objectEvent, s16 x, s16 y, u8 direction, u8 metatileBehavior)
 {
+    DebugPrintf("start of CheckForObjectEventCollision");
     u8 collision = GetCollisionAtCoords(objectEvent, x, y, direction);
     u32 fieldMoveStatus; // qol_field_moves
 
@@ -704,8 +705,9 @@ u8 CheckForObjectEventCollision(struct ObjectEvent *objectEvent, s16 x, s16 y, u
 
     // Start qol_field_moves
     fieldMoveStatus = CanUseSurf(x,y,collision);
+    DebugPrintf("CheckForObjectEventCollision 1");
     if (fieldMoveStatus != FIELD_MOVE_FAIL)
-        return UseSurf(fieldMoveStatus);
+        // return UseSurf(fieldMoveStatus); jd: this prevents the auto-surf when you approach the 
 
     fieldMoveStatus = CanUseCut(x,y);
     if (fieldMoveStatus != FIELD_MOVE_FAIL)
@@ -901,6 +903,7 @@ static void PlayerAvatarTransition_AcroBike(struct ObjectEvent *objEvent)
 void PlayerAvatarTransition_Surfing(struct ObjectEvent *objEvent)
 // End qol_field_moves
 {
+    DebugPrintf("start of PlayerAvatarTransition_Surfing");
     u8 spriteId;
 
     ObjectEventSetGraphicsId(objEvent, GetPlayerAvatarGraphicsIdByStateId(PLAYER_AVATAR_STATE_SURFING));
