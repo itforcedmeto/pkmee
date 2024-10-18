@@ -261,7 +261,7 @@ BattleFrontier_BattleTowerLobby_EventScript_TryEnterDoublesChallenge::
 	switch VAR_RESULT
 	case FRONTIER_LVL_TENT, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
 	case MULTI_B_PRESSED, BattleFrontier_BattleTowerLobby_EventScript_CancelChallenge
-	frontier_checkineligible
+	frontier_checkineligible @ jd this may be useful?
 	goto_if_eq VAR_0x8004, TRUE, BattleFrontier_BattleTowerLobby_EventScript_NotEnoughValidMons
 	frontier_set FRONTIER_DATA_LVL_MODE, VAR_RESULT
 	msgbox BattleFrontier_BattleTowerLobby_Text_PleaseSelectFourMons, MSGBOX_DEFAULT

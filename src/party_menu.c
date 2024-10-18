@@ -6918,6 +6918,13 @@ void InitChooseHalfPartyForBattle(u8 unused)
     gPartyMenu.task = Task_ValidateChosenHalfParty;
 }
 
+void InitChooseDoublesPartyForBattle(u8 unused)
+{
+    ClearSelectedPartyOrder();
+    InitPartyMenu(PARTY_MENU_TYPE_CHOOSE_HALF, PARTY_LAYOUT_DOUBLE, PARTY_ACTION_CHOOSE_MON, FALSE, PARTY_MSG_CHOOSE_MON, Task_HandleChooseMonInput, gMain.savedCallback);
+    gPartyMenu.task = Task_ValidateChosenHalfParty;
+}
+
 void ClearSelectedPartyOrder(void)
 {
     memset(gSelectedOrderFromParty, 0, sizeof(gSelectedOrderFromParty));

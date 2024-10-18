@@ -682,7 +682,7 @@ static bool32 PartyCanLearnMoveLevelUp(u16 species, u16 moveId)
 bool32 PartyHasMonLearnsKnowsFieldMove(u16 itemId)
 {
     struct Pokemon *mon;
-    u32 species, i, monCanLearnTM, monCanLearnTutor;
+    u32 species, i, monCanLearnTM;
     u16 moveId = ItemIdToBattleMoveId(itemId);
     gSpecialVar_Result = PARTY_SIZE;
     gSpecialVar_0x8004 = 0;

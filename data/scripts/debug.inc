@@ -142,8 +142,45 @@ Debug_EventScript_Script_1::
 	end
 
 Debug_EventScript_Script_2::
-	release
+    special SavePlayerParty
+    fadescreen FADE_TO_BLACK
+    @special ChooseDoublesPartyForBattle @ special ChoosePartyForBattleFrontier
+	setvar VAR_0x8005, FRONTIER_DOUBLES_PARTY_SIZE
+	special ChoosePartyForBattleFrontier
+    waitstate
+    goto_if_ne VAR_RESULT, 0, Debug_EventScript_DoubleBattleTest
+    special LoadPlayerParty
+    goto RustboroCity_Gym_EventScript_TestDefeated
+    end
+
+Debug_EventScript_DoubleBattleTest::
+    special ReducePlayerPartyToSelectedMons
+    setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SET_DATA
+    setvar VAR_0x8005, FRONTIER_DATA_SELECTED_MON_ORDER
+    special CallFrontierUtilFunc @ saves the mon order, so the non-selected mons get restored afterwards
+    trainerbattle_no_intro TRAINER_ROXANNE_1, RustboroCity_Gym_Text_TestDefeat			@ need text here
+    @waitstate
+    setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SAVE_PARTY
+    special CallFrontierUtilFunc
+    special LoadPlayerParty
+    switch VAR_RESULT
+    case 1, RustboroCity_Gym_EventScript_TestDefeated									@ text here
+    fadescreen FADE_TO_BLACK
+    special SetCB2WhiteOut
+    waitstate
+
+RustboroCity_Gym_Text_TestDefeat::
+	.string "So…\n"
+	.string "I lost.$"
+
+RustboroCity_Gym_EventScript_TestDefeated::
+	message RustboroCity_Gym_Text_TestEnd
+	waitmessage
+	call Common_EventScript_PlayGymBadgeFanfare
 	end
+
+RustboroCity_Gym_Text_TestEnd:
+	.string "{PLAYER} won the battle!$"
 
 Debug_EventScript_Script_3::
 	release

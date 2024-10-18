@@ -31,6 +31,7 @@
 #include "wild_encounter.h"
 
 static void CB2_ReturnFromChooseHalfParty(void);
+static void CB2_ReturnFromChooseDoublesParty(void);
 static void CB2_ReturnFromChooseBattleFrontierParty(void);
 static void HealPlayerBoxes(void);
 
@@ -182,6 +183,31 @@ void ChooseHalfPartyForBattle(void)
 }
 
 static void CB2_ReturnFromChooseHalfParty(void)
+{
+    switch (gSelectedOrderFromParty[0])
+    {
+    case 0:
+        gSpecialVar_Result = FALSE;
+        break;
+    default:
+        gSpecialVar_Result = TRUE;
+        break;
+    }
+
+    SetMainCallback2(CB2_ReturnToFieldContinueScriptPlayMapMusic);
+}
+
+// jd: start of party select
+// Note: When control returns to the event script, gSpecialVar_Result will be
+// TRUE if the party selection was successful.
+void ChooseDoublesPartyForBattle(void)
+{
+    gMain.savedCallback = CB2_ReturnFromChooseDoublesParty;
+    VarSet(VAR_FRONTIER_FACILITY, FACILITY_MULTI_OR_EREADER); // pretty sure not relevant but VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_DOUBLES
+    InitChooseDoublesPartyForBattle(0);                       // (from BattleFrontier_BattleTowerLobby_EventScript_TryEnterDoublesChallenge)
+}
+
+static void CB2_ReturnFromChooseDoublesParty(void)
 {
     switch (gSelectedOrderFromParty[0])
     {

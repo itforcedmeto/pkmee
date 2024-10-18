@@ -12572,7 +12572,7 @@ F_TRAINER_FEMALE |
 #line 5013
         .items = { ITEM_POTION, ITEM_POTION },
 #line 5014
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 5015
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .partySize = 3,
