@@ -161,3 +161,19 @@
 	special SavePlayerParty
 	multi_do_fixed MULTI_BATTLE_2_VS_WILD, \partnerId
 	.endm
+
+	@ Doubles
+	.macro custom_double_battle trainerId:req, trainerIntroText:req, trainerLoseText:req
+	@ special SavePlayerParty
+	trainerbattle TRAINER_BATTLE_DETECT, \trainerId, 0, \trainerIntroText, \trainerLoseText @ possibly TRAINER_BATTLE_DOUBLE but i don't think so (old TRAINER_BATTLE_SET_TRAINER_A) or trainerbattle_detect_gym
+	resolve_double_battle
+	.endm
+
+	.macro resolve_double_battle
+	setvar VAR_0x8004, SPECIAL_DOUBLE_BATTLE
+	special DoSpecialTrainerBattle
+	waitstate
+	setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SAVE_PARTY
+	special CallFrontierUtilFunc
+	special LoadPlayerParty
+	.endm

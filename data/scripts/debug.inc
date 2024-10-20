@@ -144,13 +144,13 @@ Debug_EventScript_Script_1::
 Debug_EventScript_Script_2::
     special SavePlayerParty
     fadescreen FADE_TO_BLACK
-    @special ChooseDoublesPartyForBattle @ special ChoosePartyForBattleFrontier
+    @special ChooseDoublesPartyForBattle
 	setvar VAR_0x8005, FRONTIER_DOUBLES_PARTY_SIZE
 	special ChoosePartyForBattleFrontier
     waitstate
     goto_if_ne VAR_RESULT, 0, Debug_EventScript_DoubleBattleTest
     special LoadPlayerParty
-    goto RustboroCity_Gym_EventScript_TestDefeated
+    goto Text_Bye
     end
 
 Debug_EventScript_DoubleBattleTest::
@@ -158,16 +158,29 @@ Debug_EventScript_DoubleBattleTest::
     setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SET_DATA
     setvar VAR_0x8005, FRONTIER_DATA_SELECTED_MON_ORDER
     special CallFrontierUtilFunc @ saves the mon order, so the non-selected mons get restored afterwards
-    trainerbattle_no_intro TRAINER_ROXANNE_1, RustboroCity_Gym_Text_TestDefeat			@ need text here
+    @ trainerbattle_no_intro TRAINER_ROXANNE_1, RustboroCity_Gym_Text_TestDefeat			@ need text here
+	@ trainerbattle TRAINER_BATTLE_DETECT, TRAINER_ROXANNE_1, 0, RustboroCity_Gym_Text_TestDefeat, RustboroCity_Gym_Text_TestDefeat, RustboroCity_Gym_EventScript_TestDefeated, NO_MUSIC
+	custom_double_battle TRAINER_ROXANNE_1, Text_Test1, Text_Test2
     @waitstate
-    setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SAVE_PARTY
+    @setvar VAR_0x8004, FRONTIER_UTIL_FUNC_SAVE_PARTY
     special CallFrontierUtilFunc
-    special LoadPlayerParty
     switch VAR_RESULT
     case 1, RustboroCity_Gym_EventScript_TestDefeated									@ text here
     fadescreen FADE_TO_BLACK
+	special LoadPlayerParty
     special SetCB2WhiteOut
     waitstate
+
+Text_Test1::
+	.string "So…$"
+
+Text_Test2::
+	.string "Sooooo…$"
+
+Text_Bye::
+	.string "Come back soon!$"
+	releaseall
+	end
 
 RustboroCity_Gym_Text_TestDefeat::
 	.string "So…\n"
@@ -180,7 +193,11 @@ RustboroCity_Gym_EventScript_TestDefeated::
 	end
 
 RustboroCity_Gym_Text_TestEnd:
+	lock
 	.string "{PLAYER} won the battle!$"
+	closemessage
+	release
+	end
 
 Debug_EventScript_Script_3::
 	release
