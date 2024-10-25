@@ -8,7 +8,7 @@ EventScript_CutTree::
     checkpartylearnknowsfieldmove ITEM_HM01
 	goto_if_unset FLAG_BADGE01_GET, EventScript_CheckTreeCantCut
 @ End qol_field_moves
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CheckTreeCantCut
+	@ goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CheckTreeCantCut jd: think this was bad merge
 	setfieldeffectargument 0, VAR_RESULT
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	buffermovename STR_VAR_2, MOVE_CUT
@@ -77,7 +77,7 @@ EventScript_RockSmash::
     checkpartylearnknowsfieldmove ITEM_HM06
 	goto_if_unset FLAG_BADGE03_GET, EventScript_CantSmashRock
 @ End qol_field_moves
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantSmashRock
+	@ goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantSmashRock jd: think this was bad merge
 	setfieldeffectargument 0, VAR_RESULT
 	bufferpartymonnick STR_VAR_1, VAR_RESULT
 	buffermovename STR_VAR_2, MOVE_ROCK_SMASH
@@ -249,7 +249,7 @@ EventScript_StrengthBoulder::
     goto_if_eq VAR_RESULT, TRUE, EventScript_UseStrengthTool
     checkpartylearnknowsfieldmove ITEM_HM04
 @ End qol_field_moves
-	goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantStrength
+	@ goto_if_eq VAR_RESULT, PARTY_SIZE, EventScript_CantStrength jd: think this was bad merge
 	setfieldeffectargument 0, VAR_RESULT
 	msgbox Text_WantToStrength, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, NO, EventScript_CancelStrength
