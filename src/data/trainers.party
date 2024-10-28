@@ -379,12 +379,12 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Thievul
-Level: 27
+Barraskewda
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Arrokuda
-Level: 27
+Slowbro-Galar
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_2 ===
@@ -396,12 +396,12 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Impidimp
-Level: 27
+Morgrem
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Basculin-White-Striped
-Level: 27
+SPECIES_BASCULEGION_MALE
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_WEATHER_INST_3 ===
@@ -413,16 +413,16 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Linoone-Galar
-Level: 26
+Obstagoon
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Slowpoke-Galar
-Level: 26
+Slowking-Galar
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Arrokuda
-Level: 26
+Barraskewda
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_MUSEUM_1 ===
@@ -536,12 +536,12 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Arrokuda
-Level: 28
+Thievul
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Slowpoke-Galar
-Level: 27
+Barraskewda
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_AQUA_HIDEOUT_5 ===
@@ -637,14 +637,22 @@ Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Drednaw
-Level: 28
+Level: 42
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Qwilfish-Hisui
-Level: 28
+Overqwil
+Level: 43
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Toxtricity
+Level: 43
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Cursola
+Level: 43
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_SHELLY_SEAFLOOR_CAVERN ===
@@ -654,15 +662,23 @@ Pic: Aqua Admin F
 Gender: Female
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Drednaw
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 42
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Overqwil
-Level: 37
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 43
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Toxtricity
+Level: 43
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
+
+Cursola
+Level: 43
+IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ARCHIE ===
 Name: ARCHIE
@@ -671,7 +687,7 @@ Pic: Aqua Leader Archie
 Gender: Male
 Music: Aqua
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Perrserker
 Level: 41
@@ -768,11 +784,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Eldegoss
-Level: 26
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Dolliv
-Level: 26
+Alcremie
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROSE_2 ===
@@ -864,12 +880,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Naclstack
-Level: 24
+Glimmet
+Level: 35
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Yamask-Galar
-Level: 23
+Stunfisk-Galar
+Level: 36
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_CHIP ===
@@ -902,12 +918,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Silicobra
-Level: 25
+Sandaconda
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Clodsire
-Level: 25
+Level: 38
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_DUSTY_2 ===
@@ -1115,11 +1131,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wugtrio
-Level: 26
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Bergmite
-Level: 26
+Avalugg-Hisui
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GWEN ===
@@ -1132,11 +1148,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Clodsire
-Level: 26
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Qwilfish-Hisui
-Level: 26
+Overqwil
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LOLA_2 ===
@@ -1251,11 +1267,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Clodsire
-Level: 26
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Bergmite
-Level: 26
+Avalugg-Hisui
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_RICKY_2 ===
@@ -1337,11 +1353,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Squawkabilly
-Level: 26
+Level: 34
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Teddiursa
-Level: 26
+Ursaring
+Level: 35
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_PARKER ===
@@ -1355,11 +1371,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dunsparce
-Level: 26
+Level: 35
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Linoone-Galar
-Level: 26
+Level: 35
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_GEORGE ===
@@ -1372,12 +1388,12 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Wooloo
-Level: 26
+Dubwool
+Level: 34
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Dubwool
-Level: 26
+Greedent
+Level: 35
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BERKE ===
@@ -1391,11 +1407,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Greedent
-Level: 26
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-SPECIES_OINKOLOGNE_MALE
-Level: 26
+SPECIES_OINKOLOGNE_FEMALE
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_BRAXTON ===
@@ -1713,11 +1729,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Dolliv
-Level: 26
+Level: 34
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-Tandemaus
-Level: 26
+Maushold
+Level: 34
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_ALEXIA ===
@@ -1731,11 +1747,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Maushold
-Level: 26
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Linoone-Galar
-Level: 26
+Level: 35
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_JODY ===
@@ -1748,12 +1764,12 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
-Shroodle
-Level: 26
+Grafaiai
+Level: 35
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 Stantler
-Level: 26
+Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
 === TRAINER_WENDY ===
@@ -2353,12 +2369,12 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Chewtle
-Level: 21
+Dubwool
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 SPECIES_INDEEDEE_MALE
-Level: 21
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHEILA ===
@@ -2370,12 +2386,16 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Petilil
-Level: 21
+Lilligant-Hisui
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Snom
-Level: 21
+Dunsparce
+Level: 35
+IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+
+Floragato
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SHIRLEY ===
@@ -2387,12 +2407,12 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Growlithe-Hisui
-Level: 21
+Quaxwell
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Yamper
-Level: 21
+Squawkabilly-Blue
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JESSICA_1 ===
@@ -2727,12 +2747,12 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Pincurchin
-Level: 25
+Alcremie
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tinkatuff
-Level: 25
+Tinkaton
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARK ===
@@ -2762,11 +2782,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Charcadet
-Level: 30
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Thievul
-Level: 31
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_STEVE_2 ===
@@ -2842,12 +2862,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Finizen
-Level: 26
+Palafin
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Clobbopus
-Level: 26
+Grapploct
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DOMINIK ===
@@ -2859,12 +2879,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Slowpoke-Galar
-Level: 26
+Slowking-Galar
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Bergmite
-Level: 26
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DOUGLAS ===
@@ -2876,12 +2896,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wiglett
-Level: 24
+Wugtrio
+Level: 39
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Arrokuda
-Level: 24
+Barraskewda
+Level: 39
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_DARRIN ===
@@ -2893,16 +2913,16 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Arrokuda
-Level: 24
+Barraskewda
+Level: 40
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Wattrel
-Level: 24
+Kilowattrel
+Level: 40
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
-Wiglett
-Level: 24
+Wugtrio
+Level: 41
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_TONY_1 ===
@@ -2914,12 +2934,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Clobbopus
-Level: 26
+Grapploct
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Qwilfish-Hisui
-Level: 26
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JEROME ===
@@ -2931,12 +2951,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Basculin-White-Striped
-Level: 26
+SPECIES_BASCULEGION_MALE
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Chewtle
-Level: 26
+Drednaw
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MATTHEW ===
@@ -2948,12 +2968,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Slowpoke-Galar
-Level: 26
+Slowking-Galar
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Clobbopus
-Level: 26
+Grapploct
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAVID ===
@@ -2965,12 +2985,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Clobbopus
-Level: 25
+Grapploct
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Barraskewda
-Level: 26
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_SPENCER ===
@@ -3373,12 +3393,12 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Machop
-Level: 24
+Primeape
+Level: 37
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Machoke
-Level: 28
+Pawmot
+Level: 37
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_NOB_1 ===
@@ -3725,11 +3745,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Quilava
-Level: 32
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Carkol
-Level: 31
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JEFF ===
@@ -3742,11 +3762,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Centiskorch
-Level: 32
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Charcadet
-Level: 32
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_AXLE ===
@@ -3759,11 +3779,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
-Level: 32
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Tauros-Paldea-Blaze
-Level: 32
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JACE ===
@@ -3776,11 +3796,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Growlithe-Hisui
-Level: 32
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Scovillain
-Level: 31
+Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_KEEGAN ===
@@ -3793,11 +3813,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Raboot
-Level: 32
+Level: 35
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 Scovillain
-Level: 32
+Level: 36
 IVs: 14 HP / 14 Atk / 14 Def / 14 SpA / 14 SpD / 14 Spe
 
 === TRAINER_BERNIE_1 ===
@@ -3894,12 +3914,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Chewtle
-Level: 23
+Drednaw
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Bramblin
-Level: 23
+Brambleghast
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BEAU ===
@@ -3911,16 +3931,16 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Yamask-Galar
-Level: 21
+Runerigus
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Rellor
-Level: 21
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Nacli
-Level: 21
+Naclstack
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LARRY ===
@@ -3980,11 +4000,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Silicobra
-Level: 32
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Spidops
-Level: 32
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_AUTUMN ===
@@ -3997,11 +4017,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Eldegoss
-Level: 31
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dubwool
-Level: 32
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TRAVIS ===
@@ -4106,12 +4126,12 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Tarountula
-Level: 26
+Spidops
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Rabsca
-Level: 26
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_DONALD ===
@@ -4123,16 +4143,16 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Nymble
-Level: 24
+Lokix
+Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Sizzlipede
-Level: 24
+Level: 39
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Lokix
-Level: 24
+Scizor
+Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_TAYLOR ===
@@ -4144,16 +4164,16 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Nymble
-Level: 27
+Kleavor
+Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Sizzlipede
-Level: 27
+Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Lokix
-Level: 27
+Level: 40
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JEFFREY_1 ===
@@ -5010,7 +5030,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscie
 
 Nacli @ Oran Berry
 Ability: Sturdy 
-Level: 14
+Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Smack Down  
 - Rock Throw  
@@ -5019,7 +5039,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Rolycoly @ Oran Berry
 Ability: Steam Engine
-Level: 14
+Level: 15
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Smokescreen
 - Rock Slide
@@ -5046,7 +5066,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscie
 
 Clobbopus @ Oran Berry
 Ability: Limber  
-Level: 18
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Smash  
 - Detect  
@@ -5055,7 +5075,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Mankey @ Oran Berry
 Ability: Vital Spirit
-Level: 18
+Level: 19
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Low Kick  
 - Dig  
@@ -5064,7 +5084,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Pawmo @ Sitrus Berry
 Ability: Volt Absorb
-Level: 18
+Level: 19
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Bulk Up  
 - Arm Thrust  
@@ -5091,7 +5111,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscie
 
 Wattrel @ Sitrus Berry
 Ability: Wind Power 
-Level: 24
+Level: 26
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Tailwind  
 - Uproar  
@@ -5100,7 +5120,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Pawmo  @ Sitrus Berry
 Ability: Volt Absorb 
-Level: 25
+Level: 26
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Fake Out  
 - Spark  
@@ -5109,7 +5129,7 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 
 Voltorb-Hisui  @ Sitrus Berry
 Ability: Static 
-Level: 25
+Level: 26
 IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Charge Beam  
 - Energy Ball  
@@ -5134,18 +5154,18 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
-Crocalor @ Sitrus Berry  
+Skeledirge @ Sitrus Berry  
 Ability: Blaze  
-Level: 32
+Level: 37
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Will-O-Wisp  
-- Fire Spin  
+- Torch Song  
 - Snarl  
 - Protect
 
 Centiskorch @ Sitrus Berry  
 Ability: Flash Fire  
-Level: 33
+Level: 37
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Coil  
 - Flame Wheel  
@@ -5154,7 +5174,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Tauros-Paldea-Blaze (M) @ Sitrus Berry  
 Ability: Intimidate  
-Level: 33
+Level: 37
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Double Kick  
 - Flame Charge  
@@ -5163,7 +5183,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 Coalossal @ Charcoal  
 Ability: Steam Engine  
-Level: 34
+Level: 37
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Iron Defense  
 - Incinerate  
@@ -5176,39 +5196,48 @@ Class: Leader
 Pic: Leader Norman
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
-Dunsparce  
-Ability: Serene Grace 
-Level: 27
+Obstagoon @ Sitrus Berry  
+Ability: Reckless  
+Level: 39
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Body Slam  
-- Rock Slide  
-- Roost  
-- Coil
+- Take Down  
+- Obstruct  
+- Knock Off  
+- Submission
 
-Grafaiai  
-Ability: Poison Touch
-Level: 27
+Dudunsparce @ Leftovers
+Ability: Serene Grace
+Level: 39
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Helping Hand  
-- Acrobatics  
-- Thief  
-- Slash
+- Boomburst  
+- Protect  
+- Calm Mind  
+- Earth Power
+
+Ursaring @ Flame Orb
+Ability: Guts
+Level: 39
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Facade
+- Crunch
+- Drain Punch
+- Play Rough
 
 Greedent @ Ganlon Berry  
 Ability: Cheek Pouch  
-Level: 29
+Level: 39
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Stuff Cheeks  
 - Body Slam  
 - Body Press  
 - Crunch
 
-Maushold @ Leftovers  
+Maushold @ Lum Berry  
 Ability: Friend Guard  
-Level: 31
+Level: 39
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Follow Me  
 - Population Bomb  
@@ -5270,7 +5299,7 @@ Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 SPECIES_INDEEDEE_FEMALE
-Ability: Synchronize 
+Ability: Psychic Surge 
 Level: 41
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Reflect  
@@ -5683,7 +5712,7 @@ Class: Winstrate
 Pic: Pokefan M
 Gender: Male
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Pawniard @ Oran Berry
@@ -5832,7 +5861,7 @@ Class: Winstrate
 Pic: Pokefan F
 Gender: Female
 Music: Twins
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Thwackey @ Oran Berry
@@ -5980,8 +6009,12 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Hariyama
-Level: 27
+Kleavor
+Level: 38
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+
+Appletun
+Level: 38
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_TIMOTHY_2 ===
@@ -6058,7 +6091,7 @@ Class: Winstrate
 Pic: Expert F
 Gender: Female
 Music: Intense
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Clodsire
@@ -6082,12 +6115,12 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Mankey
-Level: 21
+Maschiff
+Level: 35
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
-Applin
-Level: 21
+Morpeko
+Level: 34
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_SHELBY_2 ===
@@ -6666,11 +6699,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Qwilfish-Hisui
-Level: 25
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Arrokuda
-Level: 25
+Wugtrio
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_WADE ===
@@ -6699,12 +6732,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Qwilfish-Hisui
-Level: 25
+Overqwil
+Level: 41
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Barraskewda
-Level: 25
+Level: 41
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_ELLIOT_2 ===
@@ -7221,12 +7254,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Impidimp
-Level: 25
+Morgrem
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Qwilfish-Hisui
-Level: 25
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ISAIAH_1 ===
@@ -7588,12 +7621,12 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Wattrel
-Level: 26
+Rufflet
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Squawkabilly-Yellow
-Level: 26
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HUGH ===
@@ -7605,12 +7638,12 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Wattrel
-Level: 25
+Squawkabilly-Yellow
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cramorant
-Level: 25
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_PHIL ===
@@ -7622,12 +7655,12 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move
 
-Corvisquire
-Level: 26
+Corviknight
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cramorant
-Level: 26
+Level: 40
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_JARED ===
@@ -7763,11 +7796,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
-Level: 25
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Corvisquire
-Level: 25
+Corviknight
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ROBERT_2 ===
@@ -7899,11 +7932,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint
 
 Spidops
-Level: 25
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Koffing
-Level: 25
+Weezing-Galar
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DIANNE ===
@@ -7931,12 +7964,12 @@ Gender: Female
 Music: Girl
 Double Battle: No
 
-Finizen
-Level: 26
+Palafin
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Drednaw
-Level: 26
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LAO_1 ===
@@ -8165,7 +8198,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Primeape
-Level: 30
+Level: 31
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Clobbopus
@@ -8410,12 +8443,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Wattrel
-Level: 25
+Kilowattrel
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Slowpoke-Galar
-Level: 25
+Slowbro-Galar
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_IMANI ===
@@ -8427,12 +8460,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Arrokuda
-Level: 26
+Barraskewda
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Finizen
-Level: 26
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KYLA ===
@@ -8444,12 +8477,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Slowpoke-Galar
-Level: 26
+Slowbro-Galar
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Finizen
-Level: 26
+Palafin
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DENISE ===
@@ -8461,12 +8494,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Drednaw
-Level: 25
+Wugtrio
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Arrokuda
-Level: 25
+Barraskewda
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BETH ===
@@ -8479,11 +8512,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wugtrio
-Level: 26
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Clobbopus
-Level: 26
+Grapploct
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TARA ===
@@ -8496,11 +8529,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Wugtrio
-Level: 25
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Slowpoke-Galar
-Level: 25
+Slowbro-Galar
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MISSY ===
@@ -8512,12 +8545,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Bergmite
-Level: 26
+Avalugg-Hisui
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clodsire
-Level: 26
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALICE ===
@@ -8529,16 +8562,16 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Slowpoke-Galar
-Level: 24
+Slowbro-Galar
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Kilowattrel
-Level: 25
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Chewtle
-Level: 24
+Drednaw
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JENNY_1 ===
@@ -8887,11 +8920,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Silicobra
-Level: 22
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clodsire
-Level: 22
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BECKY ===
@@ -8903,12 +8936,12 @@ Music: Girl
 Double Battle: No
 AI: Check Bad Move
 
-Rellor
-Level: 22
+Rabsca
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Meowth-Galar
-Level: 22
+Perrserker
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CAROL ===
@@ -8976,15 +9009,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Alcremie
-Level: 32
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Lilligant-Hisui
-Level: 31
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Corvisquire
-Level: 31
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CEDRIC ===
@@ -9166,11 +9199,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Lilligant-Hisui
-Level: 26
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Sirfetch'd
-Level: 26
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_AMY_AND_LIV_3 ===
@@ -9398,11 +9431,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Eiscue
-Level: 25
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Mankey
-Level: 25
+Annihilape
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ERNEST_2 ===
@@ -9499,11 +9532,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Carkol
-Level: 32
+Level: 34
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Charcadet
-Level: 31
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ANNIKA ===
@@ -9533,12 +9566,12 @@ Items: Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Linoone-Galar
-Level: 27
+Obstagoon
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Darumaka-Galar
-Level: 27
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JONAS ===
@@ -9705,11 +9738,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Linoone-Galar
-Level: 30
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Hatenna
-Level: 31
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TABITHA_MOSSDEEP ===
@@ -9851,7 +9884,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Voltorb-Hisui
 Level: 22
@@ -9872,18 +9905,22 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Barraskewda
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Ceruledge
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Thwackey
-Level: 31
+Rillaboom
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Maushold
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_BRENDAN_ROUTE_103_TREECKO ===
@@ -9907,7 +9944,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Voltorb-Hisui
 Level: 22
@@ -9928,18 +9965,22 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Electrode-Hisui
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Barraskewda
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Crocalor
-Level: 31
+Skeledirge
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Maushold
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_BRENDAN_ROUTE_103_TORCHIC ===
@@ -9962,7 +10003,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Voltorb-Hisui
 Level: 22
@@ -9983,18 +10024,22 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Electrode-Hisui
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Armarouge
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Dewott
-Level: 31
+Samurott-Hisui
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Maushold
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_MUDKIP ===
@@ -10017,7 +10062,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Voltorb-Hisui
 Level: 22
@@ -10038,18 +10083,22 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Barraskewda
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Ceruledge
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Thwackey
-Level: 31
+Rillaboom
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Maushold
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_TREECKO ===
@@ -10073,7 +10122,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Voltorb-Hisui
 Level: 22
@@ -10094,18 +10143,22 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Electrode-Hisui
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Barraskewda
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Crocalor
-Level: 31
+Skeledirge
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Maushold
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MAY_ROUTE_103_TORCHIC ===
@@ -10128,7 +10181,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Voltorb-Hisui
 Level: 22
@@ -10149,18 +10202,22 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Electrode-Hisui
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Armarouge
-Level: 29
+Level: 45
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Dewott
-Level: 31
+Samurott-Hisui
+Level: 45
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+
+Maushold
+Level: 45
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_ISAAC_1 ===
@@ -10206,11 +10263,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Centiskorch
-Level: 28
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Scyther
-Level: 27
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MITCHELL ===
@@ -10422,12 +10479,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Yamask-Galar
-Level: 26
+Runerigus
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Corsola-Galar
-Level: 26
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LYDIA_2 ===
@@ -10573,11 +10630,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 SPECIES_OINKOLOGNE_FEMALE
-Level: 27
+Level: 40
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Teddiursa
-Level: 26
+Ursaring
+Level: 40
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_LORENZO ===
@@ -10686,12 +10743,12 @@ Items: Full Restore
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Setup First Turn
 
-Dolliv
-Level: 26
+Arboliva
+Level: 40
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Bramblin
-Level: 26
+Brambleghast
+Level: 40
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_JENNA ===
@@ -10816,11 +10873,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Ponyta-Galar
-Level: 32
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Boltund
-Level: 31
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GRUNT_SEAFLOOR_CAVERN_5 ===
@@ -10884,11 +10941,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Thievul
-Level: 31
+Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Charcadet
-Level: 31
+Level: 34
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_MARC ===
@@ -11038,11 +11095,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Sizzlipede
-Level: 30
+Level: 32
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Linoone-Galar
-Level: 31
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CLARENCE ===
@@ -11252,7 +11309,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Voltorb-Hisui
 Level: 15
@@ -11269,7 +11326,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Arrokuda
 Level: 15
@@ -11322,12 +11379,12 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-Slowpoke-Galar
-Level: 27
+Slowking-Galar
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Thievul
-Level: 27
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_TABITHA_MT_CHIMNEY ===
@@ -11340,19 +11397,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Growlithe-Hisui
-Level: 30
+Level: 31
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Koffing
-Level: 31
+Level: 32
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Centiskorch
-Level: 31
+Level: 32
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 Varoom
-Level: 32
+Level: 33
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_JONATHAN ===
@@ -11380,7 +11437,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Charcadet
 Level: 15
@@ -11397,7 +11454,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Arrokuda
 Level: 15
@@ -11414,7 +11471,7 @@ Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Obstagoon
 Level: 37
@@ -11434,12 +11491,12 @@ Class: Magma Leader
 Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Linoone-Galar @ Sitrus Berry  
 Ability: Gluttony 
-Level: 31
+Level: 32
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Hone Claws  
 - Night Slash  
@@ -11448,7 +11505,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Grafaiai @ Focus Sash
 Ability: Prankster  
-Level: 32
+Level: 33
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Protect  
 - Sunny Day  
@@ -11456,12 +11513,21 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Slash
 
 Scovillain @ Charcoal
-Level: 32
+Level: 33
 Ability: Chlorophyll  
 - Razor Leaf  
 - Fire Fang  
 - Headbutt  
 - Spicy Extract
+
+Tauros-Paldea-Blaze (M) @ Sitrus Berry  
+Ability: Intimidate  
+Level: 33
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Double Kick  
+- Flame Charge  
+- Protect
+- Wild Charge
 
 === TRAINER_TIANA ===
 Name: TIANA
@@ -11520,7 +11586,7 @@ Class: Winstrate
 Pic: Lass
 Gender: Female
 Music: Female
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Kilowattrel
@@ -11749,12 +11815,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Lokix
-Level: 28
+Scyther
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Dottler
-Level: 28
+Rabsca
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GREG ===
@@ -11767,11 +11833,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Spidops
-Level: 25
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Dottler
-Level: 25
+Orbeetle
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KENT ===
@@ -11783,12 +11849,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Dottler
-Level: 25
+Orbeetle
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Rellor
-Level: 25
+Rabsca
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JAMES_1 ===
@@ -12008,11 +12074,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Naclstack
-Level: 31
+Level: 33
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Yamask-Galar
-Level: 31
+Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_LUCAS_2 ===
@@ -12216,11 +12282,11 @@ Double Battle: Yes
 AI: Check Bad Move
 
 Pincurchin
-Level: 25
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Cramorant
-Level: 25
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_KIRA_AND_DAN_2 ===
@@ -12323,7 +12389,7 @@ Level: 32
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Charcadet
-Level: 32
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_VIVIAN ===
@@ -12353,11 +12419,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Centiskorch
-Level: 33
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Carkol
-Level: 33
+Level: 35
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_HIDEO ===
@@ -12669,7 +12735,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Barraskewda
 Level: 31
@@ -12694,7 +12760,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Electrode-Hisui
 Level: 31
@@ -12719,7 +12785,7 @@ Pic: Brendan
 Gender: Male
 Music: Male
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Electrode-Hisui
 Level: 31
@@ -12744,7 +12810,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Barraskewda
 Level: 31
@@ -12769,7 +12835,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Electrode-Hisui
 Level: 31
@@ -12794,7 +12860,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Electrode-Hisui
 Level: 31
@@ -13056,12 +13122,12 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-Corvisquire
-Level: 27
+Corviknight
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tinkatuff
-Level: 27
+Tinkaton
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JOHN_AND_JAY_1 ===
@@ -13300,12 +13366,12 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-Bergmite
-Level: 27
+Avalugg-Hisui
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Wiglett
-Level: 25
+Wugtrio
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CHRIS ===
@@ -13317,20 +13383,20 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Slowpoke-Galar
-Level: 29
+Slowking-Galar
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Arrokuda
-Level: 20
+Barraskewda
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clodsire
-Level: 26
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Clobbopus
-Level: 23
+Grapploct
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_DAWSON ===
@@ -14034,7 +14100,7 @@ Pic: Magma Leader Maxie
 Gender: Male
 Music: Magma
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Obstagoon
 Level: 42
@@ -14058,11 +14124,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Slowpoke-Galar
-Level: 15
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Chewtle
-Level: 15
+Drednaw
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ISABELLE ===
@@ -14074,12 +14140,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Arrokuda
-Level: 15
+Barraskewda
+Level: 36
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Tadbulb
-Level: 15
+Bellibolt
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ANDRES_1 ===
@@ -14091,12 +14157,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Yamask-Galar
-Level: 25
+Runerigus
+Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Tadbulb
-Level: 25
+Bellibolt
+Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_JOSUE ===
@@ -14109,11 +14175,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Cramorant
-Level: 25
+Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Wattrel
-Level: 25
+Kilowattrel
+Level: 38
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_CAMRON ===
@@ -14125,12 +14191,12 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-Tadbulb
-Level: 26
+Bellibolt
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Finizen
-Level: 26
+Palafin
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CORY_1 ===
@@ -14143,15 +14209,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Drednaw
-Level: 24
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Clobbopus
-Level: 24
+Perrserker
+Level: 43
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Bergmite
-Level: 24
+Avalugg-Hisui
+Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CAROLINA ===
@@ -14165,15 +14231,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Pincurchin
-Level: 24
+Level: 43
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Tadbulb
-Level: 24
+Bellibolt
+Level: 43
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-Qwilfish-Hisui
-Level: 24
+Overqwil
+Level: 42
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_ELIJAH ===
@@ -14186,11 +14252,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Kilowattrel
-Level: 25
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Corvisquire
-Level: 25
+Corviknight
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_CELIA ===
@@ -14203,11 +14269,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Voltorb-Hisui
-Level: 22
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Clodsire
-Level: 22
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRYAN ===
@@ -14219,12 +14285,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Yamask-Galar
-Level: 22
+Runerigus
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Impidimp
-Level: 22
+Morgrem
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRANDEN ===
@@ -14236,12 +14302,12 @@ Music: Male
 Double Battle: No
 AI: Check Bad Move
 
-Squawkabilly
-Level: 22
+Squawkabilly-Yellow
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Petilil
-Level: 22
+Lilligant-Hisui
+Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_BRYANT ===
@@ -14287,12 +14353,12 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Doduo
-Level: 26
+Squawkabilly-Blue
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Dodrio
-Level: 26
+Flamigo
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JAIDEN ===
@@ -14304,12 +14370,12 @@ Music: Suspicious
 Double Battle: No
 AI: Check Bad Move
 
-Ninjask
-Level: 26
+Weezing-Galar
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Gulpin
-Level: 26
+Grafaiai
+Level: 37
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ALIX ===
@@ -14321,12 +14387,12 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Kadabra
-Level: 26
+Hattrem
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Kirlia
-Level: 26
+SPECIES_INDEEDEE_MALE
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_HELENE ===
@@ -14338,12 +14404,12 @@ Music: Intense
 Double Battle: No
 AI: Check Bad Move
 
-Meditite
-Level: 26
+Grapploct
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Makuhita
-Level: 26
+Sneasel-Hisui
+Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_MARLENE ===
@@ -14356,7 +14422,7 @@ Double Battle: No
 AI: Check Bad Move
 
 Orbeetle
-Level: 30
+Level: 31
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Girafarig
@@ -14492,12 +14558,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move
 
-Growlithe-Hisui
-Level: 25
+Arcanine-Hisui
+Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Dachsbun
-Level: 25
+Level: 40
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_RACHEL ===
@@ -14509,12 +14575,12 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-Dolliv
-Level: 26
+Scovillain
+Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-Chewtle
-Level: 26
+Drednaw
+Level: 39
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
 === TRAINER_LEONEL ===
@@ -14660,7 +14726,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Voltorb-Hisui
 Level: 15
@@ -14677,7 +14743,7 @@ Pic: May
 Gender: Female
 Music: Female
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Check Viability
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Charcadet
 Level: 15
@@ -17034,12 +17100,12 @@ Music: Hiker
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Naclstack
-Level: 26
+Klawf
+Level: 35
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 Toedscool
-Level: 26
+Level: 34
 IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
 
 === TRAINER_SAWYER_3 ===
