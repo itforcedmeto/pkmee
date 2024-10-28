@@ -190,10 +190,10 @@ Route120_EventScript_StevenBattleKecleon::
 	applymovement LOCALID_BRIDGE_KECLEON, Movement_KecleonAppears
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_KECLEON, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_SPIDOPS, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
-	setwildbattle SPECIES_KECLEON, 30
+	setwildbattle SPECIES_SPIDOPS, 40
 	setvar VAR_0x8009, 0
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
@@ -365,15 +365,15 @@ Route120_EventScript_Callie::
 Route120_Text_StevenGreeting:
 	.string "STEVEN: Hm? {PLAYER}{KUN}, hi.\n"
 	.string "It's been a while.\p"
-	.string "There's something here that you can't\n"
-	.string "see, right?\p"
+	.string "There are webs here preventing you\n"
+	.string "from moving past, right?\p"
 	.string "Now, if I were to use this device on\n"
-	.string "the invisible obstacle…\p"
+	.string "the surrounding area…\p"
 	.string "No, no. Rather than describing it,\n"
 	.string "I should just show you.\l"
 	.string "That would be more fun.\p"
 	.string "{PLAYER}{KUN}, are your POKéMON ready for\n"
-	.string "battle?$"
+	.string "battle with this trickster?$"
 
 Route120_Text_StevenIllWaitHere:
 	.string "STEVEN: No?\p"
@@ -389,8 +389,8 @@ Route120_Text_StevenShowMeYourPower:
 
 Route120_Text_StevenUsedDevonScope:
 	.string "STEVEN used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
+	.string "A camouflaged POKéMON became \n"
+	.string "completely visible!\p"
 	.string "The startled POKéMON attacked!$"
 
 Route120_Text_StevenGiveDevonScope:
@@ -411,16 +411,16 @@ Route120_Text_StevenGoodbye:
 	.string "Well, let's meet again somewhere.$"
 
 Kecleon_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+	.string "A silken web blocks your path.$"
 
 Kecleon_Text_WantToUseDevonScope:
-	.string "Something unseeable is in the way.\p"
+	.string "A silken web blocks your path.\p"
 	.string "Want to use the DEVON SCOPE?$"
 
 Kecleon_Text_UseDevonScopeMonAttacked:
 	.string "{PLAYER} used the DEVON SCOPE.\p"
-	.string "An invisible POKéMON became completely\n"
-	.string "visible!\p"
+	.string "A camouflaged POKéMON became \n"
+	.string "completely visible!\p"
 	.string "The startled POKéMON attacked!$"
 
 Route120_Text_RouteSignFortree:
