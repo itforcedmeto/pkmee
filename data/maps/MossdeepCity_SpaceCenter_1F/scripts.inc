@@ -223,8 +223,12 @@ MossdeepCity_SpaceCenter_1F_EventScript_Grunt2::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F, MossdeepCity_SpaceCenter_1F_EventScript_Grunt2Defeated
-	msgbox MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_2, MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat
+	trainerbattle TRAINER_BATTLE_CONTINUE_SCRIPT_DETECT, TRAINER_GRUNT_SPACE_CENTER_2, 0, MossdeepCity_SpaceCenter_1F_Text_Grunt2Intro, MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeat, MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeated
+	release
+	end
+
+MossdeepCity_SpaceCenter_1F_Text_Grunt2Defeated::
+	lock
 	setflag FLAG_DEFEATED_GRUNT_SPACE_CENTER_1F
 	copyobjectxytoperm LOCALID_STAIR_GRUNT
 	switch VAR_FACING
