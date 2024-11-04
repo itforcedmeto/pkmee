@@ -2312,28 +2312,28 @@
             "encounter_rate": 4,
             "mons": [
               {
-                "min_level": 20,
-                "max_level": 30,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_CORSOLA_GALARIAN"
               },
               {
-                "min_level": 20,
-                "max_level": 30,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_PINCURCHIN"
               },
               {
-                "min_level": 30,
-                "max_level": 35,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_WUGTRIO"
               },
               {
-                "min_level": 30,
-                "max_level": 35,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_WUGTRIO"
               },
               {
-                "min_level": 30,
-                "max_level": 35,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_WUGTRIO"
               }
             ]
@@ -9122,28 +9122,28 @@
             "encounter_rate": 4,
             "mons": [
               {
-                "min_level": 20,
-                "max_level": 30,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_CORSOLA_GALARIAN"
               },
               {
-                "min_level": 20,
-                "max_level": 30,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_PINCURCHIN"
               },
               {
-                "min_level": 30,
-                "max_level": 35,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_WUGTRIO"
               },
               {
-                "min_level": 30,
-                "max_level": 35,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_WUGTRIO"
               },
               {
-                "min_level": 30,
-                "max_level": 35,
+                "min_level": 45,
+                "max_level": 55,
                 "species": "SPECIES_WUGTRIO"
               }
             ]

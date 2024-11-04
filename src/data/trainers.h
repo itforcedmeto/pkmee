@@ -3560,7 +3560,7 @@ F_TRAINER_FEMALE |
 #line 1463
             TRAINER_ENCOUNTER_MUSIC_AQUA,
 #line 1464
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
 #line 1465
         .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SMART_SWITCHING | AI_FLAG_OMNISCIENT | AI_FLAG_POWERFUL_STATUS,
         .partySize = 5,
@@ -3593,7 +3593,7 @@ F_TRAINER_FEMALE |
             .species = SPECIES_GRAFAIAI,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 1476
-            .heldItem = ITEM_FOCUS_SASH,
+            .heldItem = ITEM_DAMP_ROCK,
 #line 1479
             .iv = TRAINER_PARTY_IVS(18, 18, 18, 18, 18, 18),
 #line 1477
@@ -3654,7 +3654,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 1502
-            .species = SPECIES_TAUROS_PALDEA_BLAZE,
+            .species = SPECIES_TAUROS_PALDEA_AQUA,
 #line 1502
             .gender = TRAINER_MON_MALE,
 #line 1502

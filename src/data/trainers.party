@@ -1461,7 +1461,7 @@ Class: Aqua Leader
 Pic: Aqua Leader Archie
 Gender: Male
 Music: Aqua
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
 Perrserker @ Assault Vest  
@@ -1473,7 +1473,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Play Rough
 - Iron Head
 
-Grafaiai @ Focus Sash
+Grafaiai @ Damp Rock
 Ability: Prankster 
 Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
@@ -1499,7 +1499,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hydro Pump  
 - Strength Sap
 
-Tauros-Paldea-Blaze (M) @ Clear Amulet  
+Tauros-Paldea-Aqua (M) @ Clear Amulet  
 Ability: Intimidate  
 Level: 63
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
