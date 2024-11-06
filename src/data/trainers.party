@@ -1573,11 +1573,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Armarouge
-Level: 43
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Weezing-Galar
-Level: 43
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_VIOLET ===
@@ -2314,11 +2314,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Toxtricity
-Level: 43
+Level: 67
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Sandaconda
-Level: 43
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ALBERT ===
@@ -2331,11 +2331,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Farigiraf
-Level: 43
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Stunfisk-Galar
-Level: 43
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_SAMUEL ===
@@ -2348,15 +2348,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Corviknight
-Level: 42
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Revavroom
-Level: 42
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Houndstone
-Level: 42
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_VITO ===
@@ -2369,19 +2369,19 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Duraludon
-Level: 42
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Pawmot
-Level: 42
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Sinistcha
-Level: 42
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Avalugg-Hisui
-Level: 42
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_OWEN ===
@@ -2394,15 +2394,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Mabosstiff
-Level: 42
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Toedscruel
-Level: 42
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Wyrdeer
-Level: 42
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_WILTON_2 ===
@@ -2642,12 +2642,12 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Orbeetle
-Level: 45
+Frosmoth
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Alcremie
-Level: 43
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_SHANNON ===
@@ -2660,11 +2660,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Bisharp
-Level: 45
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Polteageist
-Level: 43
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_MICHELLE ===
@@ -2677,15 +2677,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Runerigus
-Level: 42
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Zoroark-Hisui
-Level: 42
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Annihilape
-Level: 42
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CAROLINE ===
@@ -2698,11 +2698,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Copperajah
-Level: 43
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Electrode-Hisui
-Level: 43
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JULIE ===
@@ -2715,15 +2715,15 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Garganacl
-Level: 42
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Cyclizar
-Level: 42
+Level: 64
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Scizor
-Level: 42
+Level: 65
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BROOKE_2 ===
@@ -2977,11 +2977,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Veluza @ Nugget
-Level: 65
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Wugtrio
-Level: 65
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_GRUNT_SPACE_CENTER_2 ===
@@ -3030,11 +3030,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Barraskewda @ Nugget
-Level: 63
+Level: 61
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Wugtrio
-Level: 64
+Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_NAOMI ===
@@ -3188,11 +3188,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Tatsugiri
-Level: 66
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Wugtrio
-Level: 66
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_BRIDGET ===
@@ -3205,11 +3205,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Tauros-Paldea-Aqua
-Level: 64
+Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Drednaw
-Level: 64
+Level: 62
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_OLIVIA ===
@@ -3222,15 +3222,15 @@ Double Battle: No
 AI: Check Bad Move
 
 Tatsugiri
-Level: 64
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Palafin
-Level: 65
+Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 SPECIES_BASCULEGION_MALE
-Level: 65
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_TIFFANY ===
@@ -3243,11 +3243,11 @@ Double Battle: No
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_FEMALE
-Level: 63
+Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Wugtrio
-Level: 63
+Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JESSICA_2 ===
@@ -5561,39 +5561,48 @@ Pic: Elite Four Sidney
 Gender: Male
 Music: Elite Four
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 Mugshot: Purple
 
-Lokix  
-Ability: Swarm  
-Level: 46
+Lokix @ Life Orb
+Ability: Tinted Lens  
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - First Impression  
 - Swords Dance  
 - U-turn  
 - Knock Off
 
-Grimmsnarl (M)  
+Grimmsnarl @ Light Clay
 Ability: Prankster  
-Level: 48
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Light Screen  
 - Play Rough  
 - Foul Play  
 - Reflect
 
-Mabosstiff  
-Ability: Guard Dog 
-Level: 46
+Mabosstiff @ Sitrus Berry
+Ability: Stakeout 
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Crunch  
-- Fire Fang  
+- Play Rough  
 - Psychic Fangs  
 - Protect
 
-Kingambit  
+Meowscarada @ Choice Band
+Ability: Protean 
+Level: 69
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flower Trick
+- Triple Axel
+- Sucker Punch
+- Protect
+
+Kingambit @ Black Glasses
 Ability: Supreme Overlord  
-Level: 48
+Level: 69
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Kowtow Cleave  
 - Sucker Punch  
@@ -5607,39 +5616,48 @@ Pic: Elite Four Phoebe
 Gender: Female
 Music: Elite Four
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 Mugshot: Green
 
-Zoroark-Hisui  
+Zoroark-Hisui @ Focus Sash
 Ability: Illusion  
-Level: 48
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Nasty Plot  
 - Hyper Voice  
 - Shadow Ball  
 - Protect
 
-Dragapult  
-Ability: Infiltrator  
-Level: 49
+Dragapult @ Choice Band
+Ability: Clear Body  
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Phantom Force  
 - Dragon Darts  
 - Quick Attack  
 - U-turn
 
-Sinistcha  
+Sinistcha @ Sitrus Berry
 Ability: Hospitality  
-Level: 50
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Matcha Gotcha  
 - Shadow Ball  
 - Protect  
 - Rage Powder
 
-Houndstone  
-Ability: Sand Rush  
-Level: 51
+Typhlosion-Hisui @ Charcoal
+Ability: Blaze
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Eruption
+- Shadow Ball  
+- Heat Wave
+- Protect
+
+Houndstone @ Spell Tag
+Ability: Fluffy  
+Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Play Rough  
 - Last Respects  
@@ -5653,44 +5671,53 @@ Pic: Elite Four Glacia
 Gender: Female
 Music: Elite Four
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 Mugshot: Pink
 
-Mr. Rime  
-Ability: Tangled Feet  
-Level: 51
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Freeze-Dry  
-- Ally Switch  
-- Fake Out  
-- Icy Wind
-
-Cetitan  
-Ability: Thick Fat  
-Level: 52
+Cetitan @ Sitrus Berry
+Ability: Slush Rush  
+Level: 68
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Ice Shard  
-- Knock Off  
-- Play Rough  
-- Yawn
+- Liquidation
+- Ice Spinner  
+- Belly Drum
 
-Darmanitan-Galar  
+Eiscue @ Icy Rock
+Ability: Ice Face  
+Level: 68
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Snowscape  
+- Protect  
+- Ice Punch  
+- Waterfall
+
+Avalugg-Hisui @ Loaded Dice
+Ability: Sturdy  
+Level: 69
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Body Press  
+- Protect  
+- Rock Blast  
+- Icicle Spear
+
+Darmanitan-Galar @ Choice Scarf
 Ability: Gorilla Tactics  
-Level: 52
+Level: 69
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Superpower  
 - Rock Slide  
 - Icicle Crash  
 - Flare Blitz
 
-Baxcalibur  
-Ability: Thermal Exchange 
-Level: 53
+Arctozolt @ Leftovers
+Ability: Slush Rush
+Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Glaive Rush  
-- Protect  
-- Ice Shard  
-- Icicle Crash
+- Bolt Beak
+- Blizzard
+- Freeze Dry  
+- Low Kick
 
 === TRAINER_DRAKE ===
 Name: DRAKE
@@ -5699,39 +5726,48 @@ Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / AI_FLAG_SMART_SWITCHING
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 Mugshot: Blue
 
-Appletun @ Sitrus Berry  
-Ability: Ripen  
-Level: 52
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Apple Acid  
-- Leech Seed  
-- Recover  
-- Protect
-
-Cyclizar  
+Cyclizar @ Sitrus Berry
 Ability: Shed Skin  
-Level: 54
+Level: 69
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hyper Voice  
 - Shed Tail  
 - Draco Meteor  
 - Dragon Cheer
 
-Goodra-Hisui  
-Ability: Shell Armor  
-Level: 53
+Hydrapple @ Assault Vest
+Ability: Supersweet Syrup  
+Level: 69
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Body Press  
-- Acid Armor  
-- Knock Off  
-- Heavy Slam
+- Fickle Beam
+- Earth Power
+- Giga Drain
+- Draco Meteor
+
+Dracozolt @ Leftovers
+Ability: Volt Absorb  
+Level: 69
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Bolt Beak
+- Fire Blast  
+- Draco Meteor  
+- Protect
+
+Baxcalibur @ Clear Amulet
+Ability: Thermal Exchange 
+Level: 69
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Glaive Rush  
+- Protect  
+- Ice Shard  
+- High Horsepower
 
 Archaludon @ Power Herb  
 Ability: Stamina  
-Level: 55
+Level: 69
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Body Press  
 - Flash Cannon  
@@ -6055,7 +6091,7 @@ AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscie
 
 Palafin @ Leftovers
 Ability: Zero to Hero  
-Level: 68
+Level: 64
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Jet Punch  
 - Ice Punch  
@@ -6064,7 +6100,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Veluza @ Shell Bell
 Ability: Mold Breaker  
-Level: 68
+Level: 64
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Fillet Away  
 - Liquidation  
@@ -6073,7 +6109,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Wugtrio @ Focus Sash  
 Ability: Gooey  
-Level: 68
+Level: 64
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Rain Dance
 - Protect 
@@ -6082,7 +6118,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Quaquaval @ Life Orb  
 Ability: Moxie  
-Level: 68
+Level: 64
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Close Combat
 - Aqua Step
@@ -6091,7 +6127,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 Inteleon @ Scope Lens  
 Ability: Sniper
-Level: 68
+Level: 64
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Focus Energy
 - Snipe Shot 
@@ -6100,7 +6136,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 SPECIES_BASCULEGION_FEMALE @ Mystic Water
 Ability: Swift Swim 
-Level: 68
+Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball  
 - Surf  
@@ -6598,15 +6634,15 @@ Double Battle: No
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_MALE @ Oran Berry
-Level: 65
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Cramorant @ Oran Berry
-Level: 64
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Drednaw @ Oran Berry
-Level: 64
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_ISABEL_1 ===
@@ -6912,11 +6948,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Centiskorch
-Level: 43
+Level: 67
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Dudunsparce
-Level: 43
+Level: 67
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_KATELYNN ===
@@ -6929,11 +6965,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Brambleghast
-Level: 43
+Level: 67
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Sneasler
-Level: 43
+Level: 66
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JAYLEN ===
@@ -7086,59 +7122,59 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 Mugshot: Yellow
 
-Cramorant  
-Ability: Gulp Missile  
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Dive  
-- Acrobatics  
-- Tailwind  
-- Protect
-
-Drednaw  
-Ability: Strong Jaw  
-Level: 57
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Earthquake  
-- Jaw Lock  
-- Ice Fang  
-- Rock Slide
-
-Wugtrio  
-Ability: Rattled  
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Triple Dive  
-- Aqua Jet  
-- Sucker Punch  
-- Rain Dance
-
-Barraskewda  
-Ability: Swift Swim 
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Close Combat  
-- Liquidation  
-- Drill Run  
-- Flip Turn
-
-Dondozo  
-Ability: Oblivious 
-Level: 58
+Dondozo @ Leftovers
+Ability: Unaware 
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Protect  
 - Wave Crash  
 - Order Up  
 - Earthquake
 
-Tatsugiri  
+Tatsugiri @ Choice Scarf
 Ability: Commander  
-Level: 56
+Level: 70
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Muddy Water  
 - Draco Meteor  
 - Icy Wind  
 - Dragon Pulse
+
+Cramorant @ Focus Sash
+Ability: Gulp Missile  
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Dive  
+- Acrobatics  
+- Tailwind  
+- Protect
+
+Drednaw @ Assault Vest
+Ability: Strong Jaw  
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Earthquake  
+- Jaw Lock  
+- Ice Fang  
+- Rock Slide
+
+Samurott-Hisui @ Life Orb
+Ability: Sharpness
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Sacred Sword  
+- Aqua Cutter
+- Sucker Punch  
+- Ceaseless Edge
+
+Dracovish @ Choice Band
+Ability: Strong Jaw
+Level: 70
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Fishious Rend  
+- Psychic Fangs
+- Ice Fang
+- Crunch
 
 === TRAINER_ANDREW ===
 Name: ANDREW
@@ -8525,11 +8561,11 @@ Music: Cool
 Double Battle: No
 
 Cursola
-Level: 43
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Arcanine-Hisui
-Level: 43
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_JANI ===
@@ -10107,12 +10143,12 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-Barraskewda @ Oran Berry
-Level: 66
+Barraskewda @ Sitrus Berry
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-Cramorant @ Oran Berry
-Level: 65
+Cramorant @ Sitrus Berry
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_JAZMYN ===
@@ -10429,23 +10465,23 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Lilligant-Hisui
-Level: 44
+Level: 65
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Dachsbun
-Level: 43
+Level: 65
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Morpeko
-Level: 44
+Level: 65
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Mr. Rime
-Level: 41
+Level: 65
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Arboliva
-Level: 45
+Level: 66
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 
 === TRAINER_BRENDAN_ROUTE_110_MUDKIP ===
@@ -10784,11 +10820,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Hatterene
-Level: 43
+Level: 66
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Braviary-Hisui
-Level: 43
+Level: 66
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_ISAAC_2 ===
@@ -10966,11 +11002,11 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Grimmsnarl
-Level: 43
+Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 Obstagoon
-Level: 43
+Level: 66
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
 === TRAINER_GARRISON ===
@@ -12118,11 +12154,11 @@ Double Battle: No
 AI: Check Bad Move
 
 SPECIES_BASCULEGION_FEMALE
-Level: 65
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Veluza
-Level: 66
+Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_CRISSY ===
@@ -12135,11 +12171,11 @@ Double Battle: No
 AI: Check Bad Move
 
 Veluza
-Level: 63
+Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 Drednaw
-Level: 63
+Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
 === TRAINER_DOUG ===
