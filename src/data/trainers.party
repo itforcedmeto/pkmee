@@ -5560,8 +5560,8 @@ Class: Elite Four
 Pic: Elite Four Sidney
 Gender: Male
 Music: Elite Four
-Double Battle: No
-AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status / AI_FLAG_ACE_POKEMON
 Mugshot: Purple
 
 Lokix @ Life Orb
@@ -5615,7 +5615,7 @@ Class: Elite Four
 Pic: Elite Four Phoebe
 Gender: Female
 Music: Elite Four
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 Mugshot: Green
 
@@ -5670,7 +5670,7 @@ Class: Elite Four
 Pic: Elite Four Glacia
 Gender: Female
 Music: Elite Four
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 Mugshot: Pink
 
@@ -5725,7 +5725,7 @@ Class: Elite Four
 Pic: Elite Four Drake
 Gender: Male
 Music: Elite Four
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 Mugshot: Blue
 
@@ -7118,7 +7118,7 @@ Class: Champion
 Pic: Champion Wallace
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 Mugshot: Yellow
 
@@ -10461,7 +10461,7 @@ Class: Rival
 Pic: Wally
 Gender: Male
 Music: Male
-Double Battle: No
+Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability
 
 Lilligant-Hisui
