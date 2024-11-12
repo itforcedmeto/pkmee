@@ -177,14 +177,14 @@ Route114_EventScript_Kai::
 	end
 
 Route114_Text_AllMyMonDoesIsRoarTakeThis:
-	.string "All my POKéMON does is ROAR…\n"
+	.string "All my POKéMON does is SNARL…\n"
 	.string "No one dares to come near me…\p"
 	.string "Sigh… If you would, please take\n"
 	.string "this TM away…$"
 
 Route114_Text_ExplainRoar:
-	.string "TM05 contains ROAR.\n"
-	.string "A ROAR sends POKéMON scurrying.$"
+	.string "TM05 contains SNARL.\n"
+	.string "A SNARL frightens POKéMON!$"
 
 Route114_Text_Poochyena:
 	.string "Bow! Bowwow!$"

@@ -4,14 +4,14 @@
 #define FOREACH_TM(F) \
     F(FOCUS_BLAST) \
     F(DRAGON_CLAW) \
-    F(WATER_PULSE) \
+    F(MUDDY_WATER) \
     F(CALM_MIND) \
     F(SNARL) \
     F(TOXIC) \
     F(SNOWSCAPE) \
     F(BULK_UP) \
-    F(BULLET_SEED) \
-    F(HIDDEN_POWER) \
+    F(TRAILBLAZE) \
+    F(HYPER_VOICE) \
     F(SUNNY_DAY) \
     F(TAUNT) \
     F(ICE_BEAM) \
@@ -20,9 +20,9 @@
     F(LIGHT_SCREEN) \
     F(PROTECT) \
     F(RAIN_DANCE) \
-    F(GIGA_DRAIN) \
+    F(ENERGY_BALL) \
     F(DRAINING_KISS) \
-    F(TRAILBLAZE) \
+    F(POUNCE) \
     F(SOLAR_BEAM) \
     F(WILL_O_WISP) \
     F(THUNDERBOLT) \
@@ -40,68 +40,38 @@
     F(SLUDGE_BOMB) \
     F(SANDSTORM) \
     F(FIRE_BLAST) \
-    F(SCORCHING_SANDS) \
-    F(AERIAL_ACE) \
+    F(ROCK_TOMB) \
+    F(DUAL_WINGBEAT) \
     F(ZEN_HEADBUTT) \
     F(FACADE) \
     F(SECRET_POWER) \
-    F(THUNDER_FANG) \
+    F(PLAY_ROUGH) \
     F(IRON_HEAD) \
     F(THIEF) \
-    F(CHILLING_WATER) \
+    F(DAZZLING_GLEAM) \
     F(SKILL_SWAP) \
-    F(BODY_SLAM) \
+    F(TRICK_ROOM) \
     F(OVERHEAT) \
     F(HELPING_HAND) \
     F(TAILWIND) \
-    F(ENCORE) \
     F(SHADOW_CLAW) \
-    F(FOUL_PLAY) \
-    F(DARK_PULSE) \
     F(CHARGE_BEAM) \
     F(LIQUIDATION) \
     F(TRIPLE_AXEL) \
-    F(PLAY_ROUGH) \
-    F(FIRE_FANG) \
-    F(THUNDER_WAVE) \
+    F(LEECH_LIFE) \
     F(STORED_POWER) \
-    F(FLIP_TURN) \
     F(BUG_BUZZ) \
     F(SCALE_SHOT) \
-    F(SEED_BOMB) \
-    F(ICE_PUNCH) \
     F(DRAGON_CHEER) \
     F(POISON_JAB) \
-    F(DRAIN_PUNCH) \
-    F(ELECTROWEB) \
-    F(SLUDGE_WAVE) \
     F(ROCK_SLIDE) \
-    F(HIGH_HORSEPOWER) \
     F(EXPANDING_FORCE) \
-    F(DAZZLING_GLEAM) \
-    F(VOLT_SWITCH) \
-    F(ENERGY_BALL) \
-    F(HYPER_VOICE) \
     F(POWER_GEM) \
-    F(COACHING) \
-    F(POLLEN_PUFF) \
-    F(FIRE_PUNCH) \
-    F(MUDDY_WATER) \
     F(FLASH_CANNON) \
-    F(ICE_FANG) \
-    F(DUAL_WINGBEAT) \
+    F(THROAT_CHOP) \
     F(METEOR_BEAM) \
-    F(TRICK_ROOM) \
     F(BODY_PRESS) \
-    F(ACROBATICS) \
     F(BULLDOZE) \
-    F(U_TURN) \
-    F(IRON_DEFENSE) \
-    F(LOW_KICK) \
-    F(HEX) \
-    F(THUNDER_PUNCH) \
-    F(DRAGON_TAIL) \
-    F(THROAT_CHOP) 
 
 #define FOREACH_HM(F) \
     F(CUT) \
