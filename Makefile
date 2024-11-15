@@ -1,3 +1,5 @@
+# jd: poryscript install instructions for 1.9.3: https://github.com/huderlem/poryscript/blob/8083cfe7279a514666c253aa10c002df34a5bed6/README.md
+
 TOOLCHAIN := $(DEVKITARM)
 COMPARE ?= 0
 
@@ -301,6 +303,7 @@ mostlyclean: tidynonmodern tidymodern tidycheck
 	find $(DATA_ASM_SUBDIR)/maps \( -iname 'connections.inc' -o -iname 'events.inc' -o -iname 'header.inc' \) -exec rm {} +
 	rm -f $(AUTO_GEN_TARGETS)
 	@$(MAKE) clean -C libagbsyscall
+	rm -f $(patsubst %.pory,%.inc,$(shell find data/ -type f -name '*.pory'))
 
 tidy: tidynonmodern tidymodern tidycheck
 
@@ -327,8 +330,6 @@ include map_data_rules.mk
 include spritesheet_rules.mk
 include json_data_rules.mk
 include songs.mk
-
-AUTO_GEN_TARGETS += $(patsubst %.pory,%.inc,$(shell find data/ -type f -name '*.pory'))
 
 %.s: ;
 %.png: ;
