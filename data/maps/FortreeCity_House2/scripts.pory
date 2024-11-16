@@ -81,3 +81,21 @@ FortreeCity_House2_Text_YouGuessedWrong:
 	.string "You guessed wrong.$"
 
 `
+script FortreeCity_HyperVoiceWoman {
+	lockall
+	faceplayer
+    if (flag(FLAG_RECEIVED_TM_HIDDEN_POWER)) {
+        msgbox(format("HYPER VOICE LETS LOOSE A HORRIBLY LOUD CRY. IT'S A POWERFUL MOVE!"))
+    } else {
+        msgbox(format("Do you have a hidden power? This old woman does…"))
+		msgbox(format("I CAN SHOUT INCREDIBLY LOUD WITH MY HYPER VOICE!"))
+		giveitem(ITEM_TM_HYPER_VOICE)
+		if (var(VAR_RESULT) == FALSE) {
+    		goto(Common_EventScript_ShowBagIsFull)
+		}
+		setflag(FLAG_RECEIVED_TM_HIDDEN_POWER)
+		msgbox(format("AND YOUR POKéMON CAN NOW USE THEIR HYPER VOICES TOO!"))
+    }
+    releaseall
+	end
+}
