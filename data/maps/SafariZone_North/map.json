@@ -158,7 +158,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "ITEM_TM_DAZZLING_GLEAM",
       "script": "Common_EventScript_FindItem",
-      "flag": "FLAG_ITEM_SAFARI_ZONE_DAZZLINGGLEAM"
+      "flag": "FLAG_ITEM_SAFARI_ZONE_DAZZLING_GLEAM"
     }
   ],
   "warp_events": [
