@@ -10505,6 +10505,186 @@ Thwackey
 Level: 23
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
+=== TRAINER_SNOW_BOSS ===
+Name: Monroe
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
+
+Slowking-Galar @ Icy Rock  
+Ability: Regenerator  
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Chilly Reception  
+- Blizzard  
+- Psychic  
+- Flamethrower
+
+Arctibax @ Life Orb  
+Ability: Thermal Exchange  
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Icicle Crash  
+- Protect  
+- Aqua Tail  
+- Body Slam
+
+Frosmoth @ Focus Sash  
+Ability: Ice Scales  
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Blizzard  
+- Giga Drain  
+- Bug Buzz  
+- Quiver Dance
+
+Avalugg-Hisui @ Rocky Helmet  
+Ability: Ice Body
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Aurora Veil  
+- Protect  
+- Body Press  
+- Iron Defense
+
+=== TRAINER_RAIN_BOSS ===
+Name: Reiner
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
+
+Clodsire @ Leftovers  
+Ability: Water Absorb  
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Rain Dance  
+- Chilling Water  
+- High Horsepower  
+- Poison Jab
+
+Cramorant @ Wacan Berry  
+Ability: Gulp Missile  
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Hurricane  
+- Tailwind  
+- Hydro Pump  
+- Surf
+
+Overqwil @ Mystic Water  
+Ability: Swift Swim  
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Liquidation  
+- Barb Barrage  
+- Swords Dance  
+- Crunch
+
+Bellibolt @ Magnet  
+Ability: Electromorphosis  
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Thunder  
+- Volt Switch  
+- Muddy Water  
+- Soak
+
+=== TRAINER_SUN_BOSS ===
+Name: Ray
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
+
+Coalossal @ Focus Sash  
+Ability: Steam Engine    
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Sunny Day  
+- Rock Slide  
+- Heavy Slam  
+- Fire Punch
+
+Typhlosion-Hisui @ Charcoal  
+Ability: Blaze  
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Lava Plume  
+- Shadow Ball  
+- Protect  
+- Will-O-Wisp
+
+Dachsbun @ Leftovers  
+Ability: Well-Baked Body  
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Body Press  
+- Play Rough  
+- Trailblaze  
+- Yawn
+
+Lilligant-Hisui (F) @ Life Orb  
+Ability: Chlorophyll   
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Solar Blade  
+- Axe Kick  
+- Victory Dance  
+- Poison Jab
+
+=== TRAINER_SAND_BOSS ===
+Name: Xander
+Class: Pkmn Ranger
+Pic: Pokemon Ranger M
+Gender: Male
+Music: Male
+Double Battle: Yes
+AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
+
+Glimmora @ Focus Sash  
+Ability: Toxic Debris    
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Spiky Shield  
+- Stealth Rock  
+- Sludge Bomb  
+- Power Gem
+
+Sandaconda @ Leftovers  
+Ability: Sand Spit  
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Body Press  
+- Coil  
+- High Horsepower  
+- Rock Slide
+
+Houndstone @ Rocky Helmet  
+Ability: Sand Rush  
+Level: 48
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Pain Split  
+- Roar  
+- Sandstorm  
+- Last Respects
+
+Garganacl @ Rocky Helmet  
+Ability: Purifying Salt  
+Level: 48
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Salt Cure  
+- Protect  
+- Iron Defense  
+- Body Press
+
 === TRAINER_BRENDAN_ROUTE_119_MUDKIP ===
 Name: BRENDAN
 Class: Rival
@@ -17468,86 +17648,6 @@ IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 Swellow
 Level: 37
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-=== TRAINER_THALIA_2 ===
-Name: THALIA
-Class: Beauty
-Pic: Beauty
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Wailmer
-Level: 34
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-Horsea
-Level: 34
-IVs: 1 HP / 1 Atk / 1 Def / 1 SpA / 1 SpD / 1 Spe
-
-=== TRAINER_THALIA_3 ===
-Name: THALIA
-Class: Beauty
-Pic: Beauty
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Luvdisc
-Level: 36
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Wailmer
-Level: 36
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-Seadra
-Level: 36
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-
-=== TRAINER_THALIA_4 ===
-Name: THALIA
-Class: Beauty
-Pic: Beauty
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Luvdisc
-Level: 38
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Wailmer
-Level: 38
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-Seadra
-Level: 38
-IVs: 3 HP / 3 Atk / 3 Def / 3 SpA / 3 SpD / 3 Spe
-
-=== TRAINER_THALIA_5 ===
-Name: THALIA
-Class: Beauty
-Pic: Beauty
-Gender: Female
-Music: Female
-Double Battle: No
-AI: Check Bad Move
-
-Luvdisc
-Level: 40
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Wailord
-Level: 40
-IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
-
-Kingdra
-Level: 40
 IVs: 4 HP / 4 Atk / 4 Def / 4 SpA / 4 SpD / 4 Spe
 
 === TRAINER_MARIELA ===

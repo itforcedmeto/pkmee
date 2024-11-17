@@ -73,6 +73,7 @@ Route119_WeatherInstitute_2F_EventScript_ShellyDefeated::
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_HIDE_ROUTE_119_TEAM_AQUA
 	setflag FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M
+	clearflag FLAG_SHOW_WEATHER_INSTITUTE_BOSSES
 	removeobject LOCALID_GRUNT_1
 	removeobject LOCALID_GRUNT_2
 	removeobject LOCALID_SHELLY
@@ -333,3 +334,90 @@ Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
 	.string "really.$"
 
 `
+script WeatherInstitute_SnowResearcher {
+	lockall
+	faceplayer
+	if (flag(FLAG_SNOW_BOSS_BEATEN)) {
+		msgbox(format("If you're looking for ICE POKéMON, you should explore SHOAL CAVE."))
+		releaseall
+	} else {
+		msgbox(format("Snow and blizzard weather is not common in Hoenn. I have been researching the POKéMON that live in SHOAL CAVE to understand how they can create such cold environments."))
+		msgbox("Can I demonstrate my findings with you?", MSGBOX_YESNO)
+		if (var(VAR_RESULT) == 1) {
+            trainerbattle_no_intro(TRAINER_SNOW_BOSS, msgbox(format("I've been thawed!")))
+			setflag(FLAG_SNOW_BOSS_BEATEN)
+			msgbox(format("You and your POKéMON clearly know how to handle a snow storm. You should take this."))
+			giveitem(ITEM_TM_SNOWSCAPE)
+			msgbox(format("SNOWSCAPE calls a temporary snow storm. Some POKéMON are perfectly adapted to fighting in these conditions."))
+        } else {
+			msgbox(format("That's too bad."))
+		}
+		releaseall
+	}
+}
+
+script WeatherInstitute_RainResearcher {
+	lockall
+	faceplayer
+	if (flag(FLAG_RAIN_BOSS_BEATEN)) {
+		msgbox(format("I hope you are busy making rain, {PLAYER}."))
+		releaseall
+	} else {
+		msgbox(format("Rain is necessary for all living things to grow and flourish. My research to predict and control rainfall with POKéMON is progressing nicely."))
+		msgbox("Can I demonstrate my findings with you?", MSGBOX_YESNO)
+		if (var(VAR_RESULT) == 1) {
+            trainerbattle_no_intro(TRAINER_RAIN_BOSS, msgbox(format("You rained on my parade…")))
+			setflag(FLAG_RAIN_BOSS_BEATEN)
+			msgbox(format("You might be able to make good use of this TM."))
+			giveitem(ITEM_TM_RAIN_DANCE)
+			msgbox(format("RAIN DANCE forms a temporary rain cloud. Many POKéMON and moves benefit from rain falling."))
+        } else {
+			msgbox(format("That's too bad."))
+		}
+		releaseall
+	}
+}
+
+script WeatherInstitute_SunResearcher {
+	lockall
+	faceplayer
+	if (flag(FLAG_SUN_BOSS_BEATEN)) {
+		msgbox(format("Controlling energy from the sun would revolutionise how we grow and produce food. It's a high priority!"))
+		releaseall
+	} else {
+		msgbox(format("Warm weather is important for plants and grass POKéMON to grow strong. I've been researching how to strengthen the sun's rays to improve plant growth."))
+		msgbox("Can I demonstrate my findings with you?", MSGBOX_YESNO)
+		if (var(VAR_RESULT) == 1) {
+            trainerbattle_no_intro(TRAINER_SUN_BOSS, msgbox(format("My sun has set…")))
+			setflag(FLAG_SUN_BOSS_BEATEN)
+			msgbox(format("You battled like a natural in the sun. Take this TM!"))
+			giveitem(ITEM_TM_SUNNY_DAY)
+			msgbox(format("SUNNY DAY intensifies sunlight, making GRASS and FIRE POKéMON stronger while weakening WATER POKéMON."))
+        } else {
+			msgbox(format("That's too bad."))
+		}
+		releaseall
+	}
+}
+
+script WeatherInstitute_SandResearcher {
+	lockall
+	faceplayer
+	if (flag(FLAG_SAND_BOSS_BEATEN)) {
+		msgbox(format("Is a sandstorm naturally good at hiding structures? Or are the structures that can withstand sandstorms more likely to be hidden?"))
+		releaseall
+	} else {
+		msgbox(format("Deserts and sandstorms are difficult to research, but they conceal so many secrets. I am researching sandstorms and other mysteries lurking in ROUTE 111."))
+		msgbox("Can I demonstrate my findings with you?", MSGBOX_YESNO)
+		if (var(VAR_RESULT) == 1) {
+            trainerbattle_no_intro(TRAINER_SAND_BOSS, msgbox(format("I got sand in my eye!")))
+			setflag(FLAG_SAND_BOSS_BEATEN)
+			msgbox(format("You must have experience battling in the sand. You can make good use of this TM, then."))
+			giveitem(ITEM_TM_SANDSTORM)
+			msgbox(format("SANDSTORM summons fierce sandy winds to damage all POKéMON besides ROCK, GROUND, and STEEL types. However, some POKéMON benefit immensely from the sand."))
+        } else {
+			msgbox(format("That's too bad."))
+		}
+		releaseall
+	}
+}

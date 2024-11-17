@@ -43,11 +43,11 @@
 #define NUM_TEMP_FLAGS   (TEMP_FLAGS_END - TEMP_FLAGS_START + 1)
 
 #define FLAG_RECEIVED_EXP_SHARE_MUM    0x20 // jd: used in LittlerootTown_EventScript_GiveRunningShoes
-#define FLAG_UNUSED_0x021    0x21 // Unused Flag
-#define FLAG_UNUSED_0x022    0x22 // Unused Flag
-#define FLAG_UNUSED_0x023    0x23 // Unused Flag
-#define FLAG_UNUSED_0x024    0x24 // Unused Flag
-#define FLAG_UNUSED_0x025    0x25 // Unused Flag
+#define FLAG_SHOW_WEATHER_INSTITUTE_BOSSES    0x21 // jd: used in Route119_WeatherInstitute_2F scientists e.g. Route119\scripts.pory
+#define FLAG_SNOW_BOSS_BEATEN       0x22 // Unused Flag
+#define FLAG_RAIN_BOSS_BEATEN       0x23 // Unused Flag
+#define FLAG_SUN_BOSS_BEATEN        0x24 // Unused Flag
+#define FLAG_SAND_BOSS_BEATEN       0x25 // Unused Flag
 #define FLAG_UNUSED_0x026    0x26 // Unused Flag
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag
@@ -1230,7 +1230,7 @@
 #define FLAG_ITEM_ROUTE_111_POWER_GEM                               0x49C // Unused Flag
 #define FLAG_ITEM_ROUTE_133_POISON_JAB                              0x49D // Unused Flag
 #define FLAG_ITEM_CAVE_OF_ORIGIN_STORED_POWER                       0x49E // Unused Flag
-#define FLAG_UNUSED_0x49F                                           0x49F // Unused Flag
+#define FLAG_LANDMARK_PACIFIDLOG_SHOP                               0x49F // Unused Flag
 #define FLAG_UNUSED_0x4A0                                           0x4A0 // Unused Flag
 #define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused Flag
 #define FLAG_UNUSED_0x4A2                                           0x4A2 // Unused Flag
