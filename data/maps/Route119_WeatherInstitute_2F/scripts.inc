@@ -880,8 +880,8 @@ WeatherInstitute_RainResearcher_Text_0:
 
 WeatherInstitute_RainResearcher_Text_1:
 # 366 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
-	.string "Rain is necessary for all living things.\n"
-	.string "TEAM AQUA are misguided, my research to\l"
+	.string "Rain is necessary for all living things\n"
+	.string "to grow and flourish. My research to\l"
 	.string "predict and control rainfall with\l"
 	.string "POKéMON is progressing nicely.$"
 
@@ -911,7 +911,7 @@ WeatherInstitute_SunResearcher_Text_1:
 	.string "Warm weather is important for plants\n"
 	.string "and grass POKéMON to grow strong. I've\l"
 	.string "been researching how to strengthen the\l"
-	.string "sun's rays to improve plan growth.$"
+	.string "sun's rays to improve plant growth.$"
 
 WeatherInstitute_SunResearcher_Text_2:
 # 391 "data/maps/Route119_WeatherInstitute_2F/scripts.pory"
