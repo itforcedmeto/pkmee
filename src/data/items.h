@@ -10257,7 +10257,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_CALM_MIND] =
     {
         .name = _("TM04"),
-        .price = 3000,
+        .price = 8000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10353,7 +10353,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_TAUNT] =
     {
         .name = _("TM12"),
-        .price = 3000,
+        .price = 12000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10401,7 +10401,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_LIGHT_SCREEN] =
     {
         .name = _("TM16"),
-        .price = 3000,
+        .price = 12000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10449,7 +10449,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_DRAINING_KISS] =
     {
         .name = _("TM20"),
-        .price = 3000,
+        .price = 8000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10461,7 +10461,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_POUNCE] =
     {
         .name = _("TM21"),
-        .price = 1000,
+        .price = 8000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10593,7 +10593,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_AIR_CUTTER] =
     {
         .name = _("TM32"),
-        .price = 2000,
+        .price = 8000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10605,7 +10605,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_REFLECT] =
     {
         .name = _("TM33"),
-        .price = 3000,
+        .price = 12000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10701,7 +10701,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_ZEN_HEADBUTT] =
     {
         .name = _("TM41"),
-        .price = 3000,
+        .price = 20000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10737,7 +10737,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_PLAY_ROUGH] =
     {
         .name = _("TM44"),
-        .price = 3000,
+        .price = 20000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10785,7 +10785,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_SKILL_SWAP] =
     {
         .name = _("TM48"),
-        .price = 3000,
+        .price = 12000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10881,7 +10881,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_TRIPLE_AXEL] =
     {
         .name = _("TM56"),
-        .price = 3000,
+        .price = 20000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10917,7 +10917,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_BUG_BUZZ] =
     {
         .name = _("TM59"),
-        .price = 3000,
+        .price = 20000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10929,7 +10929,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_SCALE_SHOT] =
     {
         .name = _("TM60"),
-        .price = 3000,
+        .price = 20000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10941,7 +10941,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_DRAGON_CHEER] =
     {
         .name = _("TM61"),
-        .price = 3000,
+        .price = 12000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -10953,7 +10953,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_POISON_JAB] =
     {
         .name = _("TM62"),
-        .price = 3000,
+        .price = 8000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -11037,7 +11037,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_BULLDOZE] =
     {
         .name = _("TM69"),
-        .price = 3000,
+        .price = 8000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -11049,7 +11049,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TM_BODY_PRESS] =
     {
         .name = _("TM70"),
-        .price = 3000,
+        .price = 20000,
         .description = sDefaultTMDesc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -13747,142 +13747,155 @@ const struct Item gItemsInfo[] =
 
     [ITEM_CUT_TOOL] =
     {
-        .name = _("Cut Tool"),
+        .name = _("Hatchet"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "cutting trees."),
+            "This tool is used\n"
+            "for cutting trees."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_CutTool,
+        .iconPic = gItemIcon_Axe,
+        .iconPalette = gItemIconPalette_Axe,
     },
 
     [ITEM_FLY_TOOL] =
     {
-        .name = _("Fly Tool"),
+        .name = _("Corvi-Whistle"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "going places."),
+            "This tool is used\n"
+            "for going places."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_FlyTool,
+        .iconPic = gItemIcon_Axe,
+        .iconPalette = gItemIconPalette_Axe,
     },
 
     [ITEM_SURF_TOOL] =
     {
-        .name = _("Surf Tool"),
+        .name = _("Surfboard"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "riding waves."),
+            "This tool is used\n"
+            "for riding waves."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_SurfTool,
+        .iconPic = gItemIcon_Surfboard,
+        .iconPalette = gItemIconPalette_Surfboard,
     },
 
     [ITEM_STRENGTH_TOOL] =
     {
-        .name = _("Strength Tool"),
+        .name = _("Power Glove"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "moving boulders."),
+            "This tool is used\n"
+            "for moving boulders."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_StrengthTool,
+        .iconPic = gItemIcon_PowerGlove,
+        .iconPalette = gItemIconPalette_PowerGlove,
     },
 
     [ITEM_FLASH_TOOL] =
     {
-        .name = _("Flash Tool"),
+        .name = _("Lantern"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "lighting caves."),
+            "This tool is used\n"
+            "for lighting caves."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_FlashTool,
+        .iconPic = gItemIcon_Lantern,
+        .iconPalette = gItemIconPalette_Lantern,
     },
 
     [ITEM_ROCKSMASH_TOOL] =
     {
-        .name = _("RockSmashTool"),
+        .name = _("Pickaxe"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "smashing rocks."),
+            "This tool is used\n"
+            "for smashing rocks."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_RockSmashTool,
+        .iconPic = gItemIcon_Pickaxe,
+        .iconPalette = gItemIconPalette_Pickaxe,
     },
 
     [ITEM_WATERFALL_TOOL] =
     {
-        .name = _("WaterfallTool"),
+        .name = _("Mini-Propeller"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "climbing waterfalls."),
+            "This tool is used\n"
+            "for climbing\n"
+            "waterfalls."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_WaterfallTool,
+        .iconPic = gItemIcon_ScubaGear,
+        .iconPalette = gItemIconPalette_ScubaGear,
     },
 
     [ITEM_DIVE_TOOL] =
     {
-        .name = _("Dive Tool"),
+        .name = _("Scuba Gear"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "diving underwater."),
+            "This tool is used\n"
+            "for diving\n"
+            "underwater."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_DiveTool,
+        .iconPic = gItemIcon_ScubaGear,
+        .iconPalette = gItemIconPalette_ScubaGear,
     },
 
     [ITEM_TELEPORT_TOOL] =
     {
-        .name = _("Teleport Tool"),
+        .name = _("Safety Rope"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "getting to safety."),
+            "This tool is used\n"
+            "for getting to\n"
+            "safety."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_TeleportTool,
+        .iconPic = gItemIcon_Axe,
+        .iconPalette = gItemIconPalette_Axe,
     },
 
     [ITEM_SWEETSCENT_TOOL] =
     {
-        .name = _("SweetScntTool"),
+        .name = _("Reusable Lure"),
         .price = 0,
         .importance = 1,
         .description = COMPOUND_STRING(
-            "This tool\n"
-    "is used for\n"
-    "luring pokemon."),
+            "This tool is used\n"
+            "for luring POKéMON."),
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_SweetScentTool,
+        .iconPic = gItemIcon_Axe,
+        .iconPalette = gItemIconPalette_Axe,
     },
 
     //End qol_field_moves
