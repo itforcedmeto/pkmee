@@ -246,17 +246,17 @@ AbandonedShip_PileOfCoins_1::
 # 0 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_ne AbandonedShip_PileOfCoins_1_3
-# 137 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 130 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_3
-# 138 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 131 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	giveitem ITEM_GIMMIGHOUL_COIN, 200
-# 139 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 132 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, FALSE
 	goto_if_eq AbandonedShip_PileOfCoins_1_7
 AbandonedShip_PileOfCoins_1_1:
-# 143 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 136 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	removeobject 1
-# 144 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 137 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	release
 	end
 
@@ -269,23 +269,21 @@ AbandonedShip_PileOfCoins_1_3:
 # 126 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
 # 127 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	removeitem ITEM_GIMMIGHOUL_COIN, 2000
-# 128 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	additem ITEM_GIMMIGHOUL_COIN, 999
-# 135 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 128 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_1
 	goto AbandonedShip_PileOfCoins_1_1
 
 AbandonedShip_PileOfCoins_1_7:
-# 140 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 133 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	goto Common_EventScript_ShowBagIsFull
 	goto AbandonedShip_PileOfCoins_1_1
 
 
 AbandonedShip_PileOfCoins_2::
-# 149 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 142 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	lock
-# 150 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 143 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_0
 	checkitem ITEM_GIMMIGHOUL_COIN, 999
 # 0 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
@@ -295,46 +293,44 @@ AbandonedShip_PileOfCoins_2::
 # 0 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_ne AbandonedShip_PileOfCoins_2_3
-# 165 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 151 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_3
-# 166 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 152 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	giveitem ITEM_GIMMIGHOUL_COIN, 200
-# 167 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 153 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, FALSE
 	goto_if_eq AbandonedShip_PileOfCoins_2_7
 AbandonedShip_PileOfCoins_2_1:
-# 171 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 157 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	removeobject 5
-# 172 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 158 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	release
 	end
 
 AbandonedShip_PileOfCoins_2_2:
-# 152 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 145 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_1
 	goto AbandonedShip_PileOfCoins_2_1
 
 AbandonedShip_PileOfCoins_2_3:
-# 154 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 147 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
-# 155 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	removeitem ITEM_GIMMIGHOUL_COIN, 2000
-# 156 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 148 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	additem ITEM_GIMMIGHOUL_COIN, 999
-# 163 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 149 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_2
 	goto AbandonedShip_PileOfCoins_2_1
 
 AbandonedShip_PileOfCoins_2_7:
-# 168 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 154 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	goto Common_EventScript_ShowBagIsFull
 	goto AbandonedShip_PileOfCoins_2_1
 
 
 AbandonedShip_PileOfCoins_3::
-# 177 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 163 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	lock
-# 178 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 164 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_0
 	checkitem ITEM_GIMMIGHOUL_COIN, 999
 # 0 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
@@ -344,46 +340,44 @@ AbandonedShip_PileOfCoins_3::
 # 0 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_ne AbandonedShip_PileOfCoins_3_3
-# 193 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 172 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_3
-# 194 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 173 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	giveitem ITEM_GIMMIGHOUL_COIN, 200
-# 195 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 174 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, FALSE
 	goto_if_eq AbandonedShip_PileOfCoins_3_7
 AbandonedShip_PileOfCoins_3_1:
-# 199 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 178 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	removeobject 6
-# 200 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 179 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	release
 	end
 
 AbandonedShip_PileOfCoins_3_2:
-# 180 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 166 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_1
 	goto AbandonedShip_PileOfCoins_3_1
 
 AbandonedShip_PileOfCoins_3_3:
-# 182 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 168 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
-# 183 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	removeitem ITEM_GIMMIGHOUL_COIN, 2000
-# 184 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 169 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	additem ITEM_GIMMIGHOUL_COIN, 999
-# 191 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 170 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_3
 	goto AbandonedShip_PileOfCoins_3_1
 
 AbandonedShip_PileOfCoins_3_7:
-# 196 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 175 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	goto Common_EventScript_ShowBagIsFull
 	goto AbandonedShip_PileOfCoins_3_1
 
 
 AbandonedShip_PileOfCoins_4::
-# 205 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 184 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	lock
-# 206 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 185 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_0
 	checkitem ITEM_GIMMIGHOUL_COIN, 999
 # 0 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
@@ -393,46 +387,44 @@ AbandonedShip_PileOfCoins_4::
 # 0 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_ne AbandonedShip_PileOfCoins_4_3
-# 221 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 193 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_3
-# 222 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 194 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	giveitem ITEM_GIMMIGHOUL_COIN, 200
-# 223 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 195 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, FALSE
 	goto_if_eq AbandonedShip_PileOfCoins_4_7
 AbandonedShip_PileOfCoins_4_1:
-# 227 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 199 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	removeobject 7
-# 228 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 200 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	release
 	end
 
 AbandonedShip_PileOfCoins_4_2:
-# 208 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 187 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_1
 	goto AbandonedShip_PileOfCoins_4_1
 
 AbandonedShip_PileOfCoins_4_3:
-# 210 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 189 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
-# 211 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	removeitem ITEM_GIMMIGHOUL_COIN, 2000
-# 212 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 190 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	additem ITEM_GIMMIGHOUL_COIN, 999
-# 219 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 191 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_4
 	goto AbandonedShip_PileOfCoins_4_1
 
 AbandonedShip_PileOfCoins_4_7:
-# 224 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 196 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	goto Common_EventScript_ShowBagIsFull
 	goto AbandonedShip_PileOfCoins_4_1
 
 
 AbandonedShip_PileOfCoins_5::
-# 233 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 205 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	lock
-# 234 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 206 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_0
 	checkitem ITEM_GIMMIGHOUL_COIN, 999
 # 0 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
@@ -442,38 +434,36 @@ AbandonedShip_PileOfCoins_5::
 # 0 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, 0
 	goto_if_ne AbandonedShip_PileOfCoins_5_3
-# 249 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 214 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_3
-# 250 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 215 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	giveitem ITEM_GIMMIGHOUL_COIN, 200
-# 251 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 216 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	compare VAR_RESULT, FALSE
 	goto_if_eq AbandonedShip_PileOfCoins_5_7
 AbandonedShip_PileOfCoins_5_1:
-# 255 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 220 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	removeobject 8
-# 256 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 221 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	release
 	end
 
 AbandonedShip_PileOfCoins_5_2:
-# 236 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 208 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_1
 	goto AbandonedShip_PileOfCoins_5_1
 
 AbandonedShip_PileOfCoins_5_3:
-# 238 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 210 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
-# 239 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	removeitem ITEM_GIMMIGHOUL_COIN, 2000
-# 240 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 211 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	additem ITEM_GIMMIGHOUL_COIN, 999
-# 247 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 212 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_5
 	goto AbandonedShip_PileOfCoins_5_1
 
 AbandonedShip_PileOfCoins_5_7:
-# 252 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 217 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	goto Common_EventScript_ShowBagIsFull
 	goto AbandonedShip_PileOfCoins_5_1
 
@@ -492,5 +482,5 @@ AbandonedShip_PileOfCoins_1_Text_2:
 	.string "You couldn't possibly carry any more!$"
 
 AbandonedShip_PileOfCoins_1_Text_3:
-# 137 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
+# 130 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	.string "You scoop all the coins into your bag.$"

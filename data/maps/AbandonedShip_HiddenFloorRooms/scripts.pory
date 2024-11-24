@@ -124,7 +124,7 @@ script AbandonedShip_PileOfCoins_1 {
 		msgbox(format("Your bag is filled with coins already!"))
 	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
 		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
-		additem(ITEM_GIMMIGHOUL_COIN,999)
+		additem(ITEM_GIMMIGHOUL_COIN,199)
 		setflag(FLAG_SHIP_TREASURE_1)
 	} else {
 		msgbox(format("You scoop all the coins into your bag."))
@@ -145,7 +145,7 @@ script AbandonedShip_PileOfCoins_2 {
 		msgbox(format("Your bag is filled with coins already!"))
 	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
 		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
-		additem(ITEM_GIMMIGHOUL_COIN,999)
+		additem(ITEM_GIMMIGHOUL_COIN,199)
 		setflag(FLAG_SHIP_TREASURE_2)
 	} else {
 		msgbox(format("You scoop all the coins into your bag."))
@@ -166,7 +166,7 @@ script AbandonedShip_PileOfCoins_3 {
 		msgbox(format("Your bag is filled with coins already!"))
 	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
 		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
-		additem(ITEM_GIMMIGHOUL_COIN,999)
+		additem(ITEM_GIMMIGHOUL_COIN,199)
 		setflag(FLAG_SHIP_TREASURE_3)
 	} else {
 		msgbox(format("You scoop all the coins into your bag."))
@@ -187,7 +187,7 @@ script AbandonedShip_PileOfCoins_4 {
 		msgbox(format("Your bag is filled with coins already!"))
 	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
 		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
-		additem(ITEM_GIMMIGHOUL_COIN,999)
+		additem(ITEM_GIMMIGHOUL_COIN,199)
 		setflag(FLAG_SHIP_TREASURE_4)
 	} else {
 		msgbox(format("You scoop all the coins into your bag."))
@@ -208,7 +208,7 @@ script AbandonedShip_PileOfCoins_5 {
 		msgbox(format("Your bag is filled with coins already!"))
 	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
 		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
-		additem(ITEM_GIMMIGHOUL_COIN,999)
+		additem(ITEM_GIMMIGHOUL_COIN,199)
 		setflag(FLAG_SHIP_TREASURE_5)
 	} else {
 		msgbox(format("You scoop all the coins into your bag."))
