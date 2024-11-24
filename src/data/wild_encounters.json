@@ -11491,6 +11491,75 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_ABANDONED_SHIP_HIDDEN_FLOOR_ROOMS",
+          "base_label": "gAbandonedShip_HiddenFloorRooms0",
+          "land_mons": {
+            "encounter_rate": 1,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_ROAMING"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_ROAMING"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_ROAMING"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
+              },
+              {
+                "min_level": 5,
+                "max_level": 20,
+                "species": "SPECIES_GIMMIGHOUL_CHEST"
+              }
+            ]
+          }
         }
       ]
     },

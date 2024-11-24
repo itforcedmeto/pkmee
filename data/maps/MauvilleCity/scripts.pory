@@ -669,10 +669,20 @@ MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hi, have you been checking out TVs?$"
 `
 script MauvilleCity_GimmighoulGuy {
-	lockall
+	lock
 	faceplayer
-	msgbox(format("Coins have been mysteriously disappearing recently at the Game Corner. Some people have said they saw a trail of coins leading to VENDANTURF TOWN."))
-	releaseall
+		switch (var(VAR_VERDANTURF_TOWN_STATE)) {
+		case 0:
+			msgbox(format("Coins have been mysteriously disappearing at the Game Corner. Some people have said they saw a trail of coins leading to VENDANTURF TOWN."))
+			setvar(VAR_VERDANTURF_TOWN_STATE, 1)
+		case 1:
+			msgbox(format("A pile of Game Corner coins was found in VENDANTURF TOWN, mixed with coins from other places! Some even matched coins recovered from the abandoned ship on ROUTE 108!"))
+		case 2:
+			msgbox("placeholder.")
+		default:
+			msgbox("Coins have been mysteriously disappearing at the Game Corner. Some people have said they saw a trail of coins leading to VENDANTURF TOWN.")
+    }
+	release
 	end
 }
 

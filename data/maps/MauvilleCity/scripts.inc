@@ -1339,20 +1339,61 @@ MauvilleCity_Text_BeenCheckingOutTV:
 
 MauvilleCity_GimmighoulGuy::
 # 672 "data/maps/MauvilleCity/scripts.pory"
-	lockall
+	lock
 # 673 "data/maps/MauvilleCity/scripts.pory"
 	faceplayer
 # 674 "data/maps/MauvilleCity/scripts.pory"
-	msgbox MauvilleCity_GimmighoulGuy_Text_0
+	switch VAR_VERDANTURF_TOWN_STATE
 # 675 "data/maps/MauvilleCity/scripts.pory"
-	releaseall
+	case 0, MauvilleCity_GimmighoulGuy_3
+# 678 "data/maps/MauvilleCity/scripts.pory"
+	case 1, MauvilleCity_GimmighoulGuy_4
+# 680 "data/maps/MauvilleCity/scripts.pory"
+	case 2, MauvilleCity_GimmighoulGuy_5
+# 683 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_GimmighoulGuy_Text_3
+MauvilleCity_GimmighoulGuy_1:
+# 685 "data/maps/MauvilleCity/scripts.pory"
+	release
 	end
+
+MauvilleCity_GimmighoulGuy_3:
+# 676 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_GimmighoulGuy_Text_0
+# 677 "data/maps/MauvilleCity/scripts.pory"
+	setvar VAR_VERDANTURF_TOWN_STATE, 1
+	goto MauvilleCity_GimmighoulGuy_1
+
+MauvilleCity_GimmighoulGuy_4:
+# 679 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_GimmighoulGuy_Text_1
+	goto MauvilleCity_GimmighoulGuy_1
+
+MauvilleCity_GimmighoulGuy_5:
+# 681 "data/maps/MauvilleCity/scripts.pory"
+	msgbox MauvilleCity_GimmighoulGuy_Text_2
+	goto MauvilleCity_GimmighoulGuy_1
 
 
 MauvilleCity_GimmighoulGuy_Text_0:
-# 674 "data/maps/MauvilleCity/scripts.pory"
+# 676 "data/maps/MauvilleCity/scripts.pory"
 	.string "Coins have been mysteriously\n"
-	.string "disappearing recently at the Game\l"
-	.string "Corner. Some people have said they saw\l"
-	.string "a trail of coins leading to VENDANTURF\l"
-	.string "TOWN.$"
+	.string "disappearing at the Game Corner. Some\l"
+	.string "people have said they saw a trail of\l"
+	.string "coins leading to VENDANTURF TOWN.$"
+
+MauvilleCity_GimmighoulGuy_Text_1:
+# 679 "data/maps/MauvilleCity/scripts.pory"
+	.string "A pile of Game Corner coins was found in\n"
+	.string "VENDANTURF TOWN, mixed with coins from\l"
+	.string "other places! Some even matched coins\l"
+	.string "recovered from the abandoned ship on\l"
+	.string "ROUTE 108!$"
+
+MauvilleCity_GimmighoulGuy_Text_2:
+# 681 "data/maps/MauvilleCity/scripts.pory"
+	.string "placeholder.$"
+
+MauvilleCity_GimmighoulGuy_Text_3:
+# 683 "data/maps/MauvilleCity/scripts.pory"
+	.string "Coins have been mysteriously disappearing at the Game Corner. Some people have said they saw a trail of coins leading to VENDANTURF TOWN.$"

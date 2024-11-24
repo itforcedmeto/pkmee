@@ -117,3 +117,107 @@ AbandonedShip_HiddenFloorRooms_Text_BrightShinyTrash:
 	.string "But it's just trash…$"
 
 `
+script AbandonedShip_PileOfCoins_1 {
+	lock
+	msgbox(format("It's a pile of coins!"))
+	if(checkitem(ITEM_GIMMIGHOUL_COIN,999)) {
+		msgbox(format("Your bag is filled with coins already!"))
+	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
+		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
+		additem(ITEM_GIMMIGHOUL_COIN,999)
+		setflag(FLAG_SHIP_TREASURE_1)
+	} else {
+		msgbox(format("You scoop all the coins into your bag."))
+		giveitem(ITEM_GIMMIGHOUL_COIN,200)
+		if (var(VAR_RESULT) == FALSE) {
+			goto(Common_EventScript_ShowBagIsFull)
+		}
+	}
+	removeobject(1)
+	release
+	end
+}
+
+script AbandonedShip_PileOfCoins_2 {
+	lock
+	msgbox(format("It's a pile of coins!"))
+	if(checkitem(ITEM_GIMMIGHOUL_COIN,999)) {
+		msgbox(format("Your bag is filled with coins already!"))
+	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
+		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
+		additem(ITEM_GIMMIGHOUL_COIN,999)
+		setflag(FLAG_SHIP_TREASURE_2)
+	} else {
+		msgbox(format("You scoop all the coins into your bag."))
+		giveitem(ITEM_GIMMIGHOUL_COIN,200)
+		if (var(VAR_RESULT) == FALSE) {
+			goto(Common_EventScript_ShowBagIsFull)
+		}
+	}
+	removeobject(5)
+	release
+	end
+}
+
+script AbandonedShip_PileOfCoins_3 {
+		lock
+	msgbox(format("It's a pile of coins!"))
+	if(checkitem(ITEM_GIMMIGHOUL_COIN,999)) {
+		msgbox(format("Your bag is filled with coins already!"))
+	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
+		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
+		additem(ITEM_GIMMIGHOUL_COIN,999)
+		setflag(FLAG_SHIP_TREASURE_3)
+	} else {
+		msgbox(format("You scoop all the coins into your bag."))
+		giveitem(ITEM_GIMMIGHOUL_COIN,200)
+		if (var(VAR_RESULT) == FALSE) {
+			goto(Common_EventScript_ShowBagIsFull)
+		}
+	}
+	removeobject(6)
+	release
+	end
+}
+
+script AbandonedShip_PileOfCoins_4 {
+	lock
+	msgbox(format("It's a pile of coins!"))
+	if(checkitem(ITEM_GIMMIGHOUL_COIN,999)) {
+		msgbox(format("Your bag is filled with coins already!"))
+	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
+		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
+		additem(ITEM_GIMMIGHOUL_COIN,999)
+		setflag(FLAG_SHIP_TREASURE_4)
+	} else {
+		msgbox(format("You scoop all the coins into your bag."))
+		giveitem(ITEM_GIMMIGHOUL_COIN,200)
+		if (var(VAR_RESULT) == FALSE) {
+			goto(Common_EventScript_ShowBagIsFull)
+		}
+	}
+	removeobject(7)
+	release
+	end
+}
+
+script AbandonedShip_PileOfCoins_5 {
+		lock
+	msgbox(format("It's a pile of coins!"))
+	if(checkitem(ITEM_GIMMIGHOUL_COIN,999)) {
+		msgbox(format("Your bag is filled with coins already!"))
+	} elif (checkitem(ITEM_GIMMIGHOUL_COIN,800)) {
+		msgbox(format("You scoop all the coins into your bag. You couldn't possibly carry any more!"))
+		additem(ITEM_GIMMIGHOUL_COIN,999)
+		setflag(FLAG_SHIP_TREASURE_5)
+	} else {
+		msgbox(format("You scoop all the coins into your bag."))
+		giveitem(ITEM_GIMMIGHOUL_COIN,200)
+		if (var(VAR_RESULT) == FALSE) {
+			goto(Common_EventScript_ShowBagIsFull)
+		}
+	}
+	removeobject(8)
+	release
+	end
+}

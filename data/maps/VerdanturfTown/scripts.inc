@@ -255,24 +255,69 @@ VerdanturfTown_Text_RusturfTunnelSign:
 
 VendanturfTown_Gimmighoul::
 # 131 "data/maps/VerdanturfTown/scripts.pory"
-	lockall
+	lock
 # 132 "data/maps/VerdanturfTown/scripts.pory"
 	faceplayer
 # 133 "data/maps/VerdanturfTown/scripts.pory"
 	msgbox VendanturfTown_Gimmighoul_Text_0
 # 134 "data/maps/VerdanturfTown/scripts.pory"
-	givemon SPECIES_GIMMIGHOUL_ROAMING, 15
+	msgbox VendanturfTown_Gimmighoul_Text_1, MSGBOX_YESNO
 # 135 "data/maps/VerdanturfTown/scripts.pory"
-	setvar VAR_VERDANTURF_TOWN_STATE, 1
-# 136 "data/maps/VerdanturfTown/scripts.pory"
-	setflag FLAG_VENDANTURF_GIMMI
-# 137 "data/maps/VerdanturfTown/scripts.pory"
-	removeobject 5
-# 138 "data/maps/VerdanturfTown/scripts.pory"
-	releaseall
+	compare VAR_RESULT, 1
+	goto_if_eq VendanturfTown_Gimmighoul_2
+VendanturfTown_Gimmighoul_1:
+# 149 "data/maps/VerdanturfTown/scripts.pory"
+	release
 	end
+
+VendanturfTown_Gimmighoul_2:
+# 136 "data/maps/VerdanturfTown/scripts.pory"
+	getpartysize
+# 137 "data/maps/VerdanturfTown/scripts.pory"
+	compare VAR_RESULT, 6
+# 138 "data/maps/VerdanturfTown/scripts.pory"
+	compare VAR_RESULT, 6
+	goto_if_lt VendanturfTown_Gimmighoul_4
+# 146 "data/maps/VerdanturfTown/scripts.pory"
+	msgbox VendanturfTown_Gimmighoul_Text_4
+	goto VendanturfTown_Gimmighoul_1
+
+VendanturfTown_Gimmighoul_4:
+# 139 "data/maps/VerdanturfTown/scripts.pory"
+	msgbox VendanturfTown_Gimmighoul_Text_2
+# 140 "data/maps/VerdanturfTown/scripts.pory"
+	givemon SPECIES_GIMMIGHOUL_ROAMING, 15
+# 141 "data/maps/VerdanturfTown/scripts.pory"
+	msgbox VendanturfTown_Gimmighoul_Text_3
+# 142 "data/maps/VerdanturfTown/scripts.pory"
+	setvar VAR_VERDANTURF_TOWN_STATE, 1
+# 143 "data/maps/VerdanturfTown/scripts.pory"
+	setflag FLAG_VENDANTURF_GIMMI
+# 144 "data/maps/VerdanturfTown/scripts.pory"
+	removeobject 5
+	goto VendanturfTown_Gimmighoul_1
 
 
 VendanturfTown_Gimmighoul_Text_0:
 # 133 "data/maps/VerdanturfTown/scripts.pory"
-	.string "gimmi!$"
+	.string "This must be what was stealing coins\n"
+	.string "from the Game Corner! The POKéMON\l"
+	.string "looks at you curiously, while clutching\l"
+	.string "one coin particularly tight. It wants to\l"
+	.string "join you on your adventure!$"
+
+VendanturfTown_Gimmighoul_Text_1:
+# 134 "data/maps/VerdanturfTown/scripts.pory"
+	.string "Do you want to travel with GIMMIGHOUL?$"
+
+VendanturfTown_Gimmighoul_Text_2:
+# 139 "data/maps/VerdanturfTown/scripts.pory"
+	.string "{PLAYER} obtained a GIMMIGHOUL.$"
+
+VendanturfTown_Gimmighoul_Text_3:
+# 141 "data/maps/VerdanturfTown/scripts.pory"
+	.string "GIMMIGHOUL jumps with glee!$"
+
+VendanturfTown_Gimmighoul_Text_4:
+# 146 "data/maps/VerdanturfTown/scripts.pory"
+	.string "There is no space for another POKéMON.$"

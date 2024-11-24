@@ -48,7 +48,7 @@
 #define FLAG_RAIN_BOSS_BEATEN       0x23 // Unused Flag
 #define FLAG_SUN_BOSS_BEATEN        0x24 // Unused Flag
 #define FLAG_SAND_BOSS_BEATEN       0x25 // Unused Flag
-#define FLAG_UNUSED_0x026    0x26 // Unused Flag
+#define FLAG_VENDANTURF_GIMMI    0x26 // if Gimmighoul has been received
 #define FLAG_UNUSED_0x027    0x27 // Unused Flag
 #define FLAG_UNUSED_0x028    0x28 // Unused Flag
 #define FLAG_UNUSED_0x029    0x29 // Unused Flag
@@ -1571,11 +1571,11 @@
 #define FLAG_UNUSED_0x920                           (DAILY_FLAGS_START + 0x0)  // Unused Flag
 #define FLAG_DAILY_CONTEST_LOBBY_RECEIVED_BERRY     (DAILY_FLAGS_START + 0x1)
 #define FLAG_DAILY_SECRET_BASE                      (DAILY_FLAGS_START + 0x2)
-#define FLAG_UNUSED_0x923                           (DAILY_FLAGS_START + 0x3)  // Unused Flag
-#define FLAG_UNUSED_0x924                           (DAILY_FLAGS_START + 0x4)  // Unused Flag
-#define FLAG_UNUSED_0x925                           (DAILY_FLAGS_START + 0x5)  // Unused Flag
-#define FLAG_UNUSED_0x926                           (DAILY_FLAGS_START + 0x6)  // Unused Flag
-#define FLAG_UNUSED_0x927                           (DAILY_FLAGS_START + 0x7)  // Unused Flag
+#define FLAG_SHIP_TREASURE_1                        (DAILY_FLAGS_START + 0x3)  // Unused Flag
+#define FLAG_SHIP_TREASURE_2                        (DAILY_FLAGS_START + 0x4)  // Unused Flag
+#define FLAG_SHIP_TREASURE_3                        (DAILY_FLAGS_START + 0x5)  // Unused Flag
+#define FLAG_SHIP_TREASURE_4                        (DAILY_FLAGS_START + 0x6)  // Unused Flag
+#define FLAG_SHIP_TREASURE_5                        (DAILY_FLAGS_START + 0x7)  // Unused Flag
 #define FLAG_UNUSED_0x928                           (DAILY_FLAGS_START + 0x8)  // Unused Flag
 #define FLAG_UNUSED_0x929                           (DAILY_FLAGS_START + 0x9)  // Unused Flag
 #define FLAG_DAILY_PICKED_LOTO_TICKET               (DAILY_FLAGS_START + 0xA)

@@ -128,13 +128,24 @@ VerdanturfTown_Text_RusturfTunnelSign:
 
 `
 script VendanturfTown_Gimmighoul {
-	lockall
+	lock
 	faceplayer
-	msgbox(format("gimmi!"))
-	givemon(SPECIES_GIMMIGHOUL_ROAMING, 15)
-	setvar(VAR_VERDANTURF_TOWN_STATE, 1)
-	setflag(FLAG_VENDANTURF_GIMMI)
-	removeobject(5)
-	releaseall
+	msgbox(format("This must be what was stealing coins from the Game Corner! The POKéMON looks at you curiously, while clutching one coin particularly tight. It wants to join you on your adventure!"))
+	msgbox("Do you want to travel with GIMMIGHOUL?", MSGBOX_YESNO)
+	if(var(VAR_RESULT) == 1) {
+		getpartysize
+		compare(VAR_RESULT, 6)
+		if(var(VAR_RESULT) < 6) {
+			msgbox(format("{PLAYER} obtained a GIMMIGHOUL."))
+			givemon(SPECIES_GIMMIGHOUL_ROAMING, 15)
+			msgbox(format("GIMMIGHOUL jumps with glee!"))
+			setvar(VAR_VERDANTURF_TOWN_STATE, 1)
+			setflag(FLAG_VENDANTURF_GIMMI)
+			removeobject(5)
+		} else {
+			msgbox(format("There is no space for another POKéMON."))
+		}
+	}
+	release
 	end
 }
