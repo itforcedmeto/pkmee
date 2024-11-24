@@ -6107,6 +6107,14 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .iconSprite = gMonIcon_GimmighoulRoaming,
         .iconPalIndex = 0,
         FOOTPRINT(GimmighoulRoaming)
+        OVERWORLD(
+            sPicTable_GimmighoulRoaming,
+            SIZE_32x32,
+            SHADOW_SIZE_S,
+            TRACKS_NONE,
+            gOverworldPalette_GimmighoulRoaming,
+            gShinyOverworldPalette_GimmighoulRoaming
+        )
         .levelUpLearnset = sGimmighoulLevelUpLearnset,
         .teachableLearnset = sGimmighoulTeachableLearnset,
         .formSpeciesIdTable = sGimmighoulFormSpeciesIdTable,
