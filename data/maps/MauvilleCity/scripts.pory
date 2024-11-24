@@ -668,3 +668,11 @@ MauvilleCity_Text_ExplainTV:
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hi, have you been checking out TVs?$"
 `
+script MauvilleCity_GimmighoulGuy {
+	lockall
+	faceplayer
+	msgbox(format("Coins have been mysteriously disappearing recently at the Game Corner. Some people have said they saw a trail of coins leading to VENDANTURF TOWN."))
+	releaseall
+	end
+}
+

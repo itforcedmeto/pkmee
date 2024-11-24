@@ -127,3 +127,14 @@ VerdanturfTown_Text_RusturfTunnelSign:
 	.string "canceled.”$"
 
 `
+script VendanturfTown_Gimmighoul {
+	lockall
+	faceplayer
+	msgbox(format("gimmi!"))
+	givemon(SPECIES_GIMMIGHOUL_ROAMING, 15)
+	setvar(VAR_VERDANTURF_TOWN_STATE, 1)
+	setflag(FLAG_VENDANTURF_GIMMI)
+	removeobject(5)
+	releaseall
+	end
+}
