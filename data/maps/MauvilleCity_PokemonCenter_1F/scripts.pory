@@ -56,3 +56,51 @@ MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
 	.string "sounds fun. I'll go check it out!$"
 
 `
+script Generic_FreeMoveReminder {
+	lock
+	msgbox(format("i am the move tutor, i will teach your pokemon a move they previously knew"))
+	special(ChooseMonForMoveRelearner)
+	if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
+		msgbox(format("come back later"))
+	}
+	special(IsSelectedMonEgg)
+	if(var(VAR_RESULT) == TRUE) {
+		msgbox(format("can't teach egg"))
+	} elif(var(VAR_0x8005) == FALSE) {
+		msgbox(format("no moves to teach"))
+	}
+	special(TeachMoveRelearnerMove)
+	waitstate
+	if(var(VAR_0x8004) == 0) {
+		msgbox(format("come back???"))
+	} else {
+		msgbox(format("see you!"))
+	}
+	release
+	end
+}
+
+//script Generic_FreeMoveReminder {
+//	lock
+//	msgbox(format("i am the move tutor, i will teach your pokemon a move they previously knew"))
+//	special(ChooseMonForMoveRelearner)
+//	if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
+//		msgbox(format("come back later"))
+//	} else {
+//		special(IsSelectedMonEgg)
+//		if(var(VAR_RESULT) == TRUE) {
+//			msgbox(format("can't teach egg"))
+//		} elif(var(VAR_0x8005) == FALSE) {
+//			msgbox(format("no moves to teach"))
+//		}
+//		special(TeachMoveRelearnerMove)
+//		waitstate
+//		if(var(VAR_0x8004) == 0) {
+//			msgbox(format("oh that's too bad, see you next time"))
+//		} else {
+//			msgbox(format("teach more of your pokemon moves!"))
+//		}
+//	}
+//	release
+//	end
+//}
