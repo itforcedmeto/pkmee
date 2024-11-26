@@ -269,7 +269,7 @@ AbandonedShip_PileOfCoins_1_3:
 # 126 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
 # 127 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	additem ITEM_GIMMIGHOUL_COIN, 999
+	additem ITEM_GIMMIGHOUL_COIN, 199
 # 128 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_1
 	goto AbandonedShip_PileOfCoins_1_1
@@ -316,7 +316,7 @@ AbandonedShip_PileOfCoins_2_3:
 # 147 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
 # 148 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	additem ITEM_GIMMIGHOUL_COIN, 999
+	additem ITEM_GIMMIGHOUL_COIN, 199
 # 149 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_2
 	goto AbandonedShip_PileOfCoins_2_1
@@ -363,7 +363,7 @@ AbandonedShip_PileOfCoins_3_3:
 # 168 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
 # 169 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	additem ITEM_GIMMIGHOUL_COIN, 999
+	additem ITEM_GIMMIGHOUL_COIN, 199
 # 170 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_3
 	goto AbandonedShip_PileOfCoins_3_1
@@ -410,7 +410,7 @@ AbandonedShip_PileOfCoins_4_3:
 # 189 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
 # 190 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	additem ITEM_GIMMIGHOUL_COIN, 999
+	additem ITEM_GIMMIGHOUL_COIN, 199
 # 191 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_4
 	goto AbandonedShip_PileOfCoins_4_1
@@ -457,7 +457,7 @@ AbandonedShip_PileOfCoins_5_3:
 # 210 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	msgbox AbandonedShip_PileOfCoins_1_Text_2
 # 211 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
-	additem ITEM_GIMMIGHOUL_COIN, 999
+	additem ITEM_GIMMIGHOUL_COIN, 199
 # 212 "data/maps/AbandonedShip_HiddenFloorRooms/scripts.pory"
 	setflag FLAG_SHIP_TREASURE_5
 	goto AbandonedShip_PileOfCoins_5_1
