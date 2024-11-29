@@ -57,50 +57,49 @@ MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
 
 `
 script Generic_FreeMoveReminder {
-	lock
-	msgbox(format("i am the move tutor, i will teach your pokemon a move they previously knew"))
+	lockall
+	faceplayer
+	msgbox(format("I am the MOVE MASTER! Shall I teach your POKéMON a move?"), MSGBOX_YESNO)
+	if (var(VAR_RESULT) == NO) {
+		goto(MoveRelearner_Bye)
+	} else {
+		goto(MoveRelearner_Choose)
+	}
+	releaseall
+	end
+
+MoveRelearner_Choose:
 	special(ChooseMonForMoveRelearner)
+	waitstate
 	if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
-		msgbox(format("come back later"))
+		goto(MoveRelearner_Bye)
 	}
 	special(IsSelectedMonEgg)
 	if(var(VAR_RESULT) == TRUE) {
-		msgbox(format("can't teach egg"))
-	} elif(var(VAR_0x8005) == FALSE) {
-		msgbox(format("no moves to teach"))
+		goto(MoveRelearner_NoEggs)
+	} elif(var(VAR_0x8005) == FALSE) { // CB2_ChooseMonForMoveRelearner sets gSpecialVar_0x8005 to # of moves the selected mon can learn - 0 = FALSE
+		goto(MoveRelearner_NoMoves)
 	}
 	special(TeachMoveRelearnerMove)
 	waitstate
-	if(var(VAR_0x8004) == 0) {
-		msgbox(format("come back???"))
+	if(var(VAR_0x8004) == FALSE) { // TeachMoveRelearnerMove sets this to FALSE if the player backs out after getting to 'teach a move' screen
+		goto(MoveRelearner_Bye)
 	} else {
-		msgbox(format("see you!"))
+		msgbox(format("Be sure to come back and teach more moves to your POKéMON!")) // otherwise mon has successfully learnt a move
+		releaseall
+		end
 	}
-	release
-	end
-}
 
-//script Generic_FreeMoveReminder {
-//	lock
-//	msgbox(format("i am the move tutor, i will teach your pokemon a move they previously knew"))
-//	special(ChooseMonForMoveRelearner)
-//	if(var(VAR_0x8004) == PARTY_NOTHING_CHOSEN) {
-//		msgbox(format("come back later"))
-//	} else {
-//		special(IsSelectedMonEgg)
-//		if(var(VAR_RESULT) == TRUE) {
-//			msgbox(format("can't teach egg"))
-//		} elif(var(VAR_0x8005) == FALSE) {
-//			msgbox(format("no moves to teach"))
-//		}
-//		special(TeachMoveRelearnerMove)
-//		waitstate
-//		if(var(VAR_0x8004) == 0) {
-//			msgbox(format("oh that's too bad, see you next time"))
-//		} else {
-//			msgbox(format("teach more of your pokemon moves!"))
-//		}
-//	}
-//	release
-//	end
-//}
+MoveRelearner_Bye:
+	msgbox(format("Come back soon!"))
+	releaseall
+	end
+
+MoveRelearner_NoEggs:
+	msgbox(format("I may be the MOVE MASTER, but I can't teach an EGG any moves!"))
+	goto(MoveRelearner_Choose)
+
+MoveRelearner_NoMoves:
+	msgbox(format("Impossible! I can't teach this POKéMON any moves!"))
+	goto(MoveRelearner_Choose)
+}
