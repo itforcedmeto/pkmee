@@ -1512,9 +1512,9 @@
 #define FLAG_UNUSED_0x8EA                           (SYSTEM_FLAGS + 0x8A) // Unused Flag
 #define FLAG_UNUSED_0x8EB                           (SYSTEM_FLAGS + 0x8B) // Unused Flag
 #define FLAG_UNUSED_0x8EC                           (SYSTEM_FLAGS + 0x8C) // Unused Flag
-#define FLAG_UNUSED_0x8ED                           (SYSTEM_FLAGS + 0x8D) // Unused Flag
-#define FLAG_UNUSED_0x8EE                           (SYSTEM_FLAGS + 0x8E) // Unused Flag
-#define FLAG_UNUSED_0x8EF                           (SYSTEM_FLAGS + 0x8F) // Unused Flag
+#define FLAG_SYS_RECEIVED_TM_MOVES                  (SYSTEM_FLAGS + 0x8D) // per https://github.com/PCG06/pokeemerald-hack/commit/6ce842a8a682c4bbd5a49fa7818f11d0b406457a
+#define FLAG_SYS_RECEIVED_EGG_MOVES                 (SYSTEM_FLAGS + 0x8E) // same
+#define FLAG_SYS_RECEIVED_TUTOR_MOVES               (SYSTEM_FLAGS + 0x8F) // same
 #define FLAG_UNUSED_0x8F0                           (SYSTEM_FLAGS + 0x90) // Unused Flag
 #define FLAG_UNUSED_0x8F1                           (SYSTEM_FLAGS + 0x91) // Unused Flag
 #define FLAG_UNUSED_0x8F2                           (SYSTEM_FLAGS + 0x92) // Unused Flag
