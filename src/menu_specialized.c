@@ -7,10 +7,10 @@
 #include "event_data.h"
 #include "gpu_regs.h"
 #include "graphics.h"
-#include "menu.h"
 #include "international_string_util.h"
 #include "menu.h"
 #include "menu_specialized.h"
+#include "money.h" // jd: per https://github.com/PCG06/pokeemerald-hack/commit/861381bc11203ac8c10336063eff1306d5ad167c
 #include "move_relearner.h"
 #include "palette.h"
 #include "player_pc.h"
@@ -820,13 +820,14 @@ static void MoveRelearnerLoadBattleMoveDescription(u32 chosenMove)
                 ConvertIntToDecimalStringN(buffer, 5000, STR_CONV_MODE_LEFT_ALIGN, 4);
             break;
             case MOVE_TUTOR_TM_MOVES:
-                ConvertIntToDecimalStringN(buffer, 200, STR_CONV_MODE_LEFT_ALIGN, 3);
+                ConvertIntToDecimalStringN(buffer, 100, STR_CONV_MODE_LEFT_ALIGN, 3);
             break;
             case MOVE_TUTOR_TUTOR_MOVES:
                 ConvertIntToDecimalStringN(buffer, gTutorMoves[chosenMove].price, STR_CONV_MODE_LEFT_ALIGN, 5);
                 DebugPrintf("Selected Move Index: %d", chosenMove);
                 DebugPrintf("Price: %S", buffer);
                 VarSet(VAR_TEMP_1, gTutorMoves[chosenMove].price);
+                VarSet(VAR_TEMP_2, GetMoney(&gSaveBlock1Ptr->money));
             break;
             default:
                 ConvertIntToDecimalStringN(buffer, 2000, STR_CONV_MODE_LEFT_ALIGN, 4);

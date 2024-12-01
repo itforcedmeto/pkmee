@@ -451,6 +451,12 @@ endef
 $(foreach src, $(C_ASM_SRCS), $(eval $(call SRC_ASM_DATA_DEP,$(patsubst $(C_SUBDIR)/%.s,$(C_BUILDDIR)/%.o, $(src)),$(src))))
 endif
 
+# jd: start per https://github.com/PCG06/pokeemerald-hack/commit/0a830b5a5a03c35bac9f4e80a9fe7714bcee60e4 - this may break
+ifneq ($(NODEP),1)
+-include $(addprefix $(OBJ_DIR)/,$(TEST_SRCS:.c=.d))
+endif
+# jd: end
+
 ifeq ($(NODEP),1)
 $(ASM_BUILDDIR)/%.o: $(ASM_SUBDIR)/%.s
 	$(AS) $(ASFLAGS) -o $@ $<

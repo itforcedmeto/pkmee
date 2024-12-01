@@ -906,6 +906,7 @@ extern const u8 gText_Phoebe[];
 extern const u8 gText_Glacia[];
 
 extern const u8 gText_MoveRelearnerPkmnLearnedMove[];
+extern const u8 gText_MoveRelearnerCantAffordThatMove[]; // jd per https://github.com/PCG06/pokeemerald-hack/commit/861381bc11203ac8c10336063eff1306d5ad167c
 extern const u8 gText_MoveRelearnerPkmnTryingToLearnMove[];
 extern const u8 gText_MoveRelearnerWhichMoveToForget[];
 extern const u8 gText_MoveRelearnerStopTryingToTeachMove[];
