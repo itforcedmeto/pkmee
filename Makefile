@@ -483,7 +483,8 @@ $(OBJ_DIR)/sym_ewram.ld: sym_ewram.txt
 	$(RAMSCRGEN) ewram_data $< ENGLISH > $@
 
 # NOTE: Depending on event_scripts.o is hacky, but we want to depend on everything event_scripts.s depends on without having to alter scaninc
-$(DATA_SRC_SUBDIR)/pokemon/teachable_learnsets.h: $(DATA_ASM_BUILDDIR)/event_scripts.o
+#$(DATA_SRC_SUBDIR)/pokemon/teachable_learnsets.h: $(DATA_ASM_BUILDDIR)/event_scripts.o
+$(DATA_SRC_SUBDIR)/pokemon/teachable_learnsets.h: $(DATA_SRC_SUBDIR)/tutor_moves.h # jd: commented out above and replaced with this per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
 	python3 tools/learnset_helpers/teachable.py
 
 # NOTE: Based on C_DEP above, but without NODEP and KEEP_TEMPS handling.

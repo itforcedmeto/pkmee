@@ -38,6 +38,20 @@ with open("./include/constants/tms_hms.h", 'r') as file:
         if not 'MOVE_' + x in tm_moves:
             tm_moves.append('MOVE_' + x)
 
+# jd: per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
+# New section to extract tutor moves from sTutorMoves
+def extract_tutor_moves_from_c(file_path):
+    tutor_moves = []
+    with open(file_path, 'r') as f:
+        raw = f.read()
+        matches = re.findall(r'\{(MOVE_[A-Z_]+),.*?\}', raw)
+        for match in matches:
+            if match not in tutor_moves:
+                tutor_moves.append(match)
+    return tutor_moves
+# Now call the function to get tutor moves
+tutor_moves = extract_tutor_moves_from_c('./src/data/tutor_moves.h')
+
 # look up universal moves to exclude them
 universal_moves = []
 with open("./src/pokemon.c", "r") as file:
@@ -176,7 +190,7 @@ longest_move_name += 2 # + 2 for a hyphen and a space
 
 universal_title = "Near-universal moves found in sUniversalMoves:"
 tmhm_title = "TM/HM moves found in \"include/constants/tms_hms.h\":"
-tutor_title = "Tutor moves found in map scripts:"
+tutor_title = "Tutor moves found in \"src/data/tutor_moves.h\":"
 
 if longest_move_name < len(universal_title):
     longest_move_name = len(universal_title)
