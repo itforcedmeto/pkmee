@@ -44,7 +44,7 @@ def extract_tutor_moves_from_c(file_path):
     tutor_moves = []
     with open(file_path, 'r') as f:
         raw = f.read()
-        matches = re.findall(r'\{(MOVE_[A-Z_]+),.*?\}', raw)
+        matches = re.findall(r'\[(MOVE_[A-Z_]+)\]', raw)
         for match in matches:
             if match not in tutor_moves:
                 tutor_moves.append(match)
