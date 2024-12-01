@@ -894,6 +894,9 @@ void HealPokemon(struct Pokemon *mon);
 void HealBoxPokemon(struct BoxPokemon *boxMon);
 const u8 *GetMoveName(u16 moveId);
 const u8 *GetMoveAnimationScript(u16 moveId);
+u32 GetTutorMove(u16 moveId); // jd: per https://github.com/PCG06/pokeemerald-hack/commit/07d5dc65266fc5ce45ce97b32e81a3f485c717be
+u32 GetTutorMoveFlag(u16 moveId); // jd: per https://github.com/PCG06/pokeemerald-hack/commit/07d5dc65266fc5ce45ce97b32e81a3f485c717be
+u32 GetTutorMovePrice(u16 moveId); // jd: per https://github.com/PCG06/pokeemerald-hack/commit/07d5dc65266fc5ce45ce97b32e81a3f485c717be
 void UpdateDaysPassedSinceFormChange(u16 days);
 void TrySetDayLimitToFormChange(struct Pokemon *mon);
 
