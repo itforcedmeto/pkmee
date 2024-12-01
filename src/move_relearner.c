@@ -579,13 +579,14 @@ static void DoMoveRelearnerMain(void)
         }
         break;
     case MENU_STATE_PRINT_TRYING_TO_LEARN_PROMPT:
-        if (VarGet(VAR_TEMP_1) > VarGet(VAR_TEMP_2))
+        if (VarGet(VAR_PARTY_MENU_TUTOR_STATE) == MOVE_TUTOR_TUTOR_MOVES)
         {
-            PrintMessageWithPlaceholders(gText_MoveRelearnerCantAffordThatMove);
-            sMoveRelearnerStruct->state = MENU_STATE_WAIT_FOR_TEXT;
+            if (VarGet(VAR_TEMP_1) > VarGet(VAR_TEMP_2))
+            {
+                PrintMessageWithPlaceholders(gText_MoveRelearnerCantAffordThatMove);
+                sMoveRelearnerStruct->state = MENU_STATE_IDLE_BATTLE_MODE;
+            }
         }
-        else
-        {
             PrintMessageWithPlaceholders(gText_MoveRelearnerPkmnTryingToLearnMove);
             sMoveRelearnerStruct->state++;
         }

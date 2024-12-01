@@ -835,9 +835,10 @@ static void MoveRelearnerLoadBattleMoveDescription(u32 chosenMove)
             case MOVE_TUTOR_TUTOR_MOVES:
                 ConvertIntToDecimalStringN(buffer, gTutorMoves[chosenMove].price, STR_CONV_MODE_LEFT_ALIGN, 5);
                 DebugPrintf("Selected Move Index: %d", chosenMove);
-                DebugPrintf("Price: %S", buffer);
                 VarSet(VAR_TEMP_1, gTutorMoves[chosenMove].price);
                 VarSet(VAR_TEMP_2, GetMoney(&gSaveBlock1Ptr->money));
+                DebugPrintf("Price: %S", buffer);
+                DebugPrintf("Money: %u", VarGet(VAR_TEMP_2));
             break;
             default:
                 ConvertIntToDecimalStringN(buffer, 2000, STR_CONV_MODE_LEFT_ALIGN, 4);
