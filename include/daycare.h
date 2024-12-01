@@ -34,5 +34,6 @@ void ShowDaycareLevelMenu(void);
 void ChooseSendDaycareMon(void);
 u8 GetEggMovesBySpecies(u16 species, u16 *eggMoves);
 bool8 SpeciesCanLearnEggMove(u16 species, u16 move);
+u16 GetEggSpecies(u16 species); // per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
 
 #endif // GUARD_DAYCARE_H

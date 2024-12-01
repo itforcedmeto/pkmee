@@ -1097,10 +1097,41 @@ static void DisplayPartyPokemonDataForContest(u8 slot)
 
 static void DisplayPartyPokemonDataForRelearner(u8 slot)
 {
-    if (GetNumberOfRelearnableMoves(&gPlayerParty[slot]) == 0)
-        DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NOT_ABLE_2);
-    else
-        DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_ABLE_2);
+    switch(VarGet(VAR_PARTY_MENU_TUTOR_STATE)) // jd: per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
+    {
+        case MOVE_TUTOR_EGG_MOVES:
+        {
+            if (GetNumberOfEggMoves(&gPlayerParty[slot]) == 0)
+                DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NOT_ABLE_2);
+            else
+                DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_ABLE_2);
+        }
+        break;
+        case MOVE_TUTOR_TM_MOVES:
+        {
+            if (GetNumberOfTMMoves(&gPlayerParty[slot]) == 0)
+                DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NOT_ABLE_2);
+            else
+                DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_ABLE_2);
+        }
+        break;
+        case MOVE_TUTOR_TUTOR_MOVES:
+        {
+            if (GetNumberOfTutorMoves(&gPlayerParty[slot]) == 0)
+                DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NOT_ABLE_2);
+            else
+                DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_ABLE_2);
+        }
+        break;
+        default:
+        {
+            if (GetNumberOfRelearnableMoves(&gPlayerParty[slot]) == 0)
+                DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NOT_ABLE_2);
+            else
+                DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_ABLE_2);
+        }
+        break;
+    }
 }
 
 static void DisplayPartyPokemonDataForWirelessMinigame(u8 slot)
@@ -7642,7 +7673,7 @@ static void CB2_ChooseMonForMoveRelearner(void)
     gSpecialVar_0x8004 = GetCursorSelectionMonId();
     if (gSpecialVar_0x8004 >= PARTY_SIZE)
         gSpecialVar_0x8004 = PARTY_NOTHING_CHOSEN;
-    else
+    else // JD: right here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         gSpecialVar_0x8005 = GetNumberOfRelearnableMoves(&gPlayerParty[gSpecialVar_0x8004]);
     gFieldCallback2 = CB2_FadeFromPartyMenu;
     SetMainCallback2(CB2_ReturnToField);

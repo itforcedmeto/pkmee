@@ -172,6 +172,12 @@
 #define CONNECTION_DIVE     5
 #define CONNECTION_EMERGE   6
 
+// jd: per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
+#define MOVE_TUTOR_LEVEL_UP_MOVES 0
+#define MOVE_TUTOR_EGG_MOVES      1
+#define MOVE_TUTOR_TM_MOVES       2
+#define MOVE_TUTOR_TUTOR_MOVES    3
+
 #if TESTING
 #include "config/test.h"
 #endif
