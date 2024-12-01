@@ -667,6 +667,6 @@ extern const u8 Common_Movement_FollowerSafeStart[];
 extern const u8 Common_Movement_FollowerSafeEnd[];
 
 // jd: per https://github.com/PCG06/pokeemerald-hack/commit/6ce842a8a682c4bbd5a49fa7818f11d0b406457a - Move tutor
-extern const u8 EventScript_MoveTutorDynMultiChoice[];
+extern const u8 EventScript_MoveRelearnerDynMultiChoice[];
 
 #endif // GUARD_EVENT_SCRIPTS_H

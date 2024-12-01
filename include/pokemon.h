@@ -827,12 +827,12 @@ void UpdatePartyPokerusTime(u16 days);
 void PartySpreadPokerus(struct Pokemon *party);
 bool8 TryIncrementMonLevel(struct Pokemon *mon);
 u8 CanLearnTeachableMove(u16 species, u16 move);
-u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves);
+u8 GetRelearnerLevelUpMoves(struct Pokemon *mon, u16 *moves); // jd: updated per https://github.com/PCG06/pokeemerald-hack/commit/dd1afed3d63e09eb8d83ab89303b486f05e398b8
 // jd: added per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
-u8 GetEggMoveMoves(struct Pokemon *mon, u16 *moves);
-u8 GetTMMoves(struct Pokemon *mon, u16 *moves);
-u8 GetTutorMoves(struct Pokemon *mon, u16 *moves);
-u8 GetNumberOfRelearnableMoves(struct Pokemon *mon);
+u8 GetRelearnerEggMoves(struct Pokemon *mon, u16 *moves);
+u8 GetRelearnerTMMoves(struct Pokemon *mon, u16 *moves);
+u8 GetRelearnerTutorMoves(struct Pokemon *mon, u16 *moves);
+u8 GetNumberOfLevelUpMoves(struct Pokemon *mon);
 u8 GetNumberOfEggMoves(struct Pokemon *mon);
 u8 GetNumberOfTMMoves(struct Pokemon *mon);
 u8 GetNumberOfTutorMoves(struct Pokemon *mon);

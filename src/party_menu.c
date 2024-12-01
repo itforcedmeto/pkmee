@@ -1097,9 +1097,9 @@ static void DisplayPartyPokemonDataForContest(u8 slot)
 
 static void DisplayPartyPokemonDataForRelearner(u8 slot)
 {
-    switch(VarGet(VAR_PARTY_MENU_TUTOR_STATE)) // jd: per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
+    switch(VarGet(VAR_MOVE_RELEARNER_STATE)) // jd: per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61 and https://github.com/PCG06/pokeemerald-hack/commit/dd1afed3d63e09eb8d83ab89303b486f05e398b8
     {
-        case MOVE_TUTOR_EGG_MOVES:
+        case MOVE_RELEARNER_EGG_MOVES:
         {
             if (GetNumberOfEggMoves(&gPlayerParty[slot]) == 0)
                 DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NOT_ABLE_2);
@@ -1107,7 +1107,7 @@ static void DisplayPartyPokemonDataForRelearner(u8 slot)
                 DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_ABLE_2);
         }
         break;
-        case MOVE_TUTOR_TM_MOVES:
+        case MOVE_RELEARNER_TM_MOVES:
         {
             if (GetNumberOfTMMoves(&gPlayerParty[slot]) == 0)
                 DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NOT_ABLE_2);
@@ -1115,7 +1115,7 @@ static void DisplayPartyPokemonDataForRelearner(u8 slot)
                 DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_ABLE_2);
         }
         break;
-        case MOVE_TUTOR_TUTOR_MOVES:
+        case MOVE_RELEARNER_TUTOR_MOVES:
         {
             if (GetNumberOfTutorMoves(&gPlayerParty[slot]) == 0)
                 DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NOT_ABLE_2);
@@ -7674,18 +7674,18 @@ static void CB2_ChooseMonForMoveRelearner(void)
     if (gSpecialVar_0x8004 >= PARTY_SIZE)
         gSpecialVar_0x8004 = PARTY_NOTHING_CHOSEN;
     else
-        switch(VarGet(VAR_PARTY_MENU_TUTOR_STATE)) {
-        case MOVE_TUTOR_EGG_MOVES:
+        switch(VarGet(VAR_MOVE_RELEARNER_STATE)) {
+        case MOVE_RELEARNER_EGG_MOVES:
             gSpecialVar_0x8005 = GetNumberOfEggMoves(&gPlayerParty[gSpecialVar_0x8004]);
             break;
-        case MOVE_TUTOR_TM_MOVES:
+        case MOVE_RELEARNER_TM_MOVES:
             gSpecialVar_0x8005 = GetNumberOfTMMoves(&gPlayerParty[gSpecialVar_0x8004]);
             break;
-        case MOVE_TUTOR_TUTOR_MOVES:
+        case MOVE_RELEARNER_TUTOR_MOVES:
             gSpecialVar_0x8005 = GetNumberOfTutorMoves(&gPlayerParty[gSpecialVar_0x8004]);
             break;
         default:
-            gSpecialVar_0x8005 = GetNumberOfRelearnableMoves(&gPlayerParty[gSpecialVar_0x8004]);
+            gSpecialVar_0x8005 = GetNumberOfLevelUpMoves(&gPlayerParty[gSpecialVar_0x8004]);
             break;
         }
     gFieldCallback2 = CB2_FadeFromPartyMenu;

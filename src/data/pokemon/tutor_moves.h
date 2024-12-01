@@ -1,3 +1,6 @@
+#include "constants/flags.h"
+#include "constants/moves.h"
+
 // jd: per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
 // ADD NEW TUTOR MOVES HERE!!!
 

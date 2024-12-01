@@ -78,7 +78,6 @@ static void DecryptBoxMon(struct BoxPokemon *boxMon);
 static void Task_PlayMapChosenOrBattleBGM(u8 taskId);
 static bool8 ShouldSkipFriendshipChange(void);
 static void RemoveIVIndexFromList(u8 *ivs, u8 selectedIv);
-static bool8 IsMoveTM(u16 move);
 void TrySpecialOverworldEvo();
 
 EWRAM_DATA static u8 sLearningMoveTableID = 0;
@@ -5539,14 +5538,6 @@ u8 CanLearnTeachableMove(u16 species, u16 move)
         {
             if (sUniversalMoves[i] == move)
             {
-                for (j = 0; j < ARRAY_COUNT(gTutorMoves); j++) // jd: per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
-                {
-                    if (sUniversalMoves[i] == GetTutorMove(j))
-                    {
-                        if (!(GetTutorMoveFlag(j)))
-                            return FALSE;
-                    }
-                }
                 if (!gSpeciesInfo[species].tmIlliterate)
                 {
                     if (move == MOVE_TERA_BLAST && GET_BASE_SPECIES_ID(species) == SPECIES_TERAPAGOS)
@@ -5579,8 +5570,8 @@ u8 CanLearnTeachableMove(u16 species, u16 move)
                 {
                     if (teachableLearnset[j] == move)
                         return TRUE;
-                    return FALSE;
                 }
+                return FALSE;
             }
         }
         for (i = 0; teachableLearnset[i] != MOVE_UNAVAILABLE; i++)
@@ -5593,16 +5584,7 @@ u8 CanLearnTeachableMove(u16 species, u16 move)
 }
 
 // jd: both methods below per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
-static bool8 IsMoveTM(u16 move)
-{
-    u32 i;
-    for (i = ITEM_TM01; i <= ITEM_HM08; i++)
-    {
-        if (ItemIdToBattleMoveId(i) == move)
-            return TRUE;
-    }
-    return FALSE;
-}
+// jd: IsMoveTM method removed per https://github.com/PCG06/pokeemerald-hack/commit/84c0140489d69fde10a9cc553071f8b74a31d5d9
 static void SortMovesAlphabetically(u16 *moves, u8 numMoves)
 {
     int i, j;
@@ -5625,7 +5607,7 @@ static void SortMovesAlphabetically(u16 *moves, u8 numMoves)
     }
 }
 
-u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
+u8 GetRelearnerLevelUpMoves(struct Pokemon *mon, u16 *moves)
 {
     u16 learnedMoves[4];
     u8 numMoves = 0;
@@ -5665,7 +5647,7 @@ u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves)
     return numMoves;
 }
 
-u8 GetEggMoveMoves(struct Pokemon *mon, u16 *moves) // per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
+u8 GetRelearnerEggMoves(struct Pokemon *mon, u16 *moves) // per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
 {
     u16 learnedMoves[4];
     u8 numMoves = 0;
@@ -5697,43 +5679,47 @@ u8 GetEggMoveMoves(struct Pokemon *mon, u16 *moves) // per https://github.com/PC
     }
     return numMoves;
 }
-u8 GetTMMoves(struct Pokemon *mon, u16 *moves)
+u8 GetRelearnerTMMoves(struct Pokemon *mon, u16 *moves)
 {
     u16 learnedMoves[MAX_MON_MOVES];
     u8 numMoves = 0;
     u16 species = GetMonData(mon, MON_DATA_SPECIES);
-    u16 allMoves[ITEM_HM08 - ITEM_TM01 + 1];
+    u16 allMoves[MOVES_COUNT];
     u32 i, j, k;
     u32 totalMoveCount = 0;
 
     if (species == SPECIES_MEW) // jd: per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
         return 0;
 
-    for (i = ITEM_TM01; i < ITEM_HM08; i++)
+    for (i = 0; i < MOVES_COUNT; i++)
     {
-        j = ItemIdToBattleMoveId(i);
-        if (CheckBagHasItem(i, 1) && CanLearnTeachableMove(species, j))
-            allMoves[totalMoveCount++] = j;
+        u16 tutorMoveId = GetTutorMove(i);
+        if (GetTutorMoveFlag(i) && CanLearnTeachableMove(species, tutorMoveId))
+            allMoves[totalMoveCount++] = tutorMoveId;
     }
+
     for (i = 0; i < MAX_MON_MOVES; i++)
         learnedMoves[i] = GetMonData(mon, MON_DATA_MOVE1 + i, 0);
+
     for (i = 0; i < totalMoveCount; i++)
     {
         for (j = 0; j < MAX_MON_MOVES && learnedMoves[j] != allMoves[i]; j++)
             ;
+
         if (j == MAX_MON_MOVES)
         {
             for (k = 0; k < numMoves && moves[k] != allMoves[i]; k++)
                 ;
+
             if (k == numMoves)
                 moves[numMoves++] = allMoves[i];
         }
     }
     return numMoves;
 }
-u8 GetTutorMoves(struct Pokemon *mon, u16 *moves)
+u8 GetRelearnerTutorMoves(struct Pokemon *mon, u16 *moves)
 {
-    u16 learnedMoves[MAX_MON_MOVES] = {0};
+    u16 learnedMoves[MAX_MON_MOVES];
     u8 numMoves = 0;
     u16 species = GetMonData(mon, MON_DATA_SPECIES, 0);
     u32 i, j;
@@ -5784,7 +5770,7 @@ u8 GetTutorMoves(struct Pokemon *mon, u16 *moves)
     return numMoves;
 }
 
-u8 GetNumberOfRelearnableMoves(struct Pokemon *mon)
+u8 GetNumberOfLevelUpMoves(struct Pokemon *mon)
 {
     u16 learnedMoves[MAX_MON_MOVES];
     u16 moves[MAX_LEVEL_UP_MOVES];
@@ -5869,7 +5855,7 @@ u8 GetNumberOfTMMoves(struct Pokemon *mon)
 
     if (species == SPECIES_EGG)
         return 0;
-    return GetTMMoves(mon, moves);
+    return GetRelearnerTMMoves(mon, moves);
 }
 u8 GetNumberOfTutorMoves(struct Pokemon *mon)
 {
@@ -5881,7 +5867,7 @@ u8 GetNumberOfTutorMoves(struct Pokemon *mon)
 
     if (species == SPECIES_EGG)
         return 0;
-    return GetTutorMoves(mon, moves);
+    return GetRelearnerTutorMoves(mon, moves);
 }
 u8 GetLevelUpMovesBySpecies(u16 species, u16 *moves)
 {
@@ -7146,8 +7132,6 @@ u32 GetTutorMoveFlag(u16 moveId)
 {
     return FlagGet(gTutorMoves[moveId].flag);
 }
-
-#include <math.h>
 
 u32 GetTutorMovePrice(u16 moveId)
 {
