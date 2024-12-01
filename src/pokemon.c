@@ -5688,9 +5688,6 @@ u8 GetRelearnerTMMoves(struct Pokemon *mon, u16 *moves)
     u32 i, j, k;
     u32 totalMoveCount = 0;
 
-    if (species == SPECIES_MEW) // jd: per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
-        return 0;
-
     for (i = 0; i < MOVES_COUNT; i++)
     {
         u16 tutorMoveId = GetTutorMove(i);
@@ -5724,9 +5721,6 @@ u8 GetRelearnerTutorMoves(struct Pokemon *mon, u16 *moves)
     u16 species = GetMonData(mon, MON_DATA_SPECIES, 0);
     u32 i, j;
     bool8 isTM;
-
-    if (species == SPECIES_MEW) // jd: per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
-    return 0;
 
     for (i = 0; i < MAX_MON_MOVES; i++)
         learnedMoves[i] = GetMonData(mon, MON_DATA_MOVE1 + i, 0);
@@ -5850,9 +5844,6 @@ u8 GetNumberOfTMMoves(struct Pokemon *mon)
     u16 moves[MAX_RELEARNER_MOVES];
     u16 species = GetMonData(mon, MON_DATA_SPECIES_OR_EGG, 0);
 
-    if (species == SPECIES_MEW) // jd: per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
-    return 0;
-
     if (species == SPECIES_EGG)
         return 0;
     return GetRelearnerTMMoves(mon, moves);
@@ -5861,9 +5852,6 @@ u8 GetNumberOfTutorMoves(struct Pokemon *mon)
 {
     u16 moves[MAX_RELEARNER_MOVES];
     u16 species = GetMonData(mon, MON_DATA_SPECIES_OR_EGG, 0);
-
-    if (species == SPECIES_MEW) // jd: per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
-    return 0;
 
     if (species == SPECIES_EGG)
         return 0;
@@ -7135,11 +7123,7 @@ u32 GetTutorMoveFlag(u16 moveId)
 
 u32 GetTutorMovePrice(u16 moveId)
 {
-    s32 price;
-    if (gMovesInfo[GetTutorMove(moveId)].category == DAMAGE_CATEGORY_STATUS)
-        price = 1000;
-    else
-        price = 500;
+    u16 price = 1000; // 1000 is base price for all tutor moves
     u32 roundedPrice = (1.5 * (gMovesInfo[GetTutorMove(moveId)].power * gMovesInfo[GetTutorMove(moveId)].accuracy)) / 2;
     
     roundedPrice = round(roundedPrice / 100) * 100;
