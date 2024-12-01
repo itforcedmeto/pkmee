@@ -164,6 +164,7 @@ enum FlagsVarsDebugMenu
     DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_TRAINER_SEE,
     DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_BAG_USE,
     DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_CATCHING,
+    DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_TUTOR_FLAGS,
 };
 
 enum BattleType
@@ -418,6 +419,7 @@ static void DebugAction_FlagsVars_TrainerSeeOnOff(u8 taskId);
 static void DebugAction_FlagsVars_BagUseOnOff(u8 taskId);
 static void DebugAction_FlagsVars_CatchingOnOff(u8 taskId);
 static void DebugAction_FlagsVars_RunningShoes(u8 taskId);
+static void DebugAction_FlagsVars_TutorFlagOnOff(u8 taskId);
 
 static void Debug_InitializeBattle(u8 taskId);
 
@@ -580,6 +582,7 @@ static const u8 sDebugText_FlagsVars_SwitchEncounter[] =     _("Toggle {STR_VAR_
 static const u8 sDebugText_FlagsVars_SwitchTrainerSee[] =    _("Toggle {STR_VAR_1}Trainer See OFF");
 static const u8 sDebugText_FlagsVars_SwitchBagUse[] =        _("Toggle {STR_VAR_1}Bag Use OFF");
 static const u8 sDebugText_FlagsVars_SwitchCatching[] =      _("Toggle {STR_VAR_1}Catching OFF");
+static const u8 sDebugText_FlagsVars_ToggleTutorFlags[] =    _("Toggle {STR_VAR_1}Tutor Flags OFF");
 // Battle
 static const u8 sDebugText_Battle_0_Wild[] =        _("Wild…{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Battle_0_WildDouble[] =  _("Wild Double…{CLEAR_TO 110}{RIGHT_ARROW}");
@@ -789,6 +792,7 @@ static const struct ListMenuItem sDebugMenu_Items_FlagsVars[] =
     [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_TRAINER_SEE]   = {sDebugText_FlagsVars_SwitchTrainerSee,   DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_TRAINER_SEE},
     [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_BAG_USE]       = {sDebugText_FlagsVars_SwitchBagUse,       DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_BAG_USE},
     [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_CATCHING]      = {sDebugText_FlagsVars_SwitchCatching,     DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_CATCHING},
+    [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_TUTOR_FLAGS]   = {sDebugText_FlagsVars_ToggleTutorFlags,   DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_TUTOR_FLAGS},
 };
 
 static const struct ListMenuItem sDebugMenu_Items_Battle_0[] =
@@ -959,6 +963,7 @@ static void (*const sDebugMenu_Actions_Flags[])(u8) =
     [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_TRAINER_SEE]   = DebugAction_FlagsVars_TrainerSeeOnOff,
     [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_BAG_USE]       = DebugAction_FlagsVars_BagUseOnOff,
     [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_CATCHING]      = DebugAction_FlagsVars_CatchingOnOff,
+    [DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_TUTOR_FLAGS]   = DebugAction_FlagsVars_TutorFlagOnOff
 };
 static void (*const sDebugMenu_Actions_Give[])(u8) =
 {
@@ -1331,6 +1336,39 @@ static u8 Debug_CheckToggleFlags(u8 id)
             result = FlagGet(B_FLAG_NO_CATCHING);
             break;
     #endif
+        case DEBUG_FLAGVAR_MENU_ITEM_TOGGLE_TUTOR_FLAGS:
+            result = FlagGet(FLAG_MOVE_TUTOR_BODY_SLAM) &&
+                FlagGet(FLAG_MOVE_TUTOR_COUNTER) &&
+                FlagGet(FLAG_MOVE_TUTOR_DEFENSE_CURL) &&
+                FlagGet(FLAG_MOVE_TUTOR_DOUBLE_EDGE) &&
+                FlagGet(FLAG_MOVE_TUTOR_DREAM_EATER) &&
+                FlagGet(FLAG_MOVE_TUTOR_DYNAMIC_PUNCH) &&
+                FlagGet(FLAG_MOVE_TUTOR_ENDURE) &&
+                FlagGet(FLAG_MOVE_TUTOR_EXPLOSION) &&
+                FlagGet(FLAG_MOVE_TUTOR_FIRE_PUNCH) &&
+                FlagGet(FLAG_MOVE_TUTOR_FURY_CUTTER) &&
+                FlagGet(FLAG_MOVE_TUTOR_ICE_PUNCH) &&
+                FlagGet(FLAG_MOVE_TUTOR_ICY_WIND) &&
+                FlagGet(FLAG_MOVE_TUTOR_MEGA_KICK) &&
+                FlagGet(FLAG_MOVE_TUTOR_MEGA_PUNCH) &&
+                FlagGet(FLAG_MOVE_TUTOR_METRONOME) &&
+                FlagGet(FLAG_MOVE_TUTOR_MIMIC) &&
+                FlagGet(FLAG_MOVE_TUTOR_MUD_SLAP) &&
+                FlagGet(FLAG_MOVE_TUTOR_PSYCH_UP) &&
+                FlagGet(FLAG_MOVE_TUTOR_ROCK_SLIDE) &&
+                FlagGet(FLAG_MOVE_TUTOR_ROLLOUT) &&
+                FlagGet(FLAG_MOVE_TUTOR_SEISMIC_TOSS) &&
+                FlagGet(FLAG_MOVE_TUTOR_SLEEP_TALK) &&
+                FlagGet(FLAG_MOVE_TUTOR_SNORE) &&
+                FlagGet(FLAG_MOVE_TUTOR_SOFT_BOILED) &&
+                FlagGet(FLAG_MOVE_TUTOR_SUBSTITUTE) &&
+                FlagGet(FLAG_MOVE_TUTOR_SWAGGER) &&
+                FlagGet(FLAG_MOVE_TUTOR_SWIFT) &&
+                FlagGet(FLAG_MOVE_TUTOR_SWORDS_DANCE) &&
+                FlagGet(FLAG_MOVE_TUTOR_THUNDER_PUNCH) &&
+                FlagGet(FLAG_MOVE_TUTOR_THUNDER_WAVE) &&
+                FlagGet(FLAG_MOVE_TUTOR_TERA_BLAST);
+            break;
         default:
             result = 0xFF;
             break;
@@ -2925,6 +2963,23 @@ static void DebugAction_FlagsVars_CatchingOnOff(u8 taskId)
         PlaySE(SE_PC_LOGIN);
     FlagToggle(B_FLAG_NO_CATCHING);
 #endif
+}
+
+static void DebugAction_FlagsVars_TutorFlagOnOff(u8 taskId)
+{
+    u16 i;
+    if (FlagGet(TUTOR_FLAGS_END))
+    {
+        PlaySE(SE_PC_OFF);
+        for (i = TUTOR_FLAGS_BEGIN; i <= TUTOR_FLAGS_END; i++)
+            FlagClear(i);
+    }
+    else
+    {
+        PlaySE(SE_PC_LOGIN);
+        for (i = TUTOR_FLAGS_BEGIN; i <= TUTOR_FLAGS_END; i++)
+            FlagSet(i);
+    }
 }
 
 // *******************************
@@ -5081,7 +5136,7 @@ static void DebugAction_BerryFunctions_Weeds(u8 taskId)
 
 static void DebugAction_Party_MoveReminder(u8 taskId)
 {
-    Debug_DestroyMenu_Full_Script(taskId, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon);
+    Debug_DestroyMenu_Full_Script(taskId, EventScript_MoveRelearnerDynMultiChoice);
 }
 
 static void DebugAction_Party_HatchAnEgg(u8 taskId)

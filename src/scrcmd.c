@@ -1882,7 +1882,7 @@ bool8 ScrCmd_addmoney(struct ScriptContext *ctx)
 
 bool8 ScrCmd_removemoney(struct ScriptContext *ctx)
 {
-    u32 amount = ScriptReadWord(ctx);
+    u32 amount = VarGet(ScriptReadWord(ctx)); // jd: per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
     u8 ignore = ScriptReadByte(ctx);
 
     if (!ignore)

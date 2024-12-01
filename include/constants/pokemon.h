@@ -168,7 +168,7 @@
 #define LEVEL_UP_MOVE_LV   0xFE00
 #define LEVEL_UP_MOVE_END  0xFFFF
 
-#define MAX_LEVEL_UP_MOVES       20
+#define MAX_LEVEL_UP_MOVES       50 // jd: per https://github.com/PCG06/pokeemerald-hack/commit/07d5dc65266fc5ce45ce97b32e81a3f485c717be
 
 #define MON_MALE       0x00
 #define MON_FEMALE     0xFE

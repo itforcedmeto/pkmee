@@ -4,12 +4,13 @@
 #include "contest_effect.h"
 #include "data.h"
 #include "decompress.h"
+#include "event_data.h"
 #include "gpu_regs.h"
 #include "graphics.h"
-#include "menu.h"
 #include "international_string_util.h"
 #include "menu.h"
 #include "menu_specialized.h"
+#include "money.h" // jd: per https://github.com/PCG06/pokeemerald-hack/commit/861381bc11203ac8c10336063eff1306d5ad167c
 #include "move_relearner.h"
 #include "palette.h"
 #include "player_pc.h"
@@ -810,12 +811,54 @@ static void MoveRelearnerLoadBattleMoveDescription(u32 chosenMove)
     }
     AddTextPrinterParameterized(RELEARNERWIN_DESC_BATTLE, FONT_NORMAL, str, 106, 41, TEXT_SKIP_DRAW, NULL);
 
-    if (move->effect != EFFECT_PLACEHOLDER)
-        str = gMovesInfo[chosenMove].description;
-    else
-        str = gNotDoneYetDescription;
-
-    AddTextPrinterParameterized(RELEARNERWIN_DESC_BATTLE, FONT_NARROW, str, 0, 65, 0, NULL);
+    // jd: per https://github.com/PCG06/pokeemerald-hack/commit/afb8bdf3e7f91dbb428d24f27dead68501069599
+    str = gText_MoveRelearnerPrice;
+    AddTextPrinterParameterized(RELEARNERWIN_DESC_BATTLE, FONT_NORMAL, str, 4, 56, 0, NULL);
+    switch (VarGet(VAR_MOVE_RELEARNER_STATE))
+        {
+            case MOVE_RELEARNER_EGG_MOVES:
+                ConvertIntToDecimalStringN(buffer, 5000, STR_CONV_MODE_LEFT_ALIGN, 4);
+                VarSet(VAR_TEMP_1, 5000);
+                DebugPrintf("Selected Move Index: %d", chosenMove);
+                VarSet(VAR_TEMP_2, GetMoney(&gSaveBlock1Ptr->money));
+                DebugPrintf("Move Name: %S", GetMoveName(chosenMove));
+                DebugPrintf("Move ID: %d", chosenMove);
+                DebugPrintf("Move Price: %d", VarGet(VAR_TEMP_1));
+                DebugPrintf("Money: %d", VarGet(VAR_TEMP_2));
+            break;
+            case MOVE_RELEARNER_TM_MOVES:
+                ConvertIntToDecimalStringN(buffer, 100, STR_CONV_MODE_LEFT_ALIGN, 3);
+                VarSet(VAR_TEMP_1, 100);
+                DebugPrintf("Selected Move Index: %d", chosenMove);
+                VarSet(VAR_TEMP_2, GetMoney(&gSaveBlock1Ptr->money));
+                DebugPrintf("Move Name: %S", GetMoveName(chosenMove));
+                DebugPrintf("Move ID: %d", chosenMove);
+                DebugPrintf("Move Price: %d", VarGet(VAR_TEMP_1));
+                DebugPrintf("Money: %d", VarGet(VAR_TEMP_2));
+            break;
+            case MOVE_RELEARNER_TUTOR_MOVES:
+                ConvertIntToDecimalStringN(buffer, GetTutorMovePrice(chosenMove), STR_CONV_MODE_LEFT_ALIGN, 5);
+                VarSet(VAR_TEMP_1, GetTutorMovePrice(chosenMove));
+                VarSet(VAR_TEMP_2, GetMoney(&gSaveBlock1Ptr->money));
+                DebugPrintf("Move Name: %S", GetMoveName(chosenMove));
+                DebugPrintf("Move ID: %d", chosenMove);
+                DebugPrintf("Move Price: %d", VarGet(VAR_TEMP_1));
+                DebugPrintf("Money: %d", VarGet(VAR_TEMP_2));
+            break;
+            default:
+                ConvertIntToDecimalStringN(buffer, 2000, STR_CONV_MODE_LEFT_ALIGN, 4);
+                VarSet(VAR_TEMP_1, 2000);
+                DebugPrintf("Selected Move Index: %d", chosenMove);
+                VarSet(VAR_TEMP_2, GetMoney(&gSaveBlock1Ptr->money));
+                DebugPrintf("Move Name: %S", GetMoveName(chosenMove));
+                DebugPrintf("Move ID: %d", chosenMove);
+                DebugPrintf("Move Price: %d", VarGet(VAR_TEMP_1));
+                DebugPrintf("Money: %d", VarGet(VAR_TEMP_2));
+            break;
+        }
+    str = buffer;
+    x = 4 + GetStringWidth(FONT_NORMAL, gText_MoveRelearnerPrice, 0);
+    AddTextPrinterParameterized(RELEARNERWIN_DESC_BATTLE, FONT_NORMAL, str, x, 56, 0, NULL);
 }
 
 static void MoveRelearnerMenuLoadContestMoveDescription(u32 chosenMove)

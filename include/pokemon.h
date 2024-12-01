@@ -540,6 +540,12 @@ struct MoveInfo
     const u8 *battleAnimScript;
 };
 
+struct TutorMoves // jd: per https://github.com/PCG06/pokeemerald-hack/commit/176352fd2aa31a66e52ea62a9f951291f883079b
+{
+    u16 move;
+    u16 flag;
+};
+
 #define EFFECTS_ARR(...) (const struct AdditionalEffect[]) {__VA_ARGS__}
 #define ADDITIONAL_EFFECTS(...) EFFECTS_ARR( __VA_ARGS__ ), .numAdditionalEffects = ARRAY_COUNT(EFFECTS_ARR( __VA_ARGS__ ))
 
@@ -685,6 +691,7 @@ extern struct SpriteTemplate gMultiuseSpriteTemplate;
 extern u16 gFollowerSteps;
 
 extern const struct MoveInfo gMovesInfo[];
+extern const struct TutorMoves gTutorMoves[];
 extern const u8 gFacilityClassToPicIndex[];
 extern const u8 gFacilityClassToTrainerClass[];
 extern const struct SpeciesInfo gSpeciesInfo[];
@@ -820,9 +827,17 @@ void UpdatePartyPokerusTime(u16 days);
 void PartySpreadPokerus(struct Pokemon *party);
 bool8 TryIncrementMonLevel(struct Pokemon *mon);
 u8 CanLearnTeachableMove(u16 species, u16 move);
-u8 GetMoveRelearnerMoves(struct Pokemon *mon, u16 *moves);
+u8 GetRelearnerLevelUpMoves(struct Pokemon *mon, u16 *moves); // jd: updated per https://github.com/PCG06/pokeemerald-hack/commit/dd1afed3d63e09eb8d83ab89303b486f05e398b8
+// jd: added per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
+u8 GetRelearnerEggMoves(struct Pokemon *mon, u16 *moves);
+u8 GetRelearnerTMMoves(struct Pokemon *mon, u16 *moves);
+u8 GetRelearnerTutorMoves(struct Pokemon *mon, u16 *moves);
+u8 GetNumberOfLevelUpMoves(struct Pokemon *mon);
+u8 GetNumberOfEggMoves(struct Pokemon *mon);
+u8 GetNumberOfTMMoves(struct Pokemon *mon);
+u8 GetNumberOfTutorMoves(struct Pokemon *mon);
+// end tutor additions
 u8 GetLevelUpMovesBySpecies(u16 species, u16 *moves);
-u8 GetNumberOfRelearnableMoves(struct Pokemon *mon);
 u16 SpeciesToPokedexNum(u16 species);
 bool32 IsSpeciesInHoennDex(u16 species);
 u16 GetBattleBGM(void);
@@ -878,6 +893,9 @@ void HealPokemon(struct Pokemon *mon);
 void HealBoxPokemon(struct BoxPokemon *boxMon);
 const u8 *GetMoveName(u16 moveId);
 const u8 *GetMoveAnimationScript(u16 moveId);
+u32 GetTutorMove(u16 moveId); // jd: per https://github.com/PCG06/pokeemerald-hack/commit/07d5dc65266fc5ce45ce97b32e81a3f485c717be
+u32 GetTutorMoveFlag(u16 moveId); // jd: per https://github.com/PCG06/pokeemerald-hack/commit/07d5dc65266fc5ce45ce97b32e81a3f485c717be
+u32 GetTutorMovePrice(u16 moveId); // jd: per https://github.com/PCG06/pokeemerald-hack/commit/07d5dc65266fc5ce45ce97b32e81a3f485c717be
 void UpdateDaysPassedSinceFormChange(u16 days);
 void TrySetDayLimitToFormChange(struct Pokemon *mon);
 
