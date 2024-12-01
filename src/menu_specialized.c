@@ -813,7 +813,7 @@ static void MoveRelearnerLoadBattleMoveDescription(u32 chosenMove)
 
     // jd: per https://github.com/PCG06/pokeemerald-hack/commit/afb8bdf3e7f91dbb428d24f27dead68501069599
     str = gText_MoveRelearnerPrice;
-    AddTextPrinterParameterized(RELEARNERWIN_DESC_BATTLE, FONT_NORMAL, str, 0, 65, 0, NULL);
+    AddTextPrinterParameterized(RELEARNERWIN_DESC_BATTLE, FONT_NORMAL, str, 4, 56, 0, NULL);
     switch (VarGet(VAR_MOVE_RELEARNER_STATE))
         {
             case MOVE_RELEARNER_EGG_MOVES:
@@ -858,7 +858,7 @@ static void MoveRelearnerLoadBattleMoveDescription(u32 chosenMove)
         }
     str = buffer;
     x = 4 + GetStringWidth(FONT_NORMAL, gText_MoveRelearnerPrice, 0);
-    AddTextPrinterParameterized(RELEARNERWIN_DESC_BATTLE, FONT_NORMAL, str, x, 65, 0, NULL);
+    AddTextPrinterParameterized(RELEARNERWIN_DESC_BATTLE, FONT_NORMAL, str, x, 56, 0, NULL);
 }
 
 static void MoveRelearnerMenuLoadContestMoveDescription(u32 chosenMove)
