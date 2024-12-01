@@ -544,7 +544,6 @@ struct TutorMoves // jd: per https://github.com/PCG06/pokeemerald-hack/commit/17
 {
     u16 move;
     u16 flag;
-    u16 price;
 };
 
 #define EFFECTS_ARR(...) (const struct AdditionalEffect[]) {__VA_ARGS__}

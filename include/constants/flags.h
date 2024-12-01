@@ -1516,6 +1516,7 @@
 #define FLAG_SYS_RECEIVED_EGG_MOVES                 (SYSTEM_FLAGS + 0x8E) // same
 #define FLAG_SYS_RECEIVED_TUTOR_MOVES               (SYSTEM_FLAGS + 0x8F) // same
 // Move Tutor flags
+#define TUTOR_FLAGS_BEGIN                           FLAG_MOVE_TUTOR_BODY_SLAM
 #define FLAG_MOVE_TUTOR_BODY_SLAM                   (SYSTEM_FLAGS + 0x90)
 #define FLAG_MOVE_TUTOR_COUNTER                     (SYSTEM_FLAGS + 0x91)
 #define FLAG_MOVE_TUTOR_DEFENSE_CURL                (SYSTEM_FLAGS + 0x92)
@@ -1547,6 +1548,7 @@
 #define FLAG_MOVE_TUTOR_THUNDER_PUNCH               (SYSTEM_FLAGS + 0xAC)
 #define FLAG_MOVE_TUTOR_THUNDER_WAVE                (SYSTEM_FLAGS + 0xAD)
 #define FLAG_MOVE_TUTOR_TERA_BLAST                  (SYSTEM_FLAGS + 0xAE)
+#define TUTOR_FLAGS_END                             FLAG_MOVE_TUTOR_TERA_BLAST
 
 #define FLAG_UNUSED_0x90F                           (SYSTEM_FLAGS + 0xAF) // Unused Flag
 #define FLAG_UNUSED_0x910                           (SYSTEM_FLAGS + 0xB0) // Unused Flag
