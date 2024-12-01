@@ -83,7 +83,7 @@ script Common_EventScript_MoveRelearnerDynMultiChoice {
 		case 0:
 			if (checkmoney(2000)) {
 				setvar(VAR_TEMP_1, 2000)
-				etvar(VAR_MOVE_RELEARNER_STATE, MOVE_RELEARNER_LEVEL_UP_MOVES)
+				setvar(VAR_MOVE_RELEARNER_STATE, MOVE_RELEARNER_LEVEL_UP_MOVES)
 				goto(MoveRelearner_TeachMove)
 			}
 			else {

@@ -1320,7 +1320,7 @@ static const u16 sTaurosPaldeanAquaBreedEggMoveLearnset[] = {
     MOVE_UNAVAILABLE,
 };
 #endif //P_PALDEAN_FORMS
-#
+#endif //P_FAMILY_TAUROS
 
 #if P_FAMILY_MAGIKARP
 static const u16 sMagikarpEggMoveLearnset[] = {

@@ -1125,7 +1125,7 @@ static void DisplayPartyPokemonDataForRelearner(u8 slot)
         break;
         default:
         {
-            if (GetNumberOfRelearnableMoves(&gPlayerParty[slot]) == 0)
+            if (GetNumberOfLevelUpMoves(&gPlayerParty[slot]) == 0)
                 DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_NOT_ABLE_2);
             else
                 DisplayPartyPokemonDescriptionData(slot, PARTYBOX_DESC_ABLE_2);

@@ -161,8 +161,6 @@ enum {
 #define GFXTAG_UI       5525
 #define PALTAG_UI       5526
 
-// #define MAX_RELEARNER_MOVES max(MAX_LEVEL_UP_MOVES, 25) jd removed per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
-
 static EWRAM_DATA struct
 {
     u8 state;
@@ -472,7 +470,6 @@ static void CB2_MoveRelearnerMain(void)
 
 static void PrintMessageWithPlaceholders(const u8 *src)
 {
-    DebugPrintf("PrintMessageWithPlaceholders is working!");
     StringExpandPlaceholders(gStringVar4, src);
     MoveRelearnerPrintMessage(gStringVar4);
 }
@@ -517,6 +514,7 @@ static void DoMoveRelearnerMain(void)
         if (!MoveRelearnerRunTextPrinters())
         {
             MoveRelearnerCreateYesNoMenu();
+            sMoveRelearnerStruct->state++;
         }
         break;
     case MENU_STATE_TEACH_MOVE_CONFIRM:
@@ -579,14 +577,13 @@ static void DoMoveRelearnerMain(void)
         }
         break;
     case MENU_STATE_PRINT_TRYING_TO_LEARN_PROMPT:
-        if (VarGet(VAR_PARTY_MENU_TUTOR_STATE) == MOVE_TUTOR_TUTOR_MOVES)
+        if (VarGet(VAR_TEMP_1) > VarGet(VAR_TEMP_2))
         {
-            if (VarGet(VAR_TEMP_1) > VarGet(VAR_TEMP_2))
-            {
-                PrintMessageWithPlaceholders(gText_MoveRelearnerCantAffordThatMove);
-                sMoveRelearnerStruct->state = MENU_STATE_IDLE_BATTLE_MODE;
-            }
+            PrintMessageWithPlaceholders(gText_MoveRelearnerCantAffordThatMove);
+            sMoveRelearnerStruct->state = MENU_STATE_WAIT_FOR_TEXT;
         }
+        else
+        {
             PrintMessageWithPlaceholders(gText_MoveRelearnerPkmnTryingToLearnMove);
             sMoveRelearnerStruct->state++;
         }
@@ -672,7 +669,8 @@ static void DoMoveRelearnerMain(void)
     case MENU_STATE_SHOW_MOVE_SUMMARY_SCREEN:
         if (!gPaletteFade.active)
         {
-            ShowSelectMovePokemonSummaryScreen(gPlayerParty, sMoveRelearnerStruct->partyMon, gPlayerPartyCount - 1, CB2_InitLearnMoveReturnFromSelectMove, GetCurrentSelectedMove());
+                ShowSelectMovePokemonSummaryScreen(gPlayerParty, sMoveRelearnerStruct->partyMon, gPlayerPartyCount - 1, CB2_InitLearnMoveReturnFromSelectMove, GetCurrentSelectedMove());
+            
             FreeMoveRelearnerResources();
         }
         break;
@@ -762,6 +760,7 @@ static void DoMoveRelearnerMain(void)
     case MENU_STATE_WAIT_FOR_TEXT:
         if (!MoveRelearnerRunTextPrinters())
           sMoveRelearnerStruct->state = MENU_STATE_SETUP_BATTLE_MODE;
+
         break;
     }
 }
@@ -925,19 +924,21 @@ static void CreateLearnableMovesList(void)
     s32 i;
     u8 nickname[POKEMON_NAME_LENGTH + 1];
 
-    // sMoveRelearnerStruct->numMenuChoices = GetMoveRelearnerMoves(&gPlayerParty[sMoveRelearnerStruct->partyMon], sMoveRelearnerStruct->movesToLearn); removed per https://github.com/PCG06/pokeemerald-hack/commit/f6586fc62c559e872373e2b2d6c2f5082930bf61
     switch(VarGet(VAR_MOVE_RELEARNER_STATE))
     {
     
         case MOVE_RELEARNER_EGG_MOVES:
             sMoveRelearnerStruct->numMenuChoices = GetRelearnerEggMoves(&gPlayerParty[sMoveRelearnerStruct->partyMon], sMoveRelearnerStruct->movesToLearn);
         break;
+
         case MOVE_RELEARNER_TM_MOVES:
             sMoveRelearnerStruct->numMenuChoices = GetRelearnerTMMoves(&gPlayerParty[sMoveRelearnerStruct->partyMon], sMoveRelearnerStruct->movesToLearn);
         break;
+
         case MOVE_RELEARNER_TUTOR_MOVES:
             sMoveRelearnerStruct->numMenuChoices = GetRelearnerTutorMoves(&gPlayerParty[sMoveRelearnerStruct->partyMon], sMoveRelearnerStruct->movesToLearn);
         break;
+
         default:
             sMoveRelearnerStruct->numMenuChoices = GetRelearnerLevelUpMoves(&gPlayerParty[sMoveRelearnerStruct->partyMon], sMoveRelearnerStruct->movesToLearn);
         break;
