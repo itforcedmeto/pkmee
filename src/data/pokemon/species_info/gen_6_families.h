@@ -1772,7 +1772,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .backPicSize = MON_COORDS_SIZE(64, 64),
         .backPicYOffset = 2,
         .levelUpLearnset = sFloetteEternalLevelUpLearnset,
-        .teachableLearnset = sFloetteEternalTeachableLearnset,
+        .teachableLearnset = sFloetteEternalFlowerTeachableLearnset,
     },
 
 #define FLORGES_MISC_INFO(Form, iconPal)                                        \
@@ -2327,7 +2327,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
             gShinyOverworldPalette_MeowsticM
         )
         .levelUpLearnset = sMeowsticMLevelUpLearnset,
-        .teachableLearnset = sMeowsticMTeachableLearnset,
+        .teachableLearnset = sMeowsticMaleTeachableLearnset,
         .formSpeciesIdTable = sMeowsticFormSpeciesIdTable,
     },
 
@@ -2389,7 +2389,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
             gShinyOverworldPalette_MeowsticF
         )
         .levelUpLearnset = sMeowsticFLevelUpLearnset,
-        .teachableLearnset = sMeowsticFTeachableLearnset,
+        .teachableLearnset = sMeowsticFemaleTeachableLearnset,
         .formSpeciesIdTable = sMeowsticFormSpeciesIdTable,
     },
 #endif //P_FAMILY_ESPURR
@@ -4054,7 +4054,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sGoomyLevelUpLearnset,
         .teachableLearnset = sGoomyTeachableLearnset,
         .eggMoveLearnset = sGoomyEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SLIGGOO_HISUIAN},
+        .evolutions = EVOLUTION({EVO_LEVEL, 40, SPECIES_SLIGGOO_HISUI},
                                 {EVO_NONE, 0, SPECIES_SLIGGOO}),
     },
 
@@ -5089,7 +5089,7 @@ const struct SpeciesInfo gSpeciesInfoGen6[] =
         .levelUpLearnset = sBergmiteLevelUpLearnset,
         .teachableLearnset = sBergmiteTeachableLearnset,
         .eggMoveLearnset = sBergmiteEggMoveLearnset,
-        .evolutions = EVOLUTION({EVO_LEVEL, 37, SPECIES_AVALUGG_HISUIAN},
+        .evolutions = EVOLUTION({EVO_LEVEL, 37, SPECIES_AVALUGG_HISUI},
                                 {EVO_NONE, 0, SPECIES_AVALUGG}),
     },
 

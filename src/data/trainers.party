@@ -932,7 +932,7 @@ Toxtricity
 Level: 52
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 52
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -949,7 +949,7 @@ Slowbro-Galar
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 52
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1152,7 +1152,7 @@ Morgrem
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1322,7 +1322,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -1486,7 +1486,7 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Gunk Shot  
 - Parting Shot
 
-SPECIES_BASCULEGION_MALE @ Life Orb
+SPECIES_BASCULEGION_M @ Life Orb
 Ability: Swift Swim
 Level: 62
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -2216,7 +2216,7 @@ Greedent
 Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
-SPECIES_OINKOLOGNE_FEMALE
+SPECIES_OINKOLOGNE_F
 Level: 36
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 
@@ -3123,7 +3123,7 @@ Dubwool
 Level: 34
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_INDEEDEE_MALE
+SPECIES_INDEEDEE_M
 Level: 35
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3233,7 +3233,7 @@ Palafin
 Level: 62
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -3246,7 +3246,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 61
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -3674,7 +3674,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 41
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3742,7 +3742,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 54
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3818,7 +3818,7 @@ Palafin
 Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -3882,7 +3882,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 62
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -4302,7 +4302,7 @@ Slowking-Galar
 Level: 52
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5115,7 +5115,7 @@ Hatterene
 Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_INDEEDEE_FEMALE
+SPECIES_INDEEDEE_F
 Level: 50
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -5272,7 +5272,7 @@ Espathra
 Level: 54
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-SPECIES_INDEEDEE_MALE
+SPECIES_INDEEDEE_M
 Level: 55
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -6030,7 +6030,7 @@ Music: Female
 Double Battle: Yes
 AI: Check Bad Move / Try To Faint / Check Viability / Smart Switching / Omniscient / Powerful Status
 
-SPECIES_INDEEDEE_FEMALE @ Psychic Seed
+SPECIES_INDEEDEE_F @ Psychic Seed
 Ability: Psychic Surge 
 Level: 58
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -6138,7 +6138,7 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Protect  
 - Air Cutter
 
-SPECIES_BASCULEGION_FEMALE @ Mystic Water
+SPECIES_BASCULEGION_F @ Mystic Water
 Ability: Swift Swim 
 Level: 64
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -6637,7 +6637,7 @@ Music: Twins
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE @ Oran Berry
+SPECIES_BASCULEGION_M @ Oran Berry
 Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -9233,7 +9233,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9373,7 +9373,7 @@ Overqwil
 Level: 58
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 57
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9437,7 +9437,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 65
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -9649,7 +9649,7 @@ Armarouge
 Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_INDEEDEE_MALE
+SPECIES_INDEEDEE_M
 Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11351,7 +11351,7 @@ Music: Cool
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-SPECIES_OINKOLOGNE_FEMALE
+SPECIES_OINKOLOGNE_F
 Level: 40
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -11479,7 +11479,7 @@ Lilligant-Hisui
 Level: 47
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-SPECIES_OINKOLOGNE_MALE
+SPECIES_OINKOLOGNE_M
 Level: 47
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -11602,7 +11602,7 @@ Toxtricity
 Level: 61
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 60
 IVs: 6 HP / 6 Atk / 6 Def / 6 SpA / 6 SpD / 6 Spe
 
@@ -11632,7 +11632,7 @@ Music: Aqua
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 52
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11768,7 +11768,7 @@ Music: Swimmer
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 60
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -11836,7 +11836,7 @@ Rapidash-Galar
 Level: 56
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
-SPECIES_INDEEDEE_FEMALE
+SPECIES_INDEEDEE_F
 Level: 56
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -12337,7 +12337,7 @@ Music: Female
 Double Battle: No
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 63
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 
@@ -12689,7 +12689,7 @@ Music: Girl
 Double Battle: Yes
 AI: Check Bad Move
 
-SPECIES_OINKOLOGNE_FEMALE
+SPECIES_OINKOLOGNE_F
 Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13740,7 +13740,7 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_FEMALE
+SPECIES_BASCULEGION_F
 Level: 53
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13757,7 +13757,7 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 42
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13774,7 +13774,7 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 45
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13791,7 +13791,7 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 48
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -13808,7 +13808,7 @@ Music: Swimmer
 Double Battle: Yes
 AI: Check Bad Move
 
-SPECIES_BASCULEGION_MALE
+SPECIES_BASCULEGION_M
 Level: 51
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -14007,7 +14007,7 @@ Dolliv
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_OINKOLOGNE_MALE
+SPECIES_OINKOLOGNE_M
 Level: 25
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
@@ -14849,7 +14849,7 @@ Hattrem
 Level: 38
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 
-SPECIES_INDEEDEE_MALE
+SPECIES_INDEEDEE_M
 Level: 39
 IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
 

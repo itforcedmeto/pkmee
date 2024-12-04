@@ -102,7 +102,6 @@ void MoveDeleterForgetMove(void);
 void BufferMoveDeleterNicknameAndMove(void);
 void GetNumMovesSelectedMonHas(void);
 void MoveDeleterChooseMoveToForget(void);
-bool32 IsItemFlute(u16 item);
 // Start qol_field_moves
 // These are all moved from src/party_menu.c
 u8 CanTeachMove(struct Pokemon *, u16);

@@ -1947,7 +1947,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
             gShinyOverworldPalette_WormadamSandy
         )
         .levelUpLearnset = sWormadamSandyLevelUpLearnset,
-        .teachableLearnset = sWormadamSandyTeachableLearnset,
+        .teachableLearnset = sWormadamSandyCloakTeachableLearnset,
         .formSpeciesIdTable = sWormadamFormSpeciesIdTable,
     },
 
@@ -2012,7 +2012,7 @@ const struct SpeciesInfo gSpeciesInfoGen4[] =
             gShinyOverworldPalette_WormadamTrash
         )
         .levelUpLearnset = sWormadamTrashLevelUpLearnset,
-        .teachableLearnset = sWormadamTrashTeachableLearnset,
+        .teachableLearnset = sWormadamTrashCloakTeachableLearnset,
         .formSpeciesIdTable = sWormadamFormSpeciesIdTable,
     },
 

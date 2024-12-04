@@ -156,28 +156,9 @@ Generic_FreeMoveReminder_8:
 	goto_if_eq Generic_FreeMoveReminder_14
 # 88 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	msgbox Generic_FreeMoveReminder_Text_1
-Generic_FreeMoveReminder_13:
-# 91 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
-MoveRelearner_Bye:
-# 92 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
-	msgbox Generic_FreeMoveReminder_Text_2
-# 93 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 89 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	releaseall
-# 94 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	end
-# 96 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
-MoveRelearner_NoEggs:
-# 97 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
-	msgbox Generic_FreeMoveReminder_Text_3
-# 98 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
-	goto MoveRelearner_Choose
-# 100 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
-MoveRelearner_NoMoves:
-# 101 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
-	msgbox Generic_FreeMoveReminder_Text_4
-# 102 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
-	goto MoveRelearner_Choose
-	return
 
 Generic_FreeMoveReminder_2:
 # 64 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
@@ -199,6 +180,29 @@ Generic_FreeMoveReminder_10:
 	goto MoveRelearner_NoMoves
 	goto Generic_FreeMoveReminder_8
 
+Generic_FreeMoveReminder_13:
+# 93 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+MoveRelearner_Bye:
+# 94 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	msgbox Generic_FreeMoveReminder_Text_2
+# 95 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	releaseall
+# 96 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	end
+# 98 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+MoveRelearner_NoEggs:
+# 99 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	msgbox Generic_FreeMoveReminder_Text_3
+# 100 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	goto MoveRelearner_Choose
+# 102 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+MoveRelearner_NoMoves:
+# 103 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	msgbox Generic_FreeMoveReminder_Text_4
+# 104 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+	goto MoveRelearner_Choose
+	return
+
 Generic_FreeMoveReminder_14:
 # 86 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	goto MoveRelearner_Bye
@@ -216,15 +220,15 @@ Generic_FreeMoveReminder_Text_1:
 	.string "moves to your POKéMON!$"
 
 Generic_FreeMoveReminder_Text_2:
-# 92 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 94 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "Come back soon!$"
 
 Generic_FreeMoveReminder_Text_3:
-# 97 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 99 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "I may be the MOVE MASTER, but I can't\n"
 	.string "teach an EGG any moves!$"
 
 Generic_FreeMoveReminder_Text_4:
-# 101 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
+# 103 "data/maps/MauvilleCity_PokemonCenter_1F/scripts.pory"
 	.string "Impossible! I can't teach this POKéMON\n"
 	.string "any moves!$"

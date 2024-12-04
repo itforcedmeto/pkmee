@@ -40,7 +40,7 @@
 #line 90
         .doubleBattle = FALSE,
 #line 91
-        .aiFlags = AI_FLAG_BASIC_TRAINER,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY,
         .partySize = 1,
         .party = (const struct TrainerMon[])
         {
@@ -2207,7 +2207,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 935
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 937
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -2250,7 +2250,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 952
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 954
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -2771,7 +2771,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 1155
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 1157
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -3207,7 +3207,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 1325
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 1327
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -3623,7 +3623,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 1489
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 1489
             .heldItem = ITEM_LIFE_ORB,
@@ -5464,7 +5464,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 2219
-            .species = SPECIES_OINKOLOGNE_FEMALE,
+            .species = SPECIES_OINKOLOGNE_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 2221
             .iv = TRAINER_PARTY_IVS(31, 31, 31, 31, 31, 31),
@@ -6327,7 +6327,7 @@ F_TRAINER_FEMALE |
 #line 2553
         .doubleBattle = FALSE,
 #line 2554
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -6372,7 +6372,7 @@ F_TRAINER_FEMALE |
 #line 2570
         .doubleBattle = FALSE,
 #line 2571
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 3,
         .party = (const struct TrainerMon[])
         {
@@ -6428,7 +6428,7 @@ F_TRAINER_FEMALE |
 #line 2591
         .doubleBattle = FALSE,
 #line 2592
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -7854,7 +7854,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 3126
-            .species = SPECIES_INDEEDEE_MALE,
+            .species = SPECIES_INDEEDEE_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3128
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -8146,7 +8146,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 3236
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3238
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
@@ -8180,7 +8180,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 3249
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3251
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
@@ -9255,7 +9255,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 3677
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3679
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -9427,7 +9427,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 3745
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3747
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -9621,7 +9621,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 3821
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3823
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -9782,7 +9782,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 3885
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 3887
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -10851,7 +10851,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 4305
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 4307
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -12923,7 +12923,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 5118
-            .species = SPECIES_INDEEDEE_FEMALE,
+            .species = SPECIES_INDEEDEE_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 5120
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -13327,7 +13327,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 5275
-            .species = SPECIES_INDEEDEE_MALE,
+            .species = SPECIES_INDEEDEE_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 5277
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
@@ -15202,7 +15202,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 6033
-            .species = SPECIES_INDEEDEE_FEMALE,
+            .species = SPECIES_INDEEDEE_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6033
             .heldItem = ITEM_PSYCHIC_SEED,
@@ -15465,7 +15465,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 6141
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6141
             .heldItem = ITEM_MYSTIC_WATER,
@@ -16763,7 +16763,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 6640
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 6640
             .heldItem = ITEM_ORAN_BERRY,
@@ -23428,7 +23428,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 9236
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9238
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -23799,7 +23799,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 9376
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9378
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -23968,7 +23968,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 9440
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9442
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -24528,7 +24528,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 9652
-            .species = SPECIES_INDEEDEE_MALE,
+            .species = SPECIES_INDEEDEE_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 9654
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -28908,7 +28908,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 11354
-            .species = SPECIES_OINKOLOGNE_FEMALE,
+            .species = SPECIES_OINKOLOGNE_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11356
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -29031,7 +29031,7 @@ F_TRAINER_FEMALE |
 #line 11402
         .doubleBattle = FALSE,
 #line 11403
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 1,
         .party = (const struct TrainerMon[])
         {
@@ -29095,7 +29095,7 @@ F_TRAINER_FEMALE |
 #line 11428
         .doubleBattle = FALSE,
 #line 11429
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 1,
         .party = (const struct TrainerMon[])
         {
@@ -29172,7 +29172,7 @@ F_TRAINER_FEMALE |
 #line 11458
         .doubleBattle = FALSE,
 #line 11459
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -29217,7 +29217,7 @@ F_TRAINER_FEMALE |
 #line 11475
         .doubleBattle = FALSE,
 #line 11476
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 3,
         .party = (const struct TrainerMon[])
         {
@@ -29234,7 +29234,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 11482
-            .species = SPECIES_OINKOLOGNE_MALE,
+            .species = SPECIES_OINKOLOGNE_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11484
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -29318,7 +29318,7 @@ F_TRAINER_FEMALE |
 #line 11513
         .doubleBattle = FALSE,
 #line 11514
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -29408,7 +29408,7 @@ F_TRAINER_FEMALE |
 #line 11547
         .doubleBattle = FALSE,
 #line 11548
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -29556,7 +29556,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 11605
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11607
             .iv = TRAINER_PARTY_IVS(6, 6, 6, 6, 6, 6),
@@ -29635,7 +29635,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 11635
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11637
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -29985,7 +29985,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 11771
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11773
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -30159,7 +30159,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 11839
-            .species = SPECIES_INDEEDEE_FEMALE,
+            .species = SPECIES_INDEEDEE_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 11841
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -30820,7 +30820,7 @@ F_TRAINER_FEMALE |
 #line 12098
         .doubleBattle = FALSE,
 #line 12099
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -31443,7 +31443,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 12340
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 12342
             .iv = TRAINER_PARTY_IVS(12, 12, 12, 12, 12, 12),
@@ -32344,7 +32344,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 12692
-            .species = SPECIES_OINKOLOGNE_FEMALE,
+            .species = SPECIES_OINKOLOGNE_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 12694
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -34793,7 +34793,7 @@ F_TRAINER_FEMALE |
 #line 13673
         .doubleBattle = TRUE,
 #line 13674
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_SETUP_FIRST_TURN,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_FORCE_SETUP_FIRST_TURN,
         .partySize = 2,
         .party = (const struct TrainerMon[])
         {
@@ -34956,7 +34956,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13743
-            .species = SPECIES_BASCULEGION_FEMALE,
+            .species = SPECIES_BASCULEGION_F,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13745
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -34999,7 +34999,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13760
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13762
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -35042,7 +35042,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13777
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13779
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -35085,7 +35085,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13794
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13796
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -35128,7 +35128,7 @@ F_TRAINER_FEMALE |
         {
             {
 #line 13811
-            .species = SPECIES_BASCULEGION_MALE,
+            .species = SPECIES_BASCULEGION_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 13813
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -35644,7 +35644,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 14010
-            .species = SPECIES_OINKOLOGNE_MALE,
+            .species = SPECIES_OINKOLOGNE_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 14012
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),
@@ -37796,7 +37796,7 @@ F_TRAINER_FEMALE |
             },
             {
 #line 14852
-            .species = SPECIES_INDEEDEE_MALE,
+            .species = SPECIES_INDEEDEE_M,
             .gender = TRAINER_MON_RANDOM_GENDER,
 #line 14854
             .iv = TRAINER_PARTY_IVS(0, 0, 0, 0, 0, 0),

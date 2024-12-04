@@ -51,7 +51,6 @@ V_D_ARROW   = 38
 PK          = 53
 PKMN        = 53 54
 POKEBLOCK   = 55 56 57 58 59
-POKE        = 55 56
 'Í'         = 5A
 '%'         = 5B
 '('         = 5C
