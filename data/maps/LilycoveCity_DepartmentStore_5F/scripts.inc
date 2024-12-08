@@ -342,3 +342,102 @@ LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather:
 	.string "I think they closed the rooftop\n"
 # 172 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 	.string "because the weather is wild today.$"
+
+LilycoveCity_DepartmentStore_5F_Evo1::
+# 175 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	lock
+# 176 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	msgbox LilycoveCity_DepartmentStore_5F_Evo1_Text_0
+# 177 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	waitmessage
+# 178 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	pokemart LilycoveCity_DepartmentStore_5F_Evo1_Mart
+# 179 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	msgbox LilycoveCity_DepartmentStore_5F_Evo1_Text_1
+# 180 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	release
+	return
+
+
+	.align 2
+# 183 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+LilycoveCity_DepartmentStore_5F_Evo1_Mart:
+# 184 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_FIRE_STONE
+# 185 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_WATER_STONE
+# 186 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_THUNDER_STONE
+# 187 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_LEAF_STONE
+# 188 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_ICE_STONE
+# 189 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_SUN_STONE
+# 190 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_MOON_STONE
+# 191 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_SHINY_STONE
+# 192 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_DUSK_STONE
+# 193 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_DAWN_STONE
+	.2byte ITEM_NONE
+
+LilycoveCity_DepartmentStore_5F_Evo2::
+# 197 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	lock
+# 198 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	msgbox LilycoveCity_DepartmentStore_5F_Evo2_Text_0
+# 199 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	waitmessage
+# 200 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	pokemart LilycoveCity_DepartmentStore_5F_Evo2_Mart
+# 201 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	msgbox LilycoveCity_DepartmentStore_5F_Evo1_Text_1
+# 202 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	release
+	return
+
+
+	.align 2
+# 205 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+LilycoveCity_DepartmentStore_5F_Evo2_Mart:
+# 206 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_SWEET_APPLE
+# 207 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_TART_APPLE
+# 208 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_SYRUPY_APPLE
+# 209 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_CRACKED_POT
+# 210 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_UNREMARKABLE_TEACUP
+# 211 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_GALARICA_CUFF
+# 212 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_GALARICA_WREATH
+# 213 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_STRAWBERRY_SWEET
+# 214 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_PEAT_BLOCK
+# 215 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_BLACK_AUGURITE
+# 216 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_METAL_COAT
+# 217 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_METAL_ALLOY
+	.2byte ITEM_NONE
+
+LilycoveCity_DepartmentStore_5F_Evo1_Text_0:
+# 176 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.string "Would you like to buy evolution stones?$"
+
+LilycoveCity_DepartmentStore_5F_Evo1_Text_1:
+# 179 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.string "Farewell.$"
+
+LilycoveCity_DepartmentStore_5F_Evo2_Text_0:
+# 198 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.string "Would you like to buy\n"
+	.string "evolution-inducing items?$"

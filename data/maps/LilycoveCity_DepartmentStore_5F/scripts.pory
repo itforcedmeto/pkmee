@@ -171,3 +171,48 @@ LilycoveCity_DepartmentStore_5F_Text_ClosedRooftopForWeather:
 	.string "I think they closed the rooftop\n"
 	.string "because the weather is wild today.$"
 `
+script LilycoveCity_DepartmentStore_5F_Evo1 {
+	lock
+	msgbox(format("Would you like to buy evolution stones?"))
+	waitmessage
+	pokemart(LilycoveCity_DepartmentStore_5F_Evo1_Mart)
+	msgbox("Farewell.")
+	release
+}
+
+mart LilycoveCity_DepartmentStore_5F_Evo1_Mart {
+	ITEM_FIRE_STONE
+	ITEM_WATER_STONE
+	ITEM_THUNDER_STONE
+	ITEM_LEAF_STONE
+	ITEM_ICE_STONE
+	ITEM_SUN_STONE
+	ITEM_MOON_STONE
+	ITEM_SHINY_STONE
+	ITEM_DUSK_STONE
+	ITEM_DAWN_STONE
+}
+
+script LilycoveCity_DepartmentStore_5F_Evo2 {
+	lock
+	msgbox(format("Would you like to buy evolution-inducing items?"))
+	waitmessage
+	pokemart(LilycoveCity_DepartmentStore_5F_Evo2_Mart)
+	msgbox("Farewell.")
+	release
+}
+
+mart LilycoveCity_DepartmentStore_5F_Evo2_Mart {
+	ITEM_SWEET_APPLE
+	ITEM_TART_APPLE
+	ITEM_SYRUPY_APPLE
+	ITEM_CRACKED_POT
+	ITEM_UNREMARKABLE_TEACUP
+	ITEM_GALARICA_CUFF
+	ITEM_GALARICA_WREATH
+	ITEM_STRAWBERRY_SWEET
+	ITEM_PEAT_BLOCK
+	ITEM_BLACK_AUGURITE
+	ITEM_METAL_COAT
+	ITEM_METAL_ALLOY
+}
