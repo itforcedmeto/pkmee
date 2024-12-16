@@ -570,7 +570,6 @@ SlateportCity_Pokemart_PowerTMs:
 	.2byte ITEM_TM_POUNCE
 	.2byte ITEM_TM_AIR_CUTTER
 	.2byte ITEM_TM_DRAINING_KISS
-	.2byte ITEM_TM_BULLDOZE
 	.2byte ITEM_TM_SECRET_POWER
 	.2byte ITEM_NONE
 	release

@@ -33,7 +33,7 @@ RustboroCity_House3_EventScript_Pekachu::
 # 17 "data/maps/RustboroCity_House3/scripts.pory"
 	waitse
 # 18 "data/maps/RustboroCity_House3/scripts.pory"
-	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
+	playmoncry SPECIES_WOOLOO, CRY_MODE_NORMAL
 # 19 "data/maps/RustboroCity_House3/scripts.pory"
 	msgbox RustboroCity_House3_Text_Pekachu, MSGBOX_DEFAULT
 # 20 "data/maps/RustboroCity_House3/scripts.pory"
@@ -59,9 +59,9 @@ RustboroCity_House3_Text_IGivePerfectlySuitedNicknames:
 # 30 "data/maps/RustboroCity_House3/scripts.pory"
 RustboroCity_House3_Text_NamingPikachuPekachu:
 # 31 "data/maps/RustboroCity_House3/scripts.pory"
-	.string "But giving the name PEKACHU to\n"
+	.string "But giving the name WOLO to\n"
 # 32 "data/maps/RustboroCity_House3/scripts.pory"
-	.string "a PIKACHU? It seems pointless.\p"
+	.string "a WOOLOO? It seems pointless.\p"
 # 33 "data/maps/RustboroCity_House3/scripts.pory"
 	.string "I suppose it is good to use a name\n"
 # 34 "data/maps/RustboroCity_House3/scripts.pory"
@@ -71,4 +71,4 @@ RustboroCity_House3_Text_NamingPikachuPekachu:
 # 36 "data/maps/RustboroCity_House3/scripts.pory"
 RustboroCity_House3_Text_Pekachu:
 # 37 "data/maps/RustboroCity_House3/scripts.pory"
-	.string "PEKACHU: Peka!$"
+	.string "WOLO: Wolo!$"

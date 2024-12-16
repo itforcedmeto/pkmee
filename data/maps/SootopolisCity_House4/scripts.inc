@@ -31,7 +31,7 @@ SootopolisCity_House4_EventScript_Azumarill::
 # 16 "data/maps/SootopolisCity_House4/scripts.pory"
 	waitse
 # 17 "data/maps/SootopolisCity_House4/scripts.pory"
-	playmoncry SPECIES_AZUMARILL, CRY_MODE_NORMAL
+	playmoncry SPECIES_HATTERENE, CRY_MODE_NORMAL
 # 18 "data/maps/SootopolisCity_House4/scripts.pory"
 	msgbox SootopolisCity_House4_Text_Azumarill, MSGBOX_DEFAULT
 # 19 "data/maps/SootopolisCity_House4/scripts.pory"
@@ -75,4 +75,4 @@ SootopolisCity_House4_Text_StrollUnderwaterWithPokemon:
 # 38 "data/maps/SootopolisCity_House4/scripts.pory"
 SootopolisCity_House4_Text_Azumarill:
 # 39 "data/maps/SootopolisCity_House4/scripts.pory"
-	.string "AZUMARILL: Marurii.$"
+	.string "HATTERENE: Hatteeere.$"

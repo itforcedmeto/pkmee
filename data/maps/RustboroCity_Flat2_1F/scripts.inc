@@ -23,7 +23,7 @@ RustboroCity_Flat2_1F_EventScript_Skitty::
 # 12 "data/maps/RustboroCity_Flat2_1F/scripts.pory"
 	waitse
 # 13 "data/maps/RustboroCity_Flat2_1F/scripts.pory"
-	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	playmoncry SPECIES_ROLYCOLY, CRY_MODE_NORMAL
 # 14 "data/maps/RustboroCity_Flat2_1F/scripts.pory"
 	msgbox RustboroCity_Flat2_1F_Text_Skitty, MSGBOX_DEFAULT
 # 15 "data/maps/RustboroCity_Flat2_1F/scripts.pory"
@@ -45,4 +45,4 @@ RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere:
 # 23 "data/maps/RustboroCity_Flat2_1F/scripts.pory"
 RustboroCity_Flat2_1F_Text_Skitty:
 # 24 "data/maps/RustboroCity_Flat2_1F/scripts.pory"
-	.string "SKITTY: Gyaaaah!$"
+	.string "ROLYCOLY: Rooolll.$"

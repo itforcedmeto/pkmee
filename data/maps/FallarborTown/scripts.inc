@@ -71,7 +71,7 @@ FallarborTown_EventScript_Azurill::
 # 36 "data/maps/FallarborTown/scripts.pory"
 	waitse
 # 37 "data/maps/FallarborTown/scripts.pory"
-	playmoncry SPECIES_AZURILL, CRY_MODE_NORMAL
+	playmoncry SPECIES_TADBULB, CRY_MODE_NORMAL
 # 38 "data/maps/FallarborTown/scripts.pory"
 	msgbox FallarborTown_Text_Azurill, MSGBOX_DEFAULT
 # 39 "data/maps/FallarborTown/scripts.pory"
@@ -135,7 +135,7 @@ FallarborTown_Text_MyPreciousAzurill:
 # 68 "data/maps/FallarborTown/scripts.pory"
 	.string "See! Take a look!\n"
 # 69 "data/maps/FallarborTown/scripts.pory"
-	.string "This is my precious AZURILL!\p"
+	.string "This is my precious TADBULB!\p"
 # 70 "data/maps/FallarborTown/scripts.pory"
 	.string "It's slick and smooth and plushy, too!$"
 # 71 "data/maps/FallarborTown/scripts.pory"
@@ -143,7 +143,7 @@ FallarborTown_Text_MyPreciousAzurill:
 # 72 "data/maps/FallarborTown/scripts.pory"
 FallarborTown_Text_Azurill:
 # 73 "data/maps/FallarborTown/scripts.pory"
-	.string "AZURILL: Rooreelooo.$"
+	.string "TADBULB: Taaaaad.$"
 # 74 "data/maps/FallarborTown/scripts.pory"
 
 # 75 "data/maps/FallarborTown/scripts.pory"

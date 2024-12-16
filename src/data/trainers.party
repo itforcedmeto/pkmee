@@ -2551,7 +2551,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Grafaiai
 Level: 35
@@ -2568,7 +2568,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint 
 
 Eldegoss
 Level: 51
@@ -2589,7 +2589,7 @@ Pic: Cooltrainer F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Lairon
 Level: 45
@@ -11400,7 +11400,7 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Breloom
 Level: 31
@@ -11426,7 +11426,7 @@ Pic: Pokemon Ranger M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Breloom
 Level: 37
@@ -11456,7 +11456,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Arboliva
 Level: 40
@@ -11473,7 +11473,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Lilligant-Hisui
 Level: 47
@@ -11511,7 +11511,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Gloom
 Level: 30
@@ -11545,7 +11545,7 @@ Pic: Pokemon Ranger F
 Gender: Female
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Gloom
 Level: 36
@@ -12096,7 +12096,7 @@ Pic: Cooltrainer M
 Gender: Male
 Music: Cool
 Double Battle: No
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Toedscruel
 Level: 62
@@ -13671,7 +13671,7 @@ Pic: Old Couple
 Gender: Male
 Music: Intense
 Double Battle: Yes
-AI: Check Bad Move / Try To Faint / Setup First Turn
+AI: Check Bad Move / Try To Faint
 
 Medicham
 Level: 49

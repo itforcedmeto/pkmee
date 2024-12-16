@@ -457,7 +457,7 @@ SlateportCity_PokemonFanClub_EventScript_Skitty::
 # 229 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	waitse
 # 230 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
-	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	playmoncry SPECIES_TINKATINK, CRY_MODE_NORMAL
 # 231 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	msgbox SlateportCity_PokemonFanClub_Text_Skitty, MSGBOX_DEFAULT
 # 232 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -477,7 +477,7 @@ SlateportCity_PokemonFanClub_EventScript_Zigzagoon::
 # 239 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	waitse
 # 240 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
-	playmoncry SPECIES_ZIGZAGOON, CRY_MODE_NORMAL
+	playmoncry SPECIES_ZIGZAGOON_GALAR, CRY_MODE_NORMAL
 # 241 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	msgbox SlateportCity_PokemonFanClub_Text_Zigzagoon, MSGBOX_DEFAULT
 # 242 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -497,7 +497,7 @@ SlateportCity_PokemonFanClub_EventScript_Azumarill::
 # 249 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	waitse
 # 250 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
-	playmoncry SPECIES_AZUMARILL, CRY_MODE_NORMAL
+	playmoncry SPECIES_HATTREM, CRY_MODE_NORMAL
 # 251 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 	msgbox SlateportCity_PokemonFanClub_Text_Azumarill, MSGBOX_DEFAULT
 # 252 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -785,7 +785,7 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein:
 # 393 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_Skitty:
 # 394 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
-	.string "SKITTY: Fffnyaaaah…$"
+	.string "TINKATINK: Tinka!$"
 # 395 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 
 # 396 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
@@ -797,4 +797,4 @@ SlateportCity_PokemonFanClub_Text_Zigzagoon:
 # 399 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
 SlateportCity_PokemonFanClub_Text_Azumarill:
 # 400 "data/maps/SlateportCity_PokemonFanClub/scripts.pory"
-	.string "AZUMARILL: Marimari?$"
+	.string "HATTREM: Haaaat?$"

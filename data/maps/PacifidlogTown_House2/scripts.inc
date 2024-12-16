@@ -149,7 +149,7 @@ PacifidlogTown_House2_EventScript_HappyAzurill::
 # 75 "data/maps/PacifidlogTown_House2/scripts.pory"
 	waitse
 # 76 "data/maps/PacifidlogTown_House2/scripts.pory"
-	playmoncry SPECIES_AZURILL, CRY_MODE_NORMAL
+	playmoncry SPECIES_CLOBBOPUS, CRY_MODE_NORMAL
 # 77 "data/maps/PacifidlogTown_House2/scripts.pory"
 	msgbox PacifidlogTown_House2_Text_Rurii, MSGBOX_DEFAULT
 # 78 "data/maps/PacifidlogTown_House2/scripts.pory"
@@ -171,7 +171,7 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill::
 # 86 "data/maps/PacifidlogTown_House2/scripts.pory"
 	waitse
 # 87 "data/maps/PacifidlogTown_House2/scripts.pory"
-	playmoncry SPECIES_AZURILL, CRY_MODE_ENCOUNTER
+	playmoncry SPECIES_CLOBBOPUS, CRY_MODE_ENCOUNTER
 # 88 "data/maps/PacifidlogTown_House2/scripts.pory"
 	msgbox PacifidlogTown_House2_Text_Rururi, MSGBOX_DEFAULT
 # 89 "data/maps/PacifidlogTown_House2/scripts.pory"
@@ -269,7 +269,7 @@ PacifidlogTown_House2_Text_GetGoodTMInXDays:
 # 135 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_Rurii:
 # 136 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "AZURILL: Rurii.$"
+	.string "CLOBBOPUS: Bah ba.$"
 # 137 "data/maps/PacifidlogTown_House2/scripts.pory"
 
 # 138 "data/maps/PacifidlogTown_House2/scripts.pory"
@@ -283,7 +283,7 @@ PacifidlogTown_House2_Text_VeryFriendlyWithTrainer:
 # 142 "data/maps/PacifidlogTown_House2/scripts.pory"
 PacifidlogTown_House2_Text_Rururi:
 # 143 "data/maps/PacifidlogTown_House2/scripts.pory"
-	.string "AZURILL: Rururi!$"
+	.string "AZURILL: Bah! Ba!$"
 # 144 "data/maps/PacifidlogTown_House2/scripts.pory"
 
 # 145 "data/maps/PacifidlogTown_House2/scripts.pory"

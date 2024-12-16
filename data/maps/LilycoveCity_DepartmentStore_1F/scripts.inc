@@ -265,7 +265,7 @@ LilycoveCity_DepartmentStore_1F_EventScript_Azumarill::
 # 133 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	waitse
 # 134 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
-	playmoncry SPECIES_AZUMARILL, CRY_MODE_NORMAL
+	playmoncry SPECIES_DUBWOOL, CRY_MODE_NORMAL
 # 135 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	msgbox LilycoveCity_DepartmentStore_1F_Text_Azumarill, MSGBOX_DEFAULT
 # 136 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
@@ -311,7 +311,7 @@ LilycoveCity_DepartmentStore_1F_Text_MomBuyingMeFurniture:
 # 156 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
 # 157 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
-	.string "I'm buying something for my AZUMARILL\n"
+	.string "I'm buying something for my DUBWOOL\n"
 # 158 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 	.string "as a reward for winning a CONTEST.$"
 # 159 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
@@ -319,7 +319,7 @@ LilycoveCity_DepartmentStore_1F_Text_BuyingSomethingForAzumarill:
 # 160 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 LilycoveCity_DepartmentStore_1F_Text_Azumarill:
 # 161 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
-	.string "AZUMARILL: Maririroo!$"
+	.string "DUBWOOL: Duubaaah!$"
 # 162 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"
 
 # 163 "data/maps/LilycoveCity_DepartmentStore_1F/scripts.pory"

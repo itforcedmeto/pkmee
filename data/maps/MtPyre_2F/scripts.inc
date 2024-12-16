@@ -91,7 +91,7 @@ MtPyre_2F_EventScript_Zander::
 # 46 "data/maps/MtPyre_2F/scripts.pory"
 MtPyre_2F_Text_MemoriesOfSkitty:
 # 47 "data/maps/MtPyre_2F/scripts.pory"
-	.string "Memories of my darling SKITTY…\n"
+	.string "Memories of my darling APPLIN\n"
 # 48 "data/maps/MtPyre_2F/scripts.pory"
 	.string "My eyes overflow thinking about it.$"
 # 49 "data/maps/MtPyre_2F/scripts.pory"

@@ -1343,7 +1343,7 @@ MtChimney_Text_KeepMakingMoreLand:
 # 672 "data/maps/MtChimney/scripts.pory"
 MtChimney_Text_Bufoh:
 # 673 "data/maps/MtChimney/scripts.pory"
-	.string "Bufoh!$"
+	.string "Ninii!$"
 # 674 "data/maps/MtChimney/scripts.pory"
 
 # 675 "data/maps/MtChimney/scripts.pory"
@@ -1435,7 +1435,7 @@ MtChimney_Text_MagmasNameSimilar:
 # 718 "data/maps/MtChimney/scripts.pory"
 MtChimney_Text_Bushaa:
 # 719 "data/maps/MtChimney/scripts.pory"
-	.string "Bushaa!$"
+	.string "Niii!$"
 # 720 "data/maps/MtChimney/scripts.pory"
 
 # 721 "data/maps/MtChimney/scripts.pory"

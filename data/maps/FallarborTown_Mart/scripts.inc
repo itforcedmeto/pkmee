@@ -87,7 +87,7 @@ FallarborTown_Mart_EventScript_Skitty::
 # 44 "data/maps/FallarborTown_Mart/scripts.pory"
 	waitse
 # 45 "data/maps/FallarborTown_Mart/scripts.pory"
-	playmoncry SPECIES_SKITTY, CRY_MODE_NORMAL
+	playmoncry SPECIES_GROWLITHE_HISUI, CRY_MODE_NORMAL
 # 46 "data/maps/FallarborTown_Mart/scripts.pory"
 	msgbox FallarborTown_Mart_Text_Skitty, MSGBOX_DEFAULT
 # 47 "data/maps/FallarborTown_Mart/scripts.pory"
@@ -103,9 +103,9 @@ FallarborTown_Mart_Text_DecidingSkittyEvolve:
 # 52 "data/maps/FallarborTown_Mart/scripts.pory"
 	.string "I'm having a hard time deciding if I\n"
 # 53 "data/maps/FallarborTown_Mart/scripts.pory"
-	.string "should make my SKITTY evolve or not.\p"
+	.string "should make my GROWLITHE evolve or not.\p"
 # 54 "data/maps/FallarborTown_Mart/scripts.pory"
-	.string "I only have to use this MOON STONE,\n"
+	.string "I only have to use this FIRE STONE,\n"
 # 55 "data/maps/FallarborTown_Mart/scripts.pory"
 	.string "but it's so hard to decide…\p"
 # 56 "data/maps/FallarborTown_Mart/scripts.pory"
@@ -119,7 +119,7 @@ FallarborTown_Mart_Text_DecidingSkittyEvolve:
 # 60 "data/maps/FallarborTown_Mart/scripts.pory"
 FallarborTown_Mart_Text_Skitty:
 # 61 "data/maps/FallarborTown_Mart/scripts.pory"
-	.string "SKITTY: Miyao?$"
+	.string "GROWLITHE: Gyraah?$"
 # 62 "data/maps/FallarborTown_Mart/scripts.pory"
 
 # 63 "data/maps/FallarborTown_Mart/scripts.pory"

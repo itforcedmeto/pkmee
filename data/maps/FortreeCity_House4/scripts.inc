@@ -121,7 +121,7 @@ FortreeCity_House4_EventScript_Wingull::
 # 61 "data/maps/FortreeCity_House4/scripts.pory"
 	waitse
 # 62 "data/maps/FortreeCity_House4/scripts.pory"
-	playmoncry SPECIES_WINGULL, CRY_MODE_NORMAL
+	playmoncry SPECIES_BOMBIRDIER, CRY_MODE_NORMAL
 # 63 "data/maps/FortreeCity_House4/scripts.pory"
 	msgbox FortreeCity_House4_Text_Wingull, MSGBOX_DEFAULT
 # 64 "data/maps/FortreeCity_House4/scripts.pory"
@@ -155,7 +155,7 @@ FortreeCity_House4_Text_GoBirdPokemon:
 # 78 "data/maps/FortreeCity_House4/scripts.pory"
 FortreeCity_House4_Text_AskedWingullToRunErrand:
 # 79 "data/maps/FortreeCity_House4/scripts.pory"
-	.string "Heheh, I asked my WINGULL to run\n"
+	.string "Heheh, I asked my BOMBIRDIER to run\n"
 # 80 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "an errand for me.$"
 # 81 "data/maps/FortreeCity_House4/scripts.pory"
@@ -165,7 +165,7 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 # 83 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "Good!\n"
 # 84 "data/maps/FortreeCity_House4/scripts.pory"
-	.string "Welcome back, WINGULL!\p"
+	.string "Welcome back, BOMBIRDIER!\p"
 # 85 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "Huh? What is this?\n"
 # 86 "data/maps/FortreeCity_House4/scripts.pory"
@@ -183,7 +183,7 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb:
 # 92 "data/maps/FortreeCity_House4/scripts.pory"
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
 # 93 "data/maps/FortreeCity_House4/scripts.pory"
-	.string "Thanks to my WINGULL, I have friends\n"
+	.string "Thanks to my BOMBIRDIER, I have friends\n"
 # 94 "data/maps/FortreeCity_House4/scripts.pory"
 	.string "who live far away.$"
 # 95 "data/maps/FortreeCity_House4/scripts.pory"
@@ -191,4 +191,4 @@ FortreeCity_House4_Text_FriendsFarAwayThanksToWingull:
 # 96 "data/maps/FortreeCity_House4/scripts.pory"
 FortreeCity_House4_Text_Wingull:
 # 97 "data/maps/FortreeCity_House4/scripts.pory"
-	.string "WINGULL: Pihyoh!$"
+	.string "BOMBIRDIER: Baaarh!$"

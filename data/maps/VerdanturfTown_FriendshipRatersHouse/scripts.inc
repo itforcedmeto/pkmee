@@ -117,7 +117,7 @@ VerdanturfTown_FriendshipRatersHouse_EventScript_Pikachu::
 # 59 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 	waitse
 # 60 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
-	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
+	playmoncry SPECIES_CHEWTLE, CRY_MODE_NORMAL
 # 61 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 	msgbox VerdanturfTown_FriendshipRatersHouse_Text_Pikachu, MSGBOX_DEFAULT
 # 62 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
@@ -205,4 +205,4 @@ VerdanturfTown_FriendshipRatersHouse_Text_DetestsYou:
 # 103 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
 VerdanturfTown_FriendshipRatersHouse_Text_Pikachu:
 # 104 "data/maps/VerdanturfTown_FriendshipRatersHouse/scripts.pory"
-	.string "PIKACHU: Pika pika!$"
+	.string "CHEWTLE: Chew chew!$"
