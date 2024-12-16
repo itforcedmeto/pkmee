@@ -429,6 +429,96 @@ LilycoveCity_DepartmentStore_5F_Evo2_Mart:
 	.2byte ITEM_METAL_ALLOY
 	.2byte ITEM_NONE
 
+LilycoveCity_DepartmentStore_5F_Other::
+# 221 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	lock
+# 222 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	msgbox LilycoveCity_DepartmentStore_5F_Other_Text_0
+# 223 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	waitmessage
+# 224 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	pokemart LilycoveCity_DepartmentStore_5F_Other_Mart
+# 225 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	msgbox LilycoveCity_DepartmentStore_5F_Evo1_Text_1
+# 226 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	release
+	return
+
+
+	.align 2
+# 229 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+LilycoveCity_DepartmentStore_5F_Other_Mart:
+# 230 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_ABILITY_CAPSULE
+# 231 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_ABILITY_PATCH
+# 232 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_BOTTLE_CAP
+	.2byte ITEM_NONE
+
+LilycoveCity_DepartmentStore_5F_Mints::
+# 236 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	lock
+# 237 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	msgbox LilycoveCity_DepartmentStore_5F_Mints_Text_0
+# 238 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	waitmessage
+# 239 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	pokemart LilycoveCity_DepartmentStore_5F_Mints_Mart
+# 240 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	msgbox LilycoveCity_DepartmentStore_5F_Evo1_Text_1
+# 241 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	release
+	return
+
+
+	.align 2
+# 244 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+LilycoveCity_DepartmentStore_5F_Mints_Mart:
+# 245 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_LONELY_MINT
+# 246 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_ADAMANT_MINT
+# 247 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_NAUGHTY_MINT
+# 248 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_BRAVE_MINT
+# 249 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_BOLD_MINT
+# 250 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_IMPISH_MINT
+# 251 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_LAX_MINT
+# 252 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_RELAXED_MINT
+# 253 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_MODEST_MINT
+# 254 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_MILD_MINT
+# 255 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_RASH_MINT
+# 256 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_QUIET_MINT
+# 257 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_CALM_MINT
+# 258 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_GENTLE_MINT
+# 259 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_CAREFUL_MINT
+# 260 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_SASSY_MINT
+# 261 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_TIMID_MINT
+# 262 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_HASTY_MINT
+# 263 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_JOLLY_MINT
+# 264 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_NAIVE_MINT
+# 265 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.2byte ITEM_SERIOUS_MINT
+	.2byte ITEM_NONE
+
 LilycoveCity_DepartmentStore_5F_Evo1_Text_0:
 # 176 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 	.string "Would you like to buy evolution stones?$"
@@ -441,3 +531,13 @@ LilycoveCity_DepartmentStore_5F_Evo2_Text_0:
 # 198 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
 	.string "Would you like to buy\n"
 	.string "evolution-inducing items?$"
+
+LilycoveCity_DepartmentStore_5F_Other_Text_0:
+# 222 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.string "Would you like to buy useful items to\n"
+	.string "enhance your POKéMON?$"
+
+LilycoveCity_DepartmentStore_5F_Mints_Text_0:
+# 237 "data/maps/LilycoveCity_DepartmentStore_5F/scripts.pory"
+	.string "Would you like to buy mints to give to\n"
+	.string "your POKéMON?$"

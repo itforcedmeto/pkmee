@@ -173,11 +173,11 @@ FortreeCity_House1_Text_YouWontTradeMe:
 # 87 "data/maps/FortreeCity_House1/scripts.pory"
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
 # 88 "data/maps/FortreeCity_House1/scripts.pory"
-	.string "I'm going to make VOLBEAT super\n"
+	.string "I'm going to make CHARCADET super\n"
 # 89 "data/maps/FortreeCity_House1/scripts.pory"
 	.string "strong from this moment on!\p"
 # 90 "data/maps/FortreeCity_House1/scripts.pory"
-	.string "I hope you do the same with PLUSLE!$"
+	.string "I hope you do the same with PINCHY!$"
 # 91 "data/maps/FortreeCity_House1/scripts.pory"
 
 # 92 "data/maps/FortreeCity_House1/scripts.pory"

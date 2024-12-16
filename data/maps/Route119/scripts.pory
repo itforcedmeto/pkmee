@@ -135,6 +135,7 @@ Route119_EventScript_DefeatedBrendan::
 
 Route119_EventScript_GiveFlyHM::
 	giveitem ITEM_HM_FLY
+	giveitem ITEM_FLY_TOOL
 	setflag FLAG_RECEIVED_HM_FLY
 	return
 
@@ -504,6 +505,9 @@ Route119_Text_MayExplainFly:
 	.string "MAY: Use FLY, and your POKéMON will\n"
 	.string "instantly carry you to any town you've\l"
 	.string "already visited.\p"
+	.string "The Corvi-Whistle calls a trainer \n"
+	.string "to pick you up instead, in case you \l"
+	.string "don't feel like flying yourself.\p"
 	.string "But, to use FLY, you have to get\n"
 	.string "the GYM BADGE from FORTREE CITY.\l"
 	.string "That's important, so don't forget.\p"
@@ -535,8 +539,11 @@ Route119_Text_BrendanExplainFly:
 	.string "BRENDAN: Use FLY, and your POKéMON\n"
 	.string "instantly carries you to any town\l"
 	.string "you've already visited.\p"
+	.string "The Corvi-Whistle calls a trainer \n"
+	.string "to pick you up instead, in case you \l"
+	.string "don't feel like flying yourself.\p"
 	.string "But you need the FORTREE GYM BADGE \n"
-	.string "to do that.\p"
+	.string "to do either of those.\p"
 	.string "Anyway, I have to move along.$"
 
 Route119_Text_ScottWayToGoBeSeeingYou:

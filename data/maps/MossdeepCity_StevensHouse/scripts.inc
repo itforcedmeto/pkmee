@@ -365,7 +365,7 @@ MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
 # 183 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 	.string "It contained the POKéMON\n"
 # 184 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
-	.string "BELDUM.\p"
+	.string "KUBFU.\p"
 # 185 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 	.string "Take the POKé BALL?$"
 # 186 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
@@ -373,7 +373,7 @@ MossdeepCity_StevensHouse_Text_TakeBallContainingBeldum:
 # 187 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 MossdeepCity_StevensHouse_Text_ObtainedBeldum:
 # 188 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
-	.string "{PLAYER} obtained a BELDUM.$"
+	.string "{PLAYER} obtained a KUBFU.$"
 # 189 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 
 # 190 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
@@ -415,7 +415,7 @@ MossdeepCity_StevensHouse_Text_LetterFromSteven:
 # 208 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 	.string "the desk.\p"
 # 209 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
-	.string "Inside it is a BELDUM, my favorite\n"
+	.string "Inside it is a KUBFU, a very rare\n"
 # 210 "data/maps/MossdeepCity_StevensHouse/scripts.pory"
 	.string "POKéMON.\p"
 # 211 "data/maps/MossdeepCity_StevensHouse/scripts.pory"

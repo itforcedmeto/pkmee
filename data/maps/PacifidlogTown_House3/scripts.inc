@@ -161,7 +161,7 @@ PacifidlogTown_House3_Text_ReallyWantedToGetBagon:
 # 81 "data/maps/PacifidlogTown_House3/scripts.pory"
 	.string "on my own, but…\p"
 # 82 "data/maps/PacifidlogTown_House3/scripts.pory"
-	.string "But I really wanted to get a BAGON\n"
+	.string "But I really wanted to get a QWILFISH\n"
 # 83 "data/maps/PacifidlogTown_House3/scripts.pory"
 	.string "that another TRAINER caught…$"
 # 84 "data/maps/PacifidlogTown_House3/scripts.pory"

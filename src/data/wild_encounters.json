@@ -3601,22 +3601,22 @@
               {
                 "min_level": 38,
                 "max_level": 41,
-                "species": "SPECIES_SQUAWKABILLY"
+                "species": "SPECIES_SQUAWKABILLY_WHITE"
               },
               {
                 "min_level": 38,
                 "max_level": 41,
-                "species": "SPECIES_THIEVUL"
+                "species": "SPECIES_SQUAWKABILLY_WHITE"
               },
               {
                 "min_level": 38,
                 "max_level": 41,
-                "species": "SPECIES_SQUAWKABILLY"
+                "species": "SPECIES_SQUAWKABILLY_WHITE"
               },
               {
                 "min_level": 38,
                 "max_level": 41,
-                "species": "SPECIES_THIEVUL"
+                "species": "SPECIES_SQUAWKABILLY_WHITE"
               }
             ]
           },
